@@ -149,7 +149,7 @@ html, body {
     top: -21.43px;
     -webkit-transition: .6s;
     transition: .6s;
-    z-index: 2000;
+    z-index: 1;
 }
 .burger-contain:hover:not(.open) .burger {
     background: black;
