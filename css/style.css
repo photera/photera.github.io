@@ -114,7 +114,7 @@ html, body {
     -webkit-transition: .6s;
     transition: .6s;
     width: 60px;
-    z-index: 999;
+    z-index: 99;
 }
 .burger-contain .bun {
     background: #fff;
