@@ -99,7 +99,7 @@ html, body {
     top: 30px;
     width: auto;
     position: fixed;
-    z-index: 999;
+    z-index: 1;
 }
 .burger-contain .burger {
     background: #000000;
