@@ -886,7 +886,7 @@ p.category  {
   margin: 2em 0;
 }
 .cd-panel-content p:first-of-type {
-  margin-top: 0;
+  margin-top: 40px;
 }
 
 /* VIDEO BG */
@@ -894,7 +894,7 @@ p.category  {
 video#bgvid {
 position: fixed; right: 0; bottom: -210px;
 min-width: 100%; min-height: 100%;
-width: auto; height: auto; z-index: 0;
+width: auto; height: auto; z-index: -1000;
 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg) no-repeat;
 background-size: cover;
 }
