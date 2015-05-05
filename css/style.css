@@ -464,6 +464,25 @@ html, body {
   position: relative;
 }
 
+#featured-pane-branding {
+ text-align: center;
+  height: 50vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ), url(http://cdn2.hubspot.net/hubfs/329751/Grafton_Design/Portfolio/Alive-2.jpg)  center center no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .branding {
 text-align: center;
   height: 100vh;
