@@ -470,7 +470,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(http://cdn2.hubspot.net/hubfs/329751/Grafton_Design/Portfolio/Alive-2.jpg)  center center no-repeat;
+    ), url(http://cdn2.hubspot.net/hubfs/329751/Grafton_Design/Other_Images/Screen_Shot_2015-05-05_at_7.22.39_PM.png)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -940,7 +940,6 @@ video#bgvid {
 position: fixed; right: 0; ;
 min-width: 100%; min-height: 100%;
 width: auto; height: auto; z-index: -1000;
-background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg) no-repeat;
 background-size: cover;
 top: 50%;
 left: 50%;
