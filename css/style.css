@@ -411,6 +411,23 @@ html, body {
   position: relative;
 }
 
+#featured-pane-design  {
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ), url(http://cdn2.hubspot.net/hub/329751/file-1488706932-jpg/Grafton_Design/Background_Images/One_Blood.jpg)  center center no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .design {
   text-align: center;
@@ -430,7 +447,7 @@ html, body {
   align-items: center;
 }
 
-#featured-pane-photgraphy {
+#featured-pane-photography {
     text-align: center;
   height: 50vh;
   background: linear-gradient(
@@ -946,6 +963,11 @@ left: 50%;
 transform: translate(-50%, -50%);
 position: absolute;
 width: 100%;
+}
+
+@media screen and (max-device-width: 800px) {
+body { background: url(polina.jpg) #000 no-repeat center center fixed; }
+#bgvid { display: none; }
 }
 
 @media only screen and (min-width: 768px) {
