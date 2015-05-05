@@ -358,13 +358,6 @@ html, body {
   background-color: #000;
   background-size: cover;
   height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  align-items: center;
   text-align: center;
   width: 100%;
 }
