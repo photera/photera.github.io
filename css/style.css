@@ -860,10 +860,9 @@ p.category  {
 .cd-panel-content-bg {
   position: fixed;
   width: 100%;
-  height: 100%;
+  height: 40vh;
   top: 0;
   background: #ffffff;
-  z-index: 2;
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
   transition-property: transform;
