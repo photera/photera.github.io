@@ -913,7 +913,7 @@ p.category  {
   }
 }
 
-.cd-panel-content p{
+.cd-panel-content {
   position: absolute;
   top: 0;
   left: 0;
