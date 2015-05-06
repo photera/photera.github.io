@@ -904,7 +904,7 @@ p.category  {
   height: 100%;
   padding: 70px 5%;
   overflow: auto;
-  line-height: 3rem
+  line-height: 3rem;
   margin-top:35px;
   /* smooth scrolling on touch devices */
   -webkit-overflow-scrolling: touch;
