@@ -273,7 +273,7 @@ html, body {
   text-transform: uppercase;
   font-weight: bold;
    /* set the animation */
-  -webkit-animation:moving 60s ease infinite;
+  -webkit-animation:moving 60s  infinite;
 }
 
 /* create the animation */
