@@ -819,7 +819,7 @@ p.category  {
   background-color: #424f5c;
 } */
 .no-touch .cd-panel-close:hover::before, .no-touch .cd-panel-close:hover::after {
-  background-color: #000;
+  background-color: #fff;
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
   transition-property: transform;
