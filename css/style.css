@@ -269,6 +269,8 @@ html, body {
   letter-spacing: .05em;
   padding: 25px;
   font-family: "Montserrat", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .intro-wrapper h2 {
