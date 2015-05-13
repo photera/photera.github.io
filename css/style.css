@@ -245,7 +245,7 @@ html, body {
 .intro-wrapper {
   background-color:#2C3E50;
   background-size: cover;
-    height: 100vh;
+    height: 120vh;
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
