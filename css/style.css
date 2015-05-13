@@ -414,10 +414,7 @@ html, body {
 #featured-pane-design  {
   text-align: center;
   height: 100vh;
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.6), 
-      rgba(0, 0, 0, 0.6)
-    ), url(http://cdn2.hubspot.net/hub/329751/file-1488706932-jpg/Grafton_Design/Background_Images/One_Blood.jpg)  center center no-repeat;
+  background: url(http://cdn2.hubspot.net/hub/329751/file-1488706932-jpg/Grafton_Design/Background_Images/One_Blood.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -427,6 +424,15 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#featured-pane-design:before  {
+    content: '';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+  opacity: .6;
 }
 
 .design {
@@ -931,8 +937,10 @@ p.category  {
 
 .cd-footer {
   width: 100%;
+  color: #fff;
   background-color: #252525;
   font-size: 3em;
+  margin-bottom: -35px;
 }
 
 
