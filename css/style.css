@@ -941,14 +941,17 @@ p.category  {
 
 #design-bg{
   background: url(http://lorempixel.com/1700/800/art)  center center no-repeat;
+  background-size:cover;
 }
 
 #photo-bg{
   background: url(http://cdn2.hubspot.net/hubfs/329751/Grafton_Design/Portfolio/Alive-2.jpg)  center center no-repeat;
+  background-size:cover;
 }
 
 #branding-bg{
   background: url(http://cdn2.hubspot.net/hubfs/329751/Grafton_Design/Other_Images/Screen_Shot_2015-05-05_at_7.22.39_PM.png)  center center no-repeat;
+  background-size:cover;
 }
 
 .cd-footer {
