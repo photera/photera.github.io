@@ -865,17 +865,7 @@ p.category  {
   width: 100%;
   height: 40vh;
   top: 0;
-
-  background: #ffffff;
-  -webkit-transition-property: -webkit-transform;
-  -moz-transition-property: -moz-transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.7s;
-  -moz-transition-duration: 0.7s;
-  transition-duration: 0.7s;
-  -webkit-transition-delay: 0.3s;
-  -moz-transition-delay: 0.3s;
-  transition-delay: 0.3s;
+  background: #FFFF7F;
 }
 
 .from-right .cd-panel-container {
