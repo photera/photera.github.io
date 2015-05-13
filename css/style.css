@@ -387,6 +387,7 @@ html, body {
     font-family: 'Open Sans', sans-serif;
     color: rgba(0,0,0,.6);
     font-size: 1.2em;
+    line-height: 2.2em;
 }
 
 .content-section  h2 {
