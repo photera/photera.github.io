@@ -530,7 +530,7 @@ text-align: center;
 
 .cd-main-content h1 {
   
-  font-size: 2rem;
+  font-size: 3rem;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: .15em;
@@ -539,7 +539,7 @@ text-align: center;
 }
 
 .cd-main-content p {
-  font-size: 2vw;
+  font-size: 3.2vw;
   padding: 20px 0 25px 0;
 }
 
