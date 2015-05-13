@@ -273,7 +273,7 @@ html, body {
   text-transform: uppercase;
   font-weight: bold;
    /* set the animation */
-  -webkit-animation:moving 30s  infinite;
+  -webkit-animation:moving 40s  infinite;
 }
 
 /* create the animation */
@@ -284,7 +284,10 @@ html, body {
   100% {
     background-position: 0 500px;
   }
+}
 
+h1:hover {
+  background-position: top;
 }
 
 .intro-wrapper h2 {
