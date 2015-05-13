@@ -920,6 +920,12 @@ p.category  {
   -webkit-overflow-scrolling: touch;
 }
 
+.example {
+  position: relative;
+  height: 100%;
+  overflow: scroll;
+}
+
 .cd-footer {
   width: 100%;
   color: #fff;
