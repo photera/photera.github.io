@@ -922,7 +922,7 @@ p.category  {
 .cd-panel-content-bg {
   display: flex;
   justify-content: center;
-  align-items: center
+  align-items: center;
   position: relative;
   width: 100%;
   height: 60vh;
