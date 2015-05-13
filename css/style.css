@@ -865,7 +865,7 @@ p.category  {
   width: 100%;
   height: 40vh;
   top: 0;
-  background: #FFFF7F;
+  background:url(https://badassembly-staging.s3.amazonaws.com/uploads/info_panel/masthead_image/1/digital_agency_website_03.jpg) 50% 50% / cover no-repeat);
   overflow: scroll;
 }
 
