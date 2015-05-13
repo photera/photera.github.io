@@ -931,6 +931,9 @@ p.category  {
   text-transform: uppercase;
   letter-spacing: .15em;
   line-height: 1.5em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
