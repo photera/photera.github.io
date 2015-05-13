@@ -846,7 +846,7 @@ p.category  {
   height: 100%;
   top: 0;
   background: #f7f7f7;
-  z-index: 2;
+  z-index: 200;
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
   transition-property: transform;
@@ -970,7 +970,7 @@ p.category  {
   margin: 2em 0;
 }
 .cd-panel-content p:first-of-type {
-  margin-top: 40px;
+  margin-top: 140px;
 }
 
 /* VIDEO BG */
