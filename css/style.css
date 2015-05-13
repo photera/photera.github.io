@@ -865,7 +865,7 @@ p.category  {
   width: 100%;
   height: 40vh;
   top: 0;
-  background: url('https://badassembly-staging.s3.amazonaws.com/uploads/info_panel/masthead_image/1/digital_agency_website_03.jpg') 50% 50% / cover no-repeat;
+  background: url(http://cdn2.hubspot.net/hub/329751/file-1488706932-jpg/Grafton_Design/Background_Images/One_Blood.jpg)  center center no-repeat;
 }
 
 .from-right .cd-panel-container {
