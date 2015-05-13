@@ -259,7 +259,7 @@ html, body {
 
 .intro-wrapper h1{
   background-color:#2C3E50;
-  font-size: 13vw;
+  font-size: 12vw;
   color: white;
   -webkit-text-fill-color: transparent;
   background: -webkit-linear-gradient(transparent, transparent), url('http://lorempixel.com/800/800') repeat;
