@@ -366,10 +366,10 @@ html, body {
 
 .featured-work h3 {
   
-  font-size: 2rem;
+  font-size: 3rem;
   color: #fff;
   text-transform: uppercase;
-  letter-spacing: .15em;
+  letter-spacing: .25em;
   line-height: 1.5em;
 }
 
@@ -396,6 +396,7 @@ html, body {
   text-align: center;
   padding-top: 60px;
   font-size: 4em;
+  font-weight: bold;
 }
 
 
