@@ -915,6 +915,7 @@ p.category  {
   padding: 70px 5%;
   line-height: 3rem;
   margin-top:35px;
+  overflow: scroll;
   /* smooth scrolling on touch devices */
   -webkit-overflow-scrolling: touch;
 }
