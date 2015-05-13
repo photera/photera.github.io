@@ -649,7 +649,7 @@ p.category  {
   -webkit-transition: visibility 0s 0s;
   -moz-transition: visibility 0s 0s;
   transition: visibility 0s 0s;
-  z-index: 999;
+  z-index: 200;
 }
 .cd-panel.is-visible::after {
   background: rgba(0, 0, 0, 0.6);
@@ -738,7 +738,7 @@ p.category  {
   height: 50px;
   line-height: 50px;
   /*background: rgba(255, 255, 255, 0.96);*/
-  z-index: 100;
+  z-index: 201;
   /*box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);*/
   -webkit-transition: top 0.3s 0s;
   -moz-transition: top 0.3s 0s;
