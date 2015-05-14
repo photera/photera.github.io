@@ -276,19 +276,6 @@ html, body {
   -webkit-animation:moving 35s  infinite;
 }
 
-/* create the animation */
-@-webkit-keyframes moving {
-  100% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 0 900px;
-  }
-}
-
-h1:hover {
-  background-position: bottom;
-}
 
 .intro-wrapper h2 {
   text-transform: uppercase;
@@ -586,21 +573,7 @@ p.category  {
   -moz-transition: all 0.5s;
   transition: all 0.5s;
 }
-.cd-btn {
-  position: relative;
-  display: inline-block;
-  padding: 1.5em 2em;
-  color: #ffffff;
-  border: solid 2px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: .15em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
-}
+
 
 .no-touch .cd-main-content .cd-btn:hover {
   background:#fff;
