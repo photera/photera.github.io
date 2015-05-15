@@ -243,7 +243,7 @@ html, body {
 /*---Intro---*/
 
 .intro-wrapper {
-  background: linear-gradient(to bottom, red, #2C3E50);
+  background: linear-gradient(to bottom, #2C3E50, red);
   background-size: cover;
     height: 120vh;
     display: -webkit-box;
