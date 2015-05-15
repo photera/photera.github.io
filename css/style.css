@@ -262,9 +262,10 @@ html, body {
   font-size: 12vw;
   color: #F2622E;
   -webkit-text-fill-color: transparent;
-  background: -webkit-linear-gradient(transparent, transparent);
+  /*background: -webkit-linear-gradient(transparent, transparent);
+  background: -o-linear-gradient(transparent, transparent);*/
   background-size: cover;
-  background: -o-linear-gradient(transparent, transparent);
+  
   -webkit-background-clip: text;
   background-attachment: fixed
   letter-spacing: .05em;
