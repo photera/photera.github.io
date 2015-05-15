@@ -437,6 +437,11 @@ html, body {
   align-items: center;
 }
 
+#featured-pane-design:hover {
+  color: aqua;
+}
+
+
 
 .design {
   text-align: center;
