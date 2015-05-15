@@ -243,7 +243,7 @@ html, body {
 /*---Intro---*/
 
 .intro-wrapper {
-  background: linear-gradient(135deg, #2C3E50, #009688);
+  background: linear-gradient(135deg, #2C3E50, #244C59);
   background-size: cover;
     height: 120vh;
     display: -webkit-box;
@@ -261,8 +261,9 @@ html, body {
   background-color:#2C3E50;
   font-size: 12vw;
   color: #F2622E;
-  -webkit-text-fill-color: transparent;
-  /*background: -webkit-linear-gradient(transparent, transparent);
+  
+  /*-webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent);
   background: -o-linear-gradient(transparent, transparent);*/
   background-size: cover;
   
