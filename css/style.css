@@ -430,6 +430,11 @@ html, body {
 }
 
 #featured-pane-photography:hover {
+  font-size: 3rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  line-height: 1.5em;
    text-align: center;
   height: 50vh;
   background: linear-gradient(
@@ -456,7 +461,30 @@ html, body {
 }
 
 #featured-pane-branding {
- text-align: center;
+    text-align: center;
+  height: 50vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.2), 
+      rgba(0, 0, 0, 0.2)
+    ), url(http://cdn2.hubspot.net/hubfs/329751/Grafton_Design/Other_Images/Screen_Shot_2015-05-05_at_7.22.39_PM.png)  center center no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#featured-pane-branding:hover {
+  font-size: 3rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  line-height: 1.5em;
+   text-align: center;
   height: 50vh;
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
@@ -472,6 +500,34 @@ html, body {
   justify-content: center;
   align-items: center;
 }
+
+#featured-pane-branding h3 {
+  visibility:hidden;
+}
+
+#featured-pane-branding:hover h3 {
+  visibility:visible;
+}
+
+
+
+/*#featured-pane-branding {
+ text-align: center;
+  height: 50vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ), url(http://cdn2.hubspot.net/hubfs/329751/Grafton_Design/Other_Images/Screen_Shot_2015-05-05_at_7.22.39_PM.png)  center center no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
 
 
 /* ----Content---- */
