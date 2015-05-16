@@ -370,13 +370,6 @@ html, body {
   width: 100%;
 }
 
-.featured-work:hover {
-  font-size: 3rem;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: .25em;
-  line-height: 1.5em;
-}
 
 #featured-pane-design  {
   text-align: center;
@@ -404,6 +397,11 @@ html, body {
   -webkit-background-size: cover;
   background-size: cover;
   color: #fff;
+  font-size: 3rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  line-height: 1.5em;
 }
 
 #featured-pane-photography {
