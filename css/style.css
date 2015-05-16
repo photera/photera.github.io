@@ -415,8 +415,8 @@ html, body {
     text-align: center;
   height: 50vh;
   background: linear-gradient(
-      rgba(0, 0, 0, 0.6), 
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.2), 
+      rgba(0, 0, 0, 0.2)
     ), url(http://cdn2.hubspot.net/hubfs/329751/Grafton_Design/Portfolio/Alive-2.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
