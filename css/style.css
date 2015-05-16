@@ -387,10 +387,10 @@ html, body {
 }
 
 #featured-pane-design h3 {
-  display:none;
+  visibility:hidden;
 }
 
-#featured-pane-design:hover {
+#featured-pane-design:hover  h3{
   font-size: 3rem;
   color: #fff;
   text-transform: uppercase;
