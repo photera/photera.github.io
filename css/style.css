@@ -370,7 +370,7 @@ html, body {
   width: 100%;
 }
 
-.featured-work h3:hover {
+.featured-work:hover {
   font-size: 3rem;
   color: #fff;
   text-transform: uppercase;
