@@ -370,8 +370,7 @@ html, body {
   width: 100%;
 }
 
-.featured-work h3 {
-  
+.featured-work h3:hover {
   font-size: 3rem;
   color: #fff;
   text-transform: uppercase;
@@ -441,6 +440,11 @@ html, body {
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
     ), url(http://cdn2.hubspot.net/hub/329751/file-1488706932-jpg/Grafton_Design/Background_Images/One_Blood.jpg)  center center no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
   color: #fff;
   border:2px solid #fff;
   color: #000000;
