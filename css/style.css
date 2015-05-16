@@ -440,7 +440,9 @@ html, body {
 }
 
 #featured-pane-design:hover {
-  color: aqua;
+  background:#fff;
+  border:2px solid #fff;
+  color: #000000;
 }
 
 
