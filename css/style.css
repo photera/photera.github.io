@@ -387,6 +387,11 @@ html, body {
 }
 
 #featured-pane-design:hover {
+  font-size: 3rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  line-height: 1.5em;
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
@@ -397,11 +402,6 @@ html, body {
   -webkit-background-size: cover;
   background-size: cover;
   color: #fff;
-  font-size: 3rem;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: .25em;
-  line-height: 1.5em;
 }
 
 #featured-pane-photography {
