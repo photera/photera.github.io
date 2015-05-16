@@ -386,6 +386,10 @@ html, body {
   align-items: center;
 }
 
+#featured-pane-design h3 {
+  display:none;
+}
+
 #featured-pane-design:hover {
   font-size: 3rem;
   color: #fff;
