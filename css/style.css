@@ -424,7 +424,7 @@ html, body {
 #featured-pane-design  {
   text-align: center;
   height: 100vh;
-  background: 
+  background: url(http://cdn2.hubspot.net/hub/329751/file-1488706932-jpg/Grafton_Design/Background_Images/One_Blood.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -442,7 +442,6 @@ html, body {
       rgba(0, 0, 0, 0.6)
     ), url(http://cdn2.hubspot.net/hub/329751/file-1488706932-jpg/Grafton_Design/Background_Images/One_Blood.jpg)  center center no-repeat;
   color: #fff;
-  background:#fff;
   border:2px solid #fff;
   color: #000000;
 }
