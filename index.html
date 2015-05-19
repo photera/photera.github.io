@@ -13,7 +13,7 @@
 <script>try{Typekit.load();}catch(e){}</script><!--ADOBE Font-->
 
 
-
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <script>
 	$(window).scroll(function() {
 		$('#featured-pane-design').each(function(){
@@ -26,6 +26,37 @@
 		});
 	});
 </script>
+
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script>
+	$(window).scroll(function() {
+		$('#featured-pane-photography').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+300) {
+				$(this).addClass("fadeInRightBig");
+			}
+		});
+	});
+</script>
+
+
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script>
+	$(window).scroll(function() {
+		$('#featured-pane-branding').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+300) {
+				$(this).addClass("fadeInRightBig");
+			}
+		});
+	});
+</script>
+
+
 
 
 
@@ -114,12 +145,12 @@ $('.burger-contain').stickThis({
 			</div>
 		</a>
 		<a data-scroll href="#photo">
-			<div class="col-lg-8 animated fadeInRightBig" id="featured-pane-photography">
+			<div class="col-lg-8 animated" id="featured-pane-photography">
 			<h3>Photography</h3>
 		</div>
 		</a>
 		<a data-scroll href="#branding">
-		<div class="col-lg-8 animated fadeInRightBig" id ="featured-pane-branding">
+		<div class="col-lg-8 animated" id ="featured-pane-branding">
 			 <h3>Branding</h3>
 		</div>
 		</a>
