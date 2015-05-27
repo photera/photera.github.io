@@ -563,7 +563,7 @@ html, body {
 .cd-main-content {
   text-align: center;
   height: 100vh;
-  background-color: #f7f7f7;
+  background-color: #000;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
