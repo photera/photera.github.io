@@ -364,6 +364,7 @@ html, body {
 /*---Featured Work---*/
 .featured-work {
   background-size: cover;
+  background-color: #f7f7f7;
   height: 100vh;
   text-align: center;
   width: 100%;
