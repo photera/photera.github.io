@@ -1017,6 +1017,9 @@ p.category  {
   .cd-panel-container {
     width: 100%;
   }
+  .intro-wrapper {
+    width: 100vw;
+  }
 }
 @media only screen and (min-width: 1170px) {
   .cd-panel-container {
