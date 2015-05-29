@@ -391,7 +391,7 @@ html, body {
 
 #featured-pane-design h3 {
   visibility:hidden;
-  -webkit-transition: all .2;
+  -webkit-transition: all .2s;
 }
 #featured-pane-design:hover h3 {
   visibility:visible;
@@ -458,7 +458,7 @@ html, body {
 
 #featured-pane-photography h3 {
   visibility:hidden;
-  -webkit-transition: all .2;
+  -webkit-transition: all .2s;
 }
 
 #featured-pane-photography:hover h3 {
@@ -508,7 +508,7 @@ html, body {
 
 #featured-pane-branding h3 {
   visibility:hidden;
-  -webkit-transition: all .2;
+  -webkit-transition: all .2s;
 }
 
 #featured-pane-branding:hover h3 {
