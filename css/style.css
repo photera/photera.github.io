@@ -1030,6 +1030,10 @@ and (max-device-width : 667px) { /* STYLES GO HERE */}
   .intro-wrapper {
     width: 100vw;
   }
+  .design {
+    height: 33vh;
+    
+  }
 }
 @media only screen and (min-width: 1170px) {
   .cd-panel-container {
