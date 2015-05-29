@@ -393,6 +393,7 @@ html, body {
   visibility:hidden;
   -webkit-transition: all ease .5s;
   color: #fff;
+  text-transform: uppercase;
 }
 #featured-pane-design:hover h3 {
   visibility:visible;
@@ -461,6 +462,7 @@ html, body {
   visibility:hidden;
   -webkit-transition: all .5s;
   color: #fff;
+  text-transform: uppercase;
 }
 
 #featured-pane-photography:hover h3 {
@@ -512,6 +514,7 @@ html, body {
   visibility:hidden;
   -webkit-transition: all .5s;
   color: #fff;
+  text-transform: uppercase;
 }
 
 #featured-pane-branding:hover h3 {
