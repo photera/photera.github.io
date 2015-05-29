@@ -391,7 +391,7 @@ html, body {
 
 #featured-pane-design h3 {
   visibility:hidden;
-  -webkit-transition: all .2s;
+  -webkit-transition: all ease .2s;
 }
 #featured-pane-design:hover h3 {
   visibility:visible;
