@@ -1013,7 +1013,17 @@ p.category  {
   -moz-transition-delay: 0s;
   transition-delay: 0s;
 }
-@media only screen and (min-width: 768px) {
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { /* STYLES GO HERE */}
+
+
+
+
+
+
+@media only screen and (min-width: 375px) and (max-device-width : 667px) {
   .cd-panel-container {
     width: 100%;
   }
