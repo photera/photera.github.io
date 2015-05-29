@@ -458,7 +458,7 @@ html, body {
 
 #featured-pane-photography h3 {
   visibility:hidden;
-  -webkit-transition: all .2s;
+  -webkit-transition: all .5s;
 }
 
 #featured-pane-photography:hover h3 {
