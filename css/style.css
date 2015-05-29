@@ -460,6 +460,7 @@ html, body {
 #featured-pane-photography h3 {
   visibility:hidden;
   -webkit-transition: all .5s;
+  color: #fff;
 }
 
 #featured-pane-photography:hover h3 {
@@ -510,6 +511,7 @@ html, body {
 #featured-pane-branding h3 {
   visibility:hidden;
   -webkit-transition: all .5s;
+  color: #fff;
 }
 
 #featured-pane-branding:hover h3 {
