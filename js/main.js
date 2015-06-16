@@ -9,6 +9,7 @@ jQuery(document).ready(function($){
 	$('.cd-panel').on('click', function(event){
 		if( $(event.target).is('.cd-panel') || $(event.target).is('.cd-panel-close') ) { 
 			$('.cd-panel').removeClass('is-visible');
+			$("body").css("overflow", "intial");
 			event.preventDefault();
 		}
 	});
@@ -26,6 +27,7 @@ jQuery(document).ready(function($){
 	$('.cd-panel-2').on('click', function(event){
 		if( $(event.target).is('.cd-panel-2') || $(event.target).is('.cd-panel-close') ) { 
 			$('.cd-panel-2').removeClass('is-visible');
+			$("body").css("overflow", "visible");
 			event.preventDefault();
 		}
 	});
@@ -42,6 +44,7 @@ jQuery(document).ready(function($){
 	$('.cd-panel-3').on('click', function(event){
 		if( $(event.target).is('.cd-panel-3') || $(event.target).is('.cd-panel-close') ) { 
 			$('.cd-panel-3').removeClass('is-visible');
+			$("body").css("overflow", "visible");
 			event.preventDefault();
 		}
 	});
