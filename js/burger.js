@@ -10,6 +10,6 @@ $(document).ready(function () {
     $('.burger-nav li').on('click', function(){
         $(".burger-nav").hide();
         $(".burger-contain").toggleClass("open");
-        $('.burger-brand').toggleClass('open');
+        $('.burger-brand').removeClass('open');
     });
 });
