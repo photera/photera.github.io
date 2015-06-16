@@ -9,6 +9,6 @@ $(document).ready(function () {
     });
     $('.burger-nav li').on('click', function(){
         $(".burger-nav").hide();
-        $("#burger-contain").removeClass("open");
+        $(".burger-contain").removeClass("open");
     });
 });
