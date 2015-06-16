@@ -8,7 +8,6 @@ $(document).ready(function () {
         $('.burger-brand').toggleClass('open');
     });
     $('.burger-nav li').on('click', function(){
-        $(".burger-nav").hide();
         $(".burger-contain").toggleClass("open");
         $('.burger-brand').removeClass('open');
     });
