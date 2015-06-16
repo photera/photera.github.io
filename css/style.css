@@ -1180,6 +1180,9 @@ width: 100%;
     .burger-nav {
       width: 100%;
     }
+    .burger-nav li .burger-link {
+      font-size: 15px;
+    }
 
     #featured-pane-design {
      height: 33.33vh;
