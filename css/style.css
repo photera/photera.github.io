@@ -1148,8 +1148,8 @@ and (max-device-width : 667px) { /* STYLES GO HERE */}
   position: relative;
 }
 
-#more-work.h1 {
-  top: 38%;
+#more-work h1 {
+  top: 38% !important;
 }
 
 
