@@ -1162,9 +1162,28 @@ position: absolute;
 width: 100%;
 }
 
-@media screen and (max-device-width: 468px) {
-body { background: url(polina.jpg) #000 no-repeat center center fixed; }
-#bgvid { display: none; }
+/*MEDIA QUERIES*/
+
+@media screen and (max-device-width: 480px) {
+    body { 
+      background: url(polina.jpg) #000 no-repeat center center fixed; 
+    }
+
+    #featured-pane-design {
+     height: 33vh;
+   }
+   
+   #featured-pane-photography {
+     height: 33vh;
+   }
+
+   #featured-pane-branding {
+     height: 33vh;
+   }
+
+    #bgvid { 
+      display: none; 
+    }
 }
 
 @media only screen and (min-width: 768px) {
