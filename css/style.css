@@ -27,6 +27,7 @@ body {
   font-size: 100%;
   color: BLACK;
   /*background: #424f5c;*/
+  overflow: hidden;
 }
 
 a {
