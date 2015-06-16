@@ -9,7 +9,7 @@ jQuery(document).ready(function($){
 	$('.cd-panel').on('click', function(event){
 		if( $(event.target).is('.cd-panel') || $(event.target).is('.cd-panel-close') ) { 
 			$('.cd-panel').removeClass('is-visible');
-			$("body").css("overflow", "intial");
+			$("body").css("overflow", "initial");
 			event.preventDefault();
 		}
 	});
