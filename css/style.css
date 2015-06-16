@@ -715,6 +715,7 @@ p.category  {
 }
 .cd-footer .cd-btn {
   margin-top: 80px;
+  text-align: center;
   position: relative;
   padding: 25px 45px;
   display: inline-block;
