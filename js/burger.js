@@ -7,7 +7,7 @@ $(document).ready(function () {
         $(this).toggleClass('open');
         $('.burger-brand').toggleClass('open');
     });
-    $('.burger-nav li').on('click', function(){
+    $('.burger-nav li').click(function(){
         $(".burger-nav").toggleClass('open');
         $(".burger-contain").toggleClass('open');
         $('.burger-brand').removeClass('open');
