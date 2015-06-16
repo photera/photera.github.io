@@ -1267,6 +1267,10 @@ width: 100%;
    #featured-pane-branding {
      height: 33.33vh;
    }
+   
+   #border {
+    display: none;
+   }
 
     #bgvid { 
       display: none; 
