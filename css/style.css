@@ -246,7 +246,7 @@ html, body {
 .intro-wrapper {
   background: linear-gradient(135deg, #2C3E50, #244C59);
   background-size: cover;
-    height: 85vh;
+    height: 110vh;
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
