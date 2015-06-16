@@ -638,6 +638,28 @@ text-align: center;
   position: relative;
 }
 
+/*ABOUT ME*/
+
+.bio-bg{
+text-align: center;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/Portfolio/The_City.jpg
+)  center center no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+
+
+
+
 .cd-main-content-wrapper {
   top: 50%;
   left: 50%;
