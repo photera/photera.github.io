@@ -713,6 +713,21 @@ p.category  {
   -moz-transition: all 0.5s;
   transition: all 0.5s;
 }
+.cd-footer .cd-btn {
+  position: relative;
+  display: inline-block;
+  padding: 1.5em 2em;
+  color: #ffffff;
+  border: solid 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
 
 
 .no-touch .cd-main-content .cd-btn:hover {
@@ -1110,7 +1125,6 @@ and (max-device-width : 667px) { /* STYLES GO HERE */}
   color: #fff;
   background-color: #252525;
   font-size: 3em;
-  margin-bottom: -35px;
   height: 400px;
   text-align: center;
   padding-top: 25px;
@@ -1267,7 +1281,7 @@ width: 100%;
    #featured-pane-branding {
      height: 33.33vh;
    }
-   
+
    #border {
     display: none;
    }
