@@ -1115,6 +1115,9 @@ and (max-device-width : 667px) { /* STYLES GO HERE */}
   text-align: center;
 }
 
+#border {
+  border-left: #fff solid 3.5px;
+}
 
 
 .cd-panel-content img {
