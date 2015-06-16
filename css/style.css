@@ -1146,6 +1146,8 @@ and (max-device-width : 667px) { /* STYLES GO HERE */}
   -webkit-background-size: cover;
   background-size: cover;
   position: relative;
+  top: 38%;
+
 }
 
 #more-work h1 {
