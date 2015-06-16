@@ -1113,10 +1113,11 @@ and (max-device-width : 667px) { /* STYLES GO HERE */}
   margin-bottom: -35px;
   height: 400px;
   text-align: center;
+  margin-top: 35px
 }
 
 #border {
-  border-left: #fff solid 3.5px;
+  border-right: #fff solid 5.5px;
 }
 
 
