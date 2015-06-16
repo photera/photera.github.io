@@ -1136,7 +1136,17 @@ and (max-device-width : 667px) { /* STYLES GO HERE */}
 /* MORE WORK */
 
 #more-work {
- 
+ background: linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ), url(http://www.graftonandcompany.com/hs-fs/hub/329751/file-1906442466-jpg) center center no-repeat;
+ -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+
 
 }
 
