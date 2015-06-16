@@ -245,7 +245,7 @@ html, body {
 .intro-wrapper {
   background: linear-gradient(135deg, #2C3E50, #244C59);
   background-size: cover;
-    height: 120vh;
+    height: 85vh;
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -1170,15 +1170,15 @@ width: 100%;
     }
 
     #featured-pane-design {
-     height: 33vh;
+     height: 33.33vh;
    }
-   
+
    #featured-pane-photography {
-     height: 33vh;
+     height: 33.33vh;
    }
 
    #featured-pane-branding {
-     height: 33vh;
+     height: 33.33vh;
    }
 
     #bgvid { 
