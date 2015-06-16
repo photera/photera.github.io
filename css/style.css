@@ -1173,9 +1173,12 @@ width: 100%;
       /*background: url(polina.jpg) #000 no-repeat center center fixed; */
       overflow-x:hidden;
     }
-    .intro-wrapper 
-    {
+    .intro-wrapper {
       width:100%;
+    }
+
+    .burger-nav {
+      width: 100%;
     }
 
     #featured-pane-design {
