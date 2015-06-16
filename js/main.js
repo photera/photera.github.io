@@ -15,23 +15,6 @@ jQuery(document).ready(function($){
 	});
 });
 
-jQuery(document).ready(function($){
-	//open the lateral panel
-	$('.cd-btn-2').on('click', function(event){
-		event.preventDefault();
-		$('.cd-panel-2').addClass('is-visible');
-		$("body").css("overflow", "hidden");
-	});
-
-	//close the lateral panel
-	$('.cd-panel-2').on('click', function(event){
-		if( $(event.target).is('.cd-panel-2') || $(event.target).is('.cd-panel-close') ) { 
-			$('.cd-panel-2').removeClass('is-visible');
-			$("body").css("overflow", "initial");
-			event.preventDefault();
-		}
-	});
-});
 
 jQuery(document).ready(function($){
 	//open the lateral panel
