@@ -488,6 +488,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+    background-position: 20% 1%;
 }
 
 #featured-pane-branding:hover {
@@ -511,6 +512,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-position: 20% 1%;
 }
 
 #featured-pane-branding h3 {
