@@ -1133,6 +1133,14 @@ and (max-device-width : 667px) { /* STYLES GO HERE */}
   margin-top: 140px;
 }
 
+/* MORE WORK */
+
+#more-work:hover  {
+  background-color: white;
+  color: black;
+
+}
+
 /* VIDEO BG */
 
 video#bgvid {
