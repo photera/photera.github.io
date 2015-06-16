@@ -1162,8 +1162,13 @@ width: 100%;
 
 /*FOOTER*/
 
-#footer-wrap {
+.footer-wrap {
   background-color: #8894B1;
+  color: #fff;
+}
+
+.main-footer {
+  max-width: 800px;
 }
 
 /*MEDIA QUERIES*/
