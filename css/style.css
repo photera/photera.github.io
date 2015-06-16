@@ -1149,6 +1149,11 @@ and (max-device-width : 667px) { /* STYLES GO HERE */}
   top: 38%;
 }
 
+#more-work h1 {
+  top: 38%;
+}
+
+
 #more-work h1:hover  {
   background-color: white;
   color: #F2622E;
