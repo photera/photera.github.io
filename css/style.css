@@ -1171,6 +1171,7 @@ width: 100%;
 @media screen and (max-device-width: 480px) {
     body { 
       /*background: url(polina.jpg) #000 no-repeat center center fixed; */
+      overflow-x:hidden;
     }
     .intro-wrapper 
     {
