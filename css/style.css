@@ -1160,6 +1160,12 @@ position: absolute;
 width: 100%;
 }
 
+/*FOOTER*/
+
+#footer-wrap {
+  background-color: #8894B1;
+}
+
 /*MEDIA QUERIES*/
 
 @media only screen and (min-width: 375px) and (max-device-width : 667px) {
