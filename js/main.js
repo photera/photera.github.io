@@ -3,7 +3,7 @@ jQuery(document).ready(function($){
 	$('.cd-btn').on('click', function(event){
 		event.preventDefault();
 		$('.cd-panel').addClass('is-visible');
-		$("body").css("overflow", "hidden")
+		$("body").css("overflow", "hidden");
 	});
 	//close the lateral panel
 	$('.cd-panel').on('click', function(event){
@@ -19,7 +19,7 @@ jQuery(document).ready(function($){
 	$('.cd-btn-2').on('click', function(event){
 		event.preventDefault();
 		$('.cd-panel-2').addClass('is-visible');
-		$("body").css("overflow", "hidden")
+		$("body").css("overflow", "hidden");
 	});
 
 	//close the lateral panel
@@ -36,7 +36,7 @@ jQuery(document).ready(function($){
 	$('.cd-btn-3').on('click', function(event){
 		event.preventDefault();
 		$('.cd-panel-3').addClass('is-visible');
-		$("body").css("overflow", "hidden")
+		$("body").css("overflow", "hidden");
 	});
 	//close the lateral panel
 	$('.cd-panel-3').on('click', function(event){
