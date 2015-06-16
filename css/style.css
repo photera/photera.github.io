@@ -1131,7 +1131,7 @@ and (max-device-width : 667px) { /* STYLES GO HERE */}
 .cd-footer {
   width: 100%;
   color: #fff;
-  background-color: #252525;
+  background-color: #2d3337;
   font-size: 3em;
   height: 400px;
   text-align: center;
@@ -1233,7 +1233,7 @@ width: 100%;
 /*FOOTER*/
 
 .footer-wrap {
-  background-color: #8894B1;
+  background-color: #2d3337;
   color: #fff;
 }
 
