@@ -382,7 +382,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.2), 
       rgba(0, 0, 0, 0.2)
-    ), url(https://dl.dropboxusercontent.com/u/1192218/Picolo-Mockup.jpg)  center center no-repeat;
+    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -414,7 +414,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(https://dl.dropboxusercontent.com/u/1192218/Picolo-Mockup.jpg)  center center no-repeat;
+    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -430,7 +430,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.2), 
       rgba(0, 0, 0, 0.2)
-    ), url(https://dl.dropboxusercontent.com/u/1192218/Alive-2.jpg)  center center no-repeat;
+    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Alive-2.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -453,7 +453,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(https://dl.dropboxusercontent.com/u/1192218/Alive-2.jpg)  center center no-repeat;
+    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Alive-2.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -482,7 +482,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.2), 
       rgba(0, 0, 0, 0.2)
-    ), url(https://dl.dropboxusercontent.com/u/1192218/C%20Donoyan%20web.jpg)  center center no-repeat;
+    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/C_Donoyan_web.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -506,7 +506,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(https://dl.dropboxusercontent.com/u/1192218/C%20Donoyan%20web.jpg)  center center no-repeat;
+    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/C_Donoyan_web.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -538,7 +538,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(https://dl.dropboxusercontent.com/u/1192218/C%20Donoyan%20web.jpg)  center center no-repeat;
+    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/C_Donoyan_web.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -599,7 +599,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(https://dl.dropboxusercontent.com/u/1192218/Picolo-Mockup.jpg)  center center no-repeat;
+    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -620,7 +620,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(https://dl.dropboxusercontent.com/u/1192218/Alive-2.jpg)  center center no-repeat;
+    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Alive-2.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -1114,12 +1114,12 @@ and (max-device-width : 667px) { /* STYLES GO HERE */}
 }
 
 #design-bg{
-  background: url(https://dl.dropboxusercontent.com/u/1192218/Picolo-Mockup.jpg)  center center no-repeat;
+  background: url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg)  center center no-repeat;
   background-size:cover;
 }
 
 #photo-bg{
-  background: url(https://dl.dropboxusercontent.com/u/1192218/Alive-2.jpg)  center center no-repeat;
+  background: url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Alive-2.jpg)  center center no-repeat;
   background-size:cover;
 }
 
@@ -1160,7 +1160,7 @@ and (max-device-width : 667px) { /* STYLES GO HERE */}
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(https://dl.dropboxusercontent.com/u/1192218/Picolo-Mockup.jpg)  center center no-repeat;
+    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
