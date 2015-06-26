@@ -382,7 +382,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.2), 
       rgba(0, 0, 0, 0.2)
-    ), url(https://dl.dropboxusercontent.com/u/1192218/Picolo%20Mockup%201.jpg)  center center no-repeat;
+    ), url(https://dl.dropboxusercontent.com/u/1192218/Picolo-Mockup1jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -414,7 +414,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(https://dl.dropboxusercontent.com/u/1192218/Picolo%20Mockup%201.jpg)  center center no-repeat;
+    ), url(https://dl.dropboxusercontent.com/u/1192218/Picolo-Mockup1jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -599,7 +599,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(https://dl.dropboxusercontent.com/u/1192218/Picolo%20Mockup%201.jpg)  center center no-repeat;
+    ), url(https://dl.dropboxusercontent.com/u/1192218/Picolo-Mockup1jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -1114,7 +1114,7 @@ and (max-device-width : 667px) { /* STYLES GO HERE */}
 }
 
 #design-bg{
-  background: url(https://dl.dropboxusercontent.com/u/1192218/Picolo%20Mockup%201.jpg)  center center no-repeat;
+  background: url(https://dl.dropboxusercontent.com/u/1192218/Picolo-Mockup1jpg)  center center no-repeat;
   background-size:cover;
 }
 
@@ -1160,7 +1160,7 @@ and (max-device-width : 667px) { /* STYLES GO HERE */}
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(https://dl.dropboxusercontent.com/u/1192218/Picolo%20Mockup%201.jpg)  center center no-repeat;
+    ), url(https://dl.dropboxusercontent.com/u/1192218/Picolo-Mockup1jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
