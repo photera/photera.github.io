@@ -392,7 +392,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-position: 70% 20%;
+  background-position: 50% 20%;
 }
 
 #featured-pane-design h3 {
@@ -420,7 +420,7 @@ html, body {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  background-position: 70% 20%;
+  background-position: 50% 20%;
   color: #fff;
 }
 
