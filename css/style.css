@@ -430,7 +430,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.2), 
       rgba(0, 0, 0, 0.2)
-    ), url(https://dl.dropboxusercontent.com/u/1192218/Screen_Shot_2015-05-05_at_7.22.39_PM.jpg)  center center no-repeat;
+    ), url(https://dl.dropboxusercontent.com/u/1192218/Alive-2.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -453,7 +453,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(https://dl.dropboxusercontent.com/u/1192218/Screen_Shot_2015-05-05_at_7.22.39_PM.jpg)  center center no-repeat;
+    ), url(https://dl.dropboxusercontent.com/u/1192218/Alive-2.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -482,7 +482,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.2), 
       rgba(0, 0, 0, 0.2)
-    ), url(http://cdn2.hubspot.net/hubfs/329751/Grafton_Design/Other_Images/Screen_Shot_2015-05-05_at_7.22.39_PM.png)  center center no-repeat;
+    ), url(https://dl.dropboxusercontent.com/u/1192218/C%20Donoyan%20web.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -506,7 +506,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(http://cdn2.hubspot.net/hubfs/329751/Grafton_Design/Other_Images/Screen_Shot_2015-05-05_at_7.22.39_PM.png)  center center no-repeat;
+    ), url(https://dl.dropboxusercontent.com/u/1192218/C%20Donoyan%20web.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -538,7 +538,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(http://cdn2.hubspot.net/hubfs/329751/Grafton_Design/Other_Images/Screen_Shot_2015-05-05_at_7.22.39_PM.png)  center center no-repeat;
+    ), url(https://dl.dropboxusercontent.com/u/1192218/C%20Donoyan%20web.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -620,7 +620,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(https://dl.dropboxusercontent.com/u/1192218/Screen_Shot_2015-05-05_at_7.22.39_PM.jpg)  center center no-repeat;
+    ), url(https://dl.dropboxusercontent.com/u/1192218/Alive-2.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -1119,7 +1119,7 @@ and (max-device-width : 667px) { /* STYLES GO HERE */}
 }
 
 #photo-bg{
-  background: url(https://dl.dropboxusercontent.com/u/1192218/Screen_Shot_2015-05-05_at_7.22.39_PM.jpg)  center center no-repeat;
+  background: url(https://dl.dropboxusercontent.com/u/1192218/Alive-2.jpg)  center center no-repeat;
   background-size:cover;
 }
 
