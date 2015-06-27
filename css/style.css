@@ -398,7 +398,7 @@ html, body {
   justify-content: center;
   align-items: center;
   background-position: 50% 20%;
-  width: 50%;
+
 
 }
 
@@ -429,7 +429,7 @@ html, body {
   background-size: cover;
   background-position: 50% 20%;
   color: #fff;
-  width: 50%;
+
 }
 
 #featured-pane-photography {
@@ -448,7 +448,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+
 }
 
 #featured-pane-photography:hover {
@@ -472,7 +472,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+
 }
 
 #featured-pane-photography h3 {
@@ -503,7 +503,7 @@ html, body {
   justify-content: center;
   align-items: center;
     background-position: 20% 1%;
-    width: 50%;
+
 }
 
 #featured-pane-branding:hover {
@@ -528,7 +528,7 @@ html, body {
   justify-content: center;
   align-items: center;
   background-position: 20% 1%;
-  width: 50%;
+
 }
 
 #featured-pane-branding h3 {
@@ -1213,7 +1213,17 @@ and (max-device-width : 667px) { /* STYLES GO HERE */}
 
 /* VIDEO BG */
 
-
+video#bgvid {
+position: fixed; right: 0; ;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -1000;
+background-size: cover;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+position: absolute;
+width: 100%;
+}
 
 /*FOOTER*/
 
