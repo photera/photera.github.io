@@ -595,11 +595,11 @@ html, body {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  /*position: relative;*/
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 50%%;
 }
 
 
@@ -611,13 +611,13 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Alive-2.jpg)  center center no-repeat;
+    ), /*url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Alive-2.jpg)*/  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  width: 100%;
+  width: 50%%;
   /*position: relative;*/
 }
 
@@ -635,7 +635,7 @@ text-align: center;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  width: 100%;
+  width: 50%;
   /*position: relative;*/
 }
 
