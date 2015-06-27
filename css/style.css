@@ -1249,6 +1249,8 @@ Mobile - for Restive.JS
 }
 .mobi #featured-pane-design h3 {
   visibility: visible;
+  top: 50%;
+  left: 50%;
 }
 
 .mobi #featured-pane-photography {
