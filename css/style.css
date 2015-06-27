@@ -262,7 +262,7 @@ html, body {
 
 .intro-wrapper h1{
   background-color:#2C3E50;
-  font-size: 12vw;
+  font-size: .5vw;
   color: #F2622E;
   
   /*-webkit-text-fill-color: transparent;
@@ -284,7 +284,7 @@ html, body {
 
 .intro-wrapper h2 {
   text-transform: uppercase;
-  font-size: 1.5vw;
+  font-size: .5vw;
   font-family: "Proxima Nova", Arial, sans-serif;
   font-weight: 200;
   color: #f7f7f7;
@@ -296,7 +296,7 @@ html, body {
 
 
 .headline {
-  font-size: 10em;
+  font-size: 1em;
   line-height: 1.3em;
   text-transform: uppercase;
   font-weight: 700;
