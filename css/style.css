@@ -1229,7 +1229,7 @@ font-size: 2rem;
 }
 
 .mobi #featured-pane-branding h3 {
-  
+  top: 50%;
   visibility: visible;
   font-size: 2em;
   color: #fff;
