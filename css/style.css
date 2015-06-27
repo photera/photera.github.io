@@ -1229,7 +1229,7 @@ Mobile - for Restive.JS
 }
 
 .mobi #featured-pane-design {
-  height: calc(100%/3);
+  height: 33vh;
   font-size: 3rem;
   color: #fff;
   text-transform: uppercase;
@@ -1251,11 +1251,11 @@ Mobile - for Restive.JS
 .mobi #featured-pane-photography {
   font-size: 2em;
    color: #fff;
-   height: calc(100%/3);
+   height: 33vh;
   }
 
 .mobi #featured-pane-branding {
-  height: calc(100%/3);
+  height: 33vh;
 
 }
 
