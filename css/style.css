@@ -599,6 +599,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 
@@ -616,6 +617,7 @@ html, body {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
+  width: 100%;
   /*position: relative;*/
 }
 
@@ -633,6 +635,7 @@ text-align: center;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
+  width: 100%;
   /*position: relative;*/
 }
 
