@@ -319,9 +319,6 @@ html, body {
   border-color: #ff6862;
   max-width: 1024px;
   width: 100%;
-  -webkit-flex: none;
-          flex: none;
-  width: 800px;
 
 }
 
