@@ -295,11 +295,7 @@ html, body {
   word-spacing: 1.02em; 
 }
 
-@media only screen and (max-width: 500px) {
-  .container {
-    height: 100vh;
-  }
-}
+
 
 .headline {
   font-size: 10em;
