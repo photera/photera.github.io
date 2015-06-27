@@ -1220,11 +1220,11 @@ Mobile - for Restive.JS
 -------------------------------------------*/
 .mobi {font-size: 110%;}
 
-.mobi .intro-wrappper.h1 {
+.mobi .intro-wrappper .h1 {
   font-size: 6em;
 }
 
-.mobi .intro-wrappper.h2 {
+.mobi .intro-wrappper .h2 {
   font-size: 3em;
 }
 
@@ -1244,8 +1244,8 @@ Mobile - for Restive.JS
   color: #fff;
 }
 
-.mobi #featured-pane-photography 
-  {font-size: 2em;
+.mobi #featured-pane-photography {
+  font-size: 2em;
    color: #fff;
    height: 33vh;
   }
