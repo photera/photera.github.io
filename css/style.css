@@ -1213,8 +1213,7 @@ font-size: 2rem;
 }
 
 .mobi #featured-pane-photography {
-  font-size: 2em;
-   color: #fff;
+  
    height: 33vh;
 }
 
@@ -1225,6 +1224,8 @@ font-size: 2rem;
   align-items: center;
   letter-spacing: .25em;
   line-height: 1.5em;
+  font-size: 1.8em;
+   color: #fff;
 } 
 
 .mobi #featured-pane-branding {
