@@ -67,6 +67,28 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 	
+<link rel="stylesheet" href="css/animate.css"><!-- Animate.css -->
+<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+
+<script src="js/modernizr.js"></script> <!-- Modernizr -->
+<script src="js/smooth-scroll.js"></script> <!--Smooth Scroll-->
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+
+<script type="text/javascript" src="js/restive.min.js"></script><!--Restive-->
+    
+<script type="text/javascript">
+      $(document).ready(function () {
+            $('body').restive({
+        breakpoints: ['240', '320', '480', '640', '720', '960', '1280'],
+        classes: ['rp_240', 'rp_320', 'rp_480', 'rp_640', 'rp_720', 'rp_960', 'rp_1280'],
+        turbo_classes: 'is_mobile=mobi,is_phone=phone,is_tablet=tablet',
+        force_dip: true
+    });
+    
+});
+</script>
+
 
 
  	
@@ -121,20 +143,7 @@ $('.burger-contain').stickThis({
 </div>
 
 </body>
-<footer>
-<div class="footer-wrap">
-	<div class="main-footer">
-		© Antonio James 2015
-	</div>
-	
-</div>
-	<script src="js/main.js"></script> <!-- Resource jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/burger.js"></script>
-	<script>
-    smoothScroll.init();
-	</script>
-</footer>
+
 
 
 </html>
