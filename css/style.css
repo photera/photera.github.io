@@ -1224,7 +1224,21 @@ width: 100%;
 Mobile - for Restive.JS
 -------------------------------------------*/
 .mobi {font-size: 110%;}
-.mobi #featured-pane-photography {font-size: 2em; color: pink; height: 33vh;}
+
+.mobi #featured-pane-design {
+  height: 33vh;
+}
+
+.mobi #featured-pane-photography 
+  {font-size: 2em;
+   color: #fff;
+   height: 33vh;
+  }
+
+.mobi featured-pane-branding {
+  height: 33vh;
+
+}
 
  
 .mobi section article {width: 100%; padding: 0 10px;}
