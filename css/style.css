@@ -1242,7 +1242,9 @@ Mobile - for Restive.JS
   background-size: cover;
   background-position: 50% 20%;
   color: #fff;
-  
+}
+.mobi #featured-pane-design h3 {
+  visibility: visible;
 }
 
 .mobi #featured-pane-photography {
@@ -1255,6 +1257,7 @@ Mobile - for Restive.JS
   height: 33vh;
 
 }
+
 
  
 .mobi section article {width: 100%; padding: 0 10px;}
