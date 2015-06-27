@@ -1215,6 +1215,7 @@ Mobile - for Restive.JS
 } 
 
 .mobi #featured-pane-branding {
+  height: 33vh;
   background-position: 50% 50%;
   display: flex;
   justify-content: center;
@@ -1222,11 +1223,8 @@ Mobile - for Restive.JS
 }
 
 .mobi #featured-pane-branding h3 {
-  height: 33vh;
+  
   visibility: visible;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 2em;
    color: #fff;
   text-transform: uppercase;
