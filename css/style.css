@@ -595,7 +595,7 @@ html, body {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  position: relative;
+  /*position: relative;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -616,7 +616,7 @@ html, body {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  position: relative;
+  /*position: relative;*/
 }
 
 
@@ -633,7 +633,7 @@ text-align: center;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  position: relative;
+  /*position: relative;*/
 }
 
 /*ABOUT ME*/
