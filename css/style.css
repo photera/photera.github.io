@@ -1203,7 +1203,7 @@ Mobile - for Restive.JS
 
 }
 
-.mobi .design .cd-main-content {
+.mobi .design.cd-main-content {
   display: -webkit-box;
     display: -webkit-flex;
     display: flex;
