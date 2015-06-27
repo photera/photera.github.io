@@ -1328,7 +1328,18 @@ width: 100%;
 /*------------------------------------------
 Mobile - for Restive.JS
 -------------------------------------------*/
-
+.mobi {font-size: 110%;}
+ 
+.mobi section article {width: 100%; padding: 0 10px;}
+ 
+.mobi.tablet header #hs-level-1-content .logo {text-align: right;}
+.mobi.phone header #hs-level-1-content .logo {text-align: center;}
+ 
+.mobi.phone header #hs-level-2 {height: auto;}
+.mobi.phone header nav ul.menu {height: auto;}
+.mobi.phone header nav ul.menu li {float: none; width: 100%; height: 40px; line-height: 40px; border-bottom: 1px dashed #aaa;}
+ 
+.mobi footer p {font-size: 80%;}
 
 
 
