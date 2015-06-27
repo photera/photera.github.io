@@ -1158,6 +1158,10 @@ width: 100%;
 Mobile - for Restive.JS
 -------------------------------------------*/
 .mobi {font-size: 110%;}
+.mobi .burger-nav {
+  width: 100%;
+}
+
 
 .mobi .intro-wrappper .h1 {
   font-size: 6em;
