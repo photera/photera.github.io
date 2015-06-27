@@ -264,7 +264,7 @@ html, body {
 
 .intro-wrapper h1{
   background-color:#2C3E50;
-  font-size: 8vw;
+  font-size: 12vw;
   color: #F2622E;
   
   /*-webkit-text-fill-color: transparent;
@@ -279,7 +279,8 @@ html, body {
   font-family: "Montserrat", Arial, sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-
+   /* set the animation */
+  -webkit-animation:moving 35s  infinite;
 }
 
 
@@ -1267,8 +1268,6 @@ width: 100%;
   .intro-wrapper {
     width: 100vw;
   }
-  .design {
-    height: calc(33.333vh;
     
   }
 }
@@ -1296,7 +1295,7 @@ width: 100%;
     }
 
     #featured-pane-design {
-     height: 33.333vh;
+     height: 33.33vh;
    }
 
    #featured-pane-photography {
