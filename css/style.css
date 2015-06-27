@@ -599,7 +599,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%%;
+  width: 100%%;
 }
 
 
@@ -617,8 +617,8 @@ html, body {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  width: 50%%;
-  /*position: relative;*/
+  width: 100%%;
+  position: absolute;
 }
 
 
@@ -635,8 +635,8 @@ text-align: center;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  width: 50%;
-  /*position: relative;*/
+  width: 100%;
+  position: absolute;
 }
 
 /*ABOUT ME*/
