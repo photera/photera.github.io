@@ -1199,6 +1199,8 @@ Mobile - for Restive.JS
   visibility: visible;
   top: 50%;
   left: 50%;
+  position: absolute;
+  margin: 0 auto;
 }
 
 .mobi #featured-pane-photography {
@@ -1226,7 +1228,7 @@ Mobile - for Restive.JS
   
   visibility: visible;
   font-size: 2em;
-   color: #fff;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: .25em;
   line-height: 1.5em;
