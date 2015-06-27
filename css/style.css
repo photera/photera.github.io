@@ -1216,6 +1216,9 @@ Mobile - for Restive.JS
 
 .mobi #featured-pane-branding {
   background-position: 50% 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mobi #featured-pane-branding h3 {
