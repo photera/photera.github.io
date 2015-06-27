@@ -389,10 +389,13 @@ html, body {
   -webkit-background-size: cover;
   background-size: cover;
   position: relative;
-
+  display: flex;
   justify-content: center;
   align-items: center;
   background-position: 50% 20%;
+  display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
 }
 
 #featured-pane-design h3 {
@@ -422,6 +425,9 @@ html, body {
   background-size: cover;
   background-position: 50% 20%;
   color: #fff;
+  display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
 }
 
 #featured-pane-photography {
@@ -440,6 +446,9 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
 }
 
 #featured-pane-photography:hover {
@@ -463,6 +472,9 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
 }
 
 #featured-pane-photography h3 {
@@ -493,6 +505,9 @@ html, body {
   justify-content: center;
   align-items: center;
     background-position: 20% 1%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
 }
 
 #featured-pane-branding:hover {
@@ -517,6 +532,9 @@ html, body {
   justify-content: center;
   align-items: center;
   background-position: 20% 1%;
+  display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
 }
 
 #featured-pane-branding h3 {
@@ -532,23 +550,7 @@ html, body {
 
 
 
-/*#featured-pane-branding {
- text-align: center;
-  height: 50vh;
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.6), 
-      rgba(0, 0, 0, 0.6)
-    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/C_Donoyan_web.jpg)  center center no-repeat;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}*/
+
 
 
 /* ----Content---- */
