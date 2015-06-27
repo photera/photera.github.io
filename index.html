@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
-
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -62,6 +61,12 @@
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 
 
+<!-- BOOTSTRAP -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+	
 <link rel="stylesheet" href="css/animate.css"><!-- Animate.css -->
 <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
@@ -69,7 +74,7 @@
 <script src="js/smooth-scroll.js"></script> <!--Smooth Scroll-->
 
 
-<script type="text/javascript" src="js/jquery.min.js"></script>
+
 <script type="text/javascript" src="js/restive.min.js"></script><!--Restive-->
     
 <script type="text/javascript">
@@ -92,7 +97,11 @@
 <!--FIXED MENU-->
 <script src="js/jquery-2.1.1.js"></script>
 <script src="js/jq-sticky-anything.min.js"></script>
-
+<script type="text/javascript">
+$('.burger-contain').stickThis({
+    top:80
+});
+</script>
   <!-- Navigation -->
   <div class="burger-nav">
     <li><a class="burger-link active" href="#">Home</a></li>
@@ -139,7 +148,82 @@
 		<p>Here is where I will put my Biography...whenever I finish writing it. For now it will be a large empty space.</p>
 </div>
 		
-<	
+<!--Bio-->
+
+
+
+
+<!--Featured Work Pane-->
+<span id="featured-work-pane"></span>
+<div class="featured-work">
+	<div class="row no-gutter">
+		<a data-scroll href="#design">
+			<div class="col-lg-4 col-sm-12 col-xs-12" id="featured-pane-design">
+			<h3>Design</h3>
+			</div>
+		</a>
+		<a data-scroll href="#photo">
+			<div class="col-lg-8 col-sm-12 col-xs-12" id="featured-pane-photography">
+			<h3>Photography</h3>
+		</div>
+		</a>
+		<a data-scroll href="#branding">
+		<div class="col-lg-8 col-sm-12 col-xs-12" id ="featured-pane-branding">
+			 <h3>Branding</h3>
+		</div>
+		</a>
+	</div>
+</div>
+
+
+
+<!--Design Featured Work-->
+<span id="design"></span>
+	<div class="cd-main-content design">
+	<a name="design"></a>
+		<div class="cd-main-content-wrapper">
+			<h1>Picolo</h1>
+			<p>Share what you love</p>
+			<a href="#0" class="cd-btn">Case Study</a>
+			<p class="category">Branding | Design</p>
+		</div>
+	</div>
+<!--PHOTOGRAPHY Featured Work-->
+<span id="photo"></span>
+	<div class="cd-main-content photography">
+	
+		<div class="cd-main-content-wrapper">
+			<h1>Boston</h1>
+
+				<a href="http://www.antoniojames.pixieset.com/boston" class="cd-btn-2">Explore</a>
+				<p class="category"> Photography</p>
+		</div>
+	</div>
+<!--BRANDING Featured Work-->
+<span id="branding"></span>
+
+	<div class="cd-main-content">	
+		<div class="cd-main-content-wrapper">
+			<!--video autoplay  poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" loop>
+				<source src="video/polina.webm" type="video/webm">
+				<source src="video/polina.mp4" type="video/mp4">
+			</video>-->
+
+			<h1>Christopher</h1> <h1>Donoyan</h1>
+			<p>Funk & Soul</p>
+			<a href="#donoyan" class="cd-btn-3">Case Study</a>
+			<p class="category">Art Direction | Branding | Design</p>
+				
+		</div>
+	</div>
+
+	
+
+<div class="cd-main-content" id="more-work" > 
+	<div class="cd-main-content-wrapper"id="top-work" onmouseover="this.style.background='#284554';" onmouseout="this.style.background='#F2622E';">
+		<a href="#morework"><h1> VIEW MORE WORK</h1></a>
+	</div>
+</div>	
 </body>
 <footer>
 <div class="footer-wrap">
