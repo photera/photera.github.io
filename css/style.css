@@ -343,7 +343,7 @@ html, body {
   font-family: "Montserrat", Arial, sans-serif;
   text-align: center;
   letter-spacing: .8em;
-  margin: 0 auto;
+
   color: white;
   -webkit-text-fill-color: transparent;
   background: -webkit-linear-gradient(transparent, transparent), url('http://lorempixel.com/800/800') repeat;
