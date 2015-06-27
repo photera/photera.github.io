@@ -1243,6 +1243,24 @@ width: 100%;
 
 /*MEDIA QUERIES*/
 
+@media (max-width: 978px) {
+    .container {
+      padding:0;
+      margin:0;
+    }
+
+    body {
+      padding:0;
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
+}
+
+
 @media only screen and (min-width: 375px) and (max-device-width : 667px) {
   .cd-panel-container {
     width: 100%;
@@ -1306,6 +1324,11 @@ width: 100%;
     line-height: 1.6;
   }
 }
+
+/*------------------------------------------
+Mobile - for Restive.JS
+-------------------------------------------*/
+
 
 
 
