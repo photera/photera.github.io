@@ -1208,7 +1208,7 @@ font-size: 2rem;
 .mobi #featured-pane-design h3 {
   visibility: visible;
   top: 50%;
-  left: 50%;
+
   transform: translate(-50%, -50%);
   justify-content: center;
   align-items: center;
