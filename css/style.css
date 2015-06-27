@@ -595,13 +595,10 @@ html, body {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  /*position: relative;*/
-  width: 100vw;
-    top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   position: relative;
-  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -613,19 +610,13 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), /*url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Alive-2.jpg)  center center no-repeat;
+    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Alive-2.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  width: 100vw;
-  /*position: relative;*/
-    top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   position: relative;
-  width:100%;
 }
 
 
@@ -642,13 +633,7 @@ text-align: center;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  width: 100vw;
-  /*position: relative;*/
-    top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   position: relative;
-  width:100%;
 }
 
 /*ABOUT ME*/
@@ -1257,10 +1242,7 @@ Mobile - for Restive.JS
   background-size: cover;
   background-position: 50% 20%;
   color: #fff;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .mobi #featured-pane-photography {
