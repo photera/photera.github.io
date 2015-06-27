@@ -1197,12 +1197,7 @@ font-size: 2rem;
   display: -webkit-box;
     display: -webkit-flex;
 
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
+  
 }
 .mobi #featured-pane-design h3 {
   visibility: visible;
@@ -1260,16 +1255,5 @@ font-size: 2rem;
 }
 
  
-.mobi section article {width: 100%; padding: 0 10px;}
- 
-.mobi.tablet header #hs-level-1-content .logo {text-align: right;}
-.mobi.phone header #hs-level-1-content .logo {text-align: center;}
- 
-.mobi.phone header #hs-level-2 {height: auto;}
-.mobi.phone header nav ul.menu {height: auto;}
-.mobi.phone header nav ul.menu li {float: none; width: 100%; height: 40px; line-height: 40px; border-bottom: 1px dashed #aaa;}
- 
-.mobi footer p {font-size: 80%;}
-
 
 
