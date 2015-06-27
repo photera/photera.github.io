@@ -300,11 +300,6 @@ html, body {
   word-spacing: 1.02em; 
 }
 
-@media only screen and (max-width: 500px) {
-  .container {
-    height: 100vh;
-  }
-}
 
 .headline {
   font-size: 10em;
@@ -1225,8 +1220,22 @@ Mobile - for Restive.JS
 -------------------------------------------*/
 .mobi {font-size: 110%;}
 
+.mobi .intro-wrappper {}
+
 .mobi #featured-pane-design {
   height: 33vh;
+  font-size: 3rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  line-height: 1.5em;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: 50% 20%;
+  color: #fff;
 }
 
 .mobi #featured-pane-photography 
