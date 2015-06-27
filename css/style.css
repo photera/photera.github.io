@@ -1205,7 +1205,7 @@ Mobile - for Restive.JS
   font-size: 2em;
    color: #fff;
    height: 33vh;
-  }
+}
 
 .mobi #featured-pane-photography h3 {
   visibility: visible;
@@ -1215,16 +1215,20 @@ Mobile - for Restive.JS
 } 
 
 .mobi #featured-pane-branding {
-  height: 33vh;
-
+ 
 }
+
 .mobi #featured-pane-branding h3 {
+  height: 33vh;
   visibility: visible;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2em;
    color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  line-height: 1.5em;
 } 
 
 .mobi .design.cd-main-content {
