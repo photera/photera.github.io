@@ -1242,6 +1242,10 @@ Mobile - for Restive.JS
   background-size: cover;
   background-position: 50% 20%;
   color: #fff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .mobi #featured-pane-design h3 {
   visibility: visible;
