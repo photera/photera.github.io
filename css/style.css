@@ -264,7 +264,7 @@ html, body {
 
 .intro-wrapper h1{
   background-color:#2C3E50;
-  font-size: 12vw;
+  font-size: 8vw;
   color: #F2622E;
   
   /*-webkit-text-fill-color: transparent;
@@ -279,8 +279,7 @@ html, body {
   font-family: "Montserrat", Arial, sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-   /* set the animation */
-  -webkit-animation:moving 35s  infinite;
+
 }
 
 
