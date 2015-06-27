@@ -293,11 +293,7 @@ html, body {
   word-spacing: 1.02em; 
 }
 
-@media only screen and (max-width: 500px) {
-  .container {
-    height: 100vh;
-  }
-}
+
 
 .headline {
   font-size: 10em;
@@ -783,12 +779,7 @@ p.category  {
 }
 
 
-@media only screen and (min-width: 1170px) {
-  .cd-main-content h1 {
-    font-size: 32px;
-    font-size: 6rem;
-  }
-}
+
 
 .cd-panel {
   position: fixed;
@@ -934,16 +925,7 @@ p.category  {
   -moz-transition: top 0.3s 0.3s;
   transition: top 0.3s 0.3s;
 }
-@media only screen and (min-width: 768px) {
-  .cd-panel-header {
-    width: 100%;
-  }
-}
-@media only screen and (min-width: 1170px) {
-  .cd-panel-header {
-    width: 100%;
-  }
-}
+
 
 .cd-panel-close {
   position: absolute;
@@ -1059,9 +1041,6 @@ p.category  {
   transition-delay: 0s;
 }
 
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) { /* STYLES GO HERE */}
 
 
 
@@ -1238,85 +1217,7 @@ width: 100%;
 
 /*MEDIA QUERIES*/
 
-@media (max-width: 978px) {
-    .container {
-      padding:0;
-      margin:0;
-    }
 
-    body {
-      padding:0;
-    }
-
-    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
-      margin-left: 0;
-      margin-right: 0;
-      margin-bottom:0;
-    }
-}
-
-
-@media only screen and (min-width: 375px) and (max-device-width : 667px) {
-  .cd-panel-container {
-    width: 100%;
-  }
-  .intro-wrapper {
-    width: 100vw;
-  }
-    
-  }
-}
-@media only screen and (min-width: 1170px) {
-  .cd-panel-container {
-    width: 100%;
-  }
-}
-
-
-@media screen and (max-device-width: 480px) {
-    body { 
-      /*background: url(polina.jpg) #000 no-repeat center center fixed; */
-      overflow-x:hidden;
-    }
-    .intro-wrapper {
-      width:100%;
-    }
-
-    .burger-nav {
-      width: 100%;
-    }
-    .burger-nav li .burger-link {
-      font-size: 15px;
-    }
-
-    #featured-pane-design {
-     height: 33.33vh;
-   }
-
-   #featured-pane-photography {
-     height: 33.33vh;
-   }
-
-   #featured-pane-branding {
-     height: 33.33vh;
-   }
-
-   #border {
-    display: none;
-   }
-
-    #bgvid { 
-      display: none; 
-    }
-}
-
-@media only screen and (min-width: 768px) {
-  .cd-panel-content p {
-    font-size: 16px;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-}
 
 /*------------------------------------------
 Mobile - for Restive.JS
