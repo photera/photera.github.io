@@ -981,7 +981,7 @@ p.category  {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 70px 5%;
+  padding: 40px 5%;
   line-height: 3rem;
   margin-top:35px;
   /* smooth scrolling on touch devices */
@@ -1250,7 +1250,7 @@ font-size: 2rem;
 	align-items: center;
 	text-align: center;
 	width: 100%;
-	padding-right: 50%;
+	padding-left: 50%;
 }
 
 .mobi .photography {
@@ -1263,7 +1263,7 @@ font-size: 2rem;
     align-items: center;
     text-align: center;
     width: 100%;
-    padding-right: 80px;
+    padding-left: 80px;
 }
 
 .mobi .branding {
@@ -1276,7 +1276,7 @@ font-size: 2rem;
     align-items: center;
     text-align: center;
     width: 100%;
-    padding-right: 50%;
+    padding-left: 50%;
 }
 
  
