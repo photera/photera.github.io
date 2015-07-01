@@ -596,16 +596,7 @@ text-align: center;
 
 
 
-.cd-main-content-wrapper {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  width:100%;
-  color: #fff;
-  text-transform: uppercase;
-  font-family: "Montserrat", Arial, sans-serif;
-}
+
 
 
 .cd-main-content h1 {
