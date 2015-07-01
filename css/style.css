@@ -1214,7 +1214,15 @@ font-size: 2rem;
 .mobi #featured-pane-branding {
   height: 33vh;
   background-position: 50% 50%;
-  display: flex;
+  display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
 
 }
 
