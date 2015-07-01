@@ -1250,9 +1250,14 @@ font-size: 2rem;
 	align-items: center;
 	text-align: center;
 	width: 100%;
-	padding-left: 95px;
+	padding-left: 50%;
 }
-mobi .design p {
+.mobi .design h1 {
+	font-size: 3rem;
+	color: #fff;
+}
+
+.mobi .design p {
 	font-size: 1.5rem;
 	color: #fff;
 }
@@ -1267,7 +1272,7 @@ mobi .design p {
     align-items: center;
     text-align: center;
     width: 100%;
-    padding-left: 95px;
+    padding-left: 50%;
 }
 
 .mobi .photography p {
@@ -1285,7 +1290,7 @@ mobi .design p {
     align-items: center;
     text-align: center;
     width: 100%;
-    padding-left: 95px;
+    padding-left: 50%;
 }
 
 .mobi .branding p {
