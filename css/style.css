@@ -1156,7 +1156,8 @@ Mobile - for Restive.JS
 }
 
 .mobi .intro-wrapper h2 {
-	font-size: .7rem;
+	font-size: .5rem;
+	letter-spacing: .1em;
 }
 .mobi .burger-nav {
   width: 100%;
