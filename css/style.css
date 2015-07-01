@@ -1236,7 +1236,7 @@ font-size: 2rem;
   -webkit-box-align: center;
 } 
 
-.mobi .design.cd-main-content {
+.mobi .design .cd-main-content {
   display: -webkit-box;
     display: -webkit-flex;
     display: flex;
