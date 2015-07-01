@@ -1232,7 +1232,7 @@ font-size: 2rem;
 } 
 
 
-.mobi #design .design {
+.mobi .design {
   	  display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
