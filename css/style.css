@@ -1239,7 +1239,9 @@ font-size: 2rem;
     display: -webkit-flex;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    width: 100%;
+
 
 
 }
