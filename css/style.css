@@ -1276,6 +1276,10 @@ font-size: 2rem;
     padding-left: 15%;
 }
 
+.mobi .photography h1 {
+	font-size: 3rem;
+}
+
 .mobi .photography p {
 	font-size: .8rem;
 	color: #fff;
