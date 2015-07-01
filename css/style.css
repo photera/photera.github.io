@@ -713,9 +713,9 @@ p.category  {
   position: relative;
   top: 0;
   left: 0;
-  /*height: 100%;
-  width: 100%;*/
-  visibility: hidden;
+  height: 100%;
+  width: 100%;
+  visibility: hidden !important;
   -webkit-transition: visibility 0s 0.6s;
   -moz-transition: visibility 0s 0.6s;
   transition: visibility 0s 0.6s;
