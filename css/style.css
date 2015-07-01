@@ -562,10 +562,10 @@ html, body {
 .branding {
 text-align: center;
   height: 100vh;
-  /*background: linear-gradient(
+  background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(http://cdn2.hubspot.net/hub/329751/file-2578492273-jpg/Grafton_Design/Other_Images/IMG_5975.jpg)  center center no-repeat;*/
+    ), url(http://cdn2.hubspot.net/hub/329751/file-2578492273-jpg/Grafton_Design/Other_Images/IMG_5975.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -713,8 +713,7 @@ p.category  {
   position: relative;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
+
   visibility: hidden;
   -webkit-transition: visibility 0s 0.6s;
   -moz-transition: visibility 0s 0.6s;
