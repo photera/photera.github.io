@@ -1162,7 +1162,7 @@ Mobile - for Restive.JS
 
 .mobi .intro-wrapper h2 {
 	font-size: .6rem;
-	letter-spacing: .25em;
+	letter-spacing: .35em;
 }
 
 .mobi .content-section h2 {
@@ -1189,13 +1189,7 @@ font-size: 2rem;
 }
 
 
-.mobi .intro-wrappper .h1 {
-  font-size: 1rem;
-}
 
-.mobi .intro-wrappper .h2 {
-  font-size: 1rem;
-}
 
 .mobi #featured-pane-design {
   height: 33vh;
