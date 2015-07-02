@@ -1361,3 +1361,8 @@ font-size: 2rem;
 	color: #fff;
 }
 
+
+.mobi .cd-panel-content-bg h2 {
+	font-size: 2rem;
+	max-width: 375px;
+}
