@@ -1205,7 +1205,7 @@ font-size: 2rem;
   background-position: 50% 20%;
   color: #fff;
 
-  splay: -webkit-flex;
+  display: -webkit-flex;
    display: flex;
    -webkit-flex-direction: row;
    flex-direction: row;
