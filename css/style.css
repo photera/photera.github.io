@@ -1160,7 +1160,7 @@ Mobile - for Restive.JS
 }
 
 .mobi .intro-wrapper h2 {
-	font-size: .6rem;
+	font-size: .55rem;
 	letter-spacing: .3em;
 }
 
@@ -1261,7 +1261,7 @@ font-size: 2rem;
 .mobi #featured-pane-branding h3 {
 
   visibility: visible;
-  font-size: 2em;
+  font-size: 3em;
   color: #fff;
   letter-spacing: .25em;
   line-height: 1.5em;
