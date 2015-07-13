@@ -1153,20 +1153,20 @@ width: 100%;
 /*------------------------------------------
 Mobile - for Restive.JS
 -------------------------------------------*/
-.mobi {
+.mobi .tablet {
 	font-family: font-family: 'Proxima Nova', Montserrat, sans-serif;
 }
 
 
 
-.mobi .intro-wrapper  {
+.mobi .tablet .intro-wrapper  {
 
 }
-.mobi .intro-wrapper h1 {
+.mobi .tablet .intro-wrapper h1 {
 	font-size: 2.6rem;
 }
 
-.mobi .intro-wrapper h2 {
+.mobi .tablet .intro-wrapper h2 {
 	font-size: .55rem;
 	letter-spacing: .28em;
 }
