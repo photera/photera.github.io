@@ -1286,7 +1286,7 @@ font-size: 2rem;
 	align-items: center;
 	text-align: center;
 	width: 100%;
-
+	padding-left: 50%;
 }
 
 .mobi .design h1 {
@@ -1309,7 +1309,7 @@ font-size: 2rem;
     align-items: center;
     text-align: center;
     width: 100%;
-
+    padding-left: 15%;
 }
 
 .mobi .photography h1 {
@@ -1331,7 +1331,7 @@ font-size: 2rem;
     align-items: center;
     text-align: center;
     width: 100%;
-
+    padding-left: 15%;
 }
 
 .mobi .branding h1 {
