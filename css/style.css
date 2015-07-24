@@ -630,7 +630,7 @@ p.category  {
 
 .cd-main-content .cd-btn {
   position: relative;
-  display: inline-block;
+  display: inline;
   padding: 1.5em 2em;
   color: #ffffff;
   border: solid 2px;
@@ -642,6 +642,7 @@ p.category  {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
+  top: 75px;
 }
 .cd-footer .cd-btn {
   margin-top: 80px;
