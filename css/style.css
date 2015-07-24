@@ -1198,7 +1198,7 @@ font-size: 2rem;
 
 
 .mobi #featured-pane-design {
-  height: 33vh;
+  height: 33.333333vh;
   font-size: 3rem;
   color: #fff;
   text-transform: uppercase;
@@ -1232,7 +1232,7 @@ font-size: 2rem;
 
 .mobi #featured-pane-photography {
   
-   height: 33vh;
+   height: 33.333333vh;
    display: -webkit-flex;
    display: flex;
    -webkit-flex-direction: row;
@@ -1252,7 +1252,7 @@ font-size: 2rem;
 } 
 
 .mobi #featured-pane-branding {
-  height: 33vh;
+  height: 33.333333vh;
   background-position: 50% 50%;
   display: -webkit-flex;
    display: flex;
