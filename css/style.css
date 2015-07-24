@@ -1084,8 +1084,7 @@ p.category  {
 }
 
 .cd-panel-content p {
-  font-size: 14px;
-  font-size: 1rem;
+  font-size: 2rem;
   color: #424f5c;
   line-height: 1.4;
   margin: 2em 0;
