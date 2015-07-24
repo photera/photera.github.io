@@ -197,7 +197,7 @@ html, body {
     left: 0;
     position: absolute;
     top: 0;
-    width: 35%;
+    width: 40%;
     z-index: 100;
     position: fixed;
     overflow: hidden;
@@ -1668,7 +1668,7 @@ Mobile - for Restive.JS
     list-style-type: none;
     padding: 10px;
     text-align: left;
-    margin: 20px 0;
+    margin: 35px 0;
 }
 
 .mobi .burger-nav li .burger-link {
