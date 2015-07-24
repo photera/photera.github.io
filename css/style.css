@@ -648,7 +648,7 @@ p.category  {
   text-align: center;
   position: relative;
   padding: 25px 45px;
-  display: inline-block;
+  display: inline;
   color: #ffffff;
   font-size: 24px;
   border: solid 2px;
@@ -660,6 +660,7 @@ p.category  {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
+  top: 75px;
 
 }
 
