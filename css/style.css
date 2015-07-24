@@ -607,7 +607,7 @@ text-align: center;
 
 .cd-main-content h1 {
   
-  font-size: 6rem;
+  font-size: 12rem;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: .15em;
@@ -622,7 +622,7 @@ text-align: center;
 }
 
 p.category  {
-  font-size: 1.2vw;
+  font-size: 1.7vw;
   letter-spacing: 5px;
   padding: 25px 0px 25px 0px;
   text-transform: uppercase;
