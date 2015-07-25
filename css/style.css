@@ -1416,6 +1416,7 @@ Main Components
   line-height: 1.5;
   font-weight: 700;
   text-transform: uppercase;
+  color: white;
 }
 .cd-title p {
   font-size: 1.4rem;
