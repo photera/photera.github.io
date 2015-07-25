@@ -1196,7 +1196,7 @@ Main Components
 }
 .projects-container::before {
   /* never visible - this is used in jQuery to check the current MQ */
-  content: 'mobile';
+  content: 'desktop';
   display: none;
 }
 .projects-container .cd-single-project {
@@ -1565,6 +1565,10 @@ Mobile - for Restive.JS
 -------------------------------------------*/
 .mobi .tablet {
 	font-family: font-family: 'Proxima Nova', Montserrat, sans-serif;
+}
+
+.mobi .tablet .cd-title {
+
 }
 
 
