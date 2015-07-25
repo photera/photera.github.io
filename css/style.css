@@ -368,6 +368,9 @@ html, body {
   background-size: cover;
   background-position: 50% 20%;
   color: #fff;
+    -webkit-transition: z-index 0s 0s, top 0.4s 0s;
+  -moz-transition: z-index 0s 0s, top 0.4s 0s;
+  transition: z-index 0s 0s, top 0.4s 0s;
 
 }
 
@@ -411,6 +414,9 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+    -webkit-transition: z-index 0s 0s, top 0.4s 0s;
+  -moz-transition: z-index 0s 0s, top 0.4s 0s;
+  transition: z-index 0s 0s, top 0.4s 0s;
 
 }
 
@@ -467,6 +473,9 @@ html, body {
   justify-content: center;
   align-items: center;
   background-position: 20% 1%;
+    -webkit-transition: z-index 0s 0s, top 0.4s 0s;
+  -moz-transition: z-index 0s 0s, top 0.4s 0s;
+  transition: z-index 0s 0s, top 0.4s 0s;
 
 }
 
