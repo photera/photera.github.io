@@ -38,6 +38,7 @@ h4 {
   font-size: 2.2rem;
   font-weight: bold;
   text-transform: uppercase;
+  margin: 20px 10%;
 }
 /* -------------------------------- 
 
@@ -994,7 +995,6 @@ p.category  {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 40px 5%;
   line-height: 3rem;
   margin-top:35px;
   /* smooth scrolling on touch devices */
@@ -1092,7 +1092,7 @@ p.category  {
   font-size: 2rem;
   color: #424f5c;
   line-height: 1.4;
-  margin: 2em 0;
+  margin: 20px 10%;
 }
 .cd-panel-content p:first-of-type {
   margin-top: 25px;
