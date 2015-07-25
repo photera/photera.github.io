@@ -1507,9 +1507,9 @@ Main Components
   text-indent: 100%;
   white-space: nowrap;
   visibility: hidden;
-  -webkit-transition: -webkit-transform 1s 0s, visibility 0s 1s;
-  -moz-transition: -moz-transform 1s 0s, visibility 0s 1s;
-  transition: transform 1s 0s, visibility 0s 1s;
+  -webkit-transition: -webkit-transform .4s 0s, visibility 0s .4s;
+  -moz-transition: -moz-transform .4s 0s, visibility 0s .4s;
+  transition: transform .4s 0s, visibility 0s .4s;
 }
 
 .projects-container .cd-close {
