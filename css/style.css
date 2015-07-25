@@ -13,6 +13,8 @@ html, body {
 Primary style
 
 -------------------------------- */
+html, body {height:100%;}
+
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
