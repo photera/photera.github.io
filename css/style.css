@@ -591,10 +591,7 @@ text-align: center;
 .bio-bg{
 text-align: center;
   height: 80vh;
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.0), 
-      rgba(0, 0, 0, 0.0)
-    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/Portfolio/The_City.jpg)  center center no-repeat;
+  `
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -1176,6 +1173,8 @@ body {
   font-size: 1.6rem;
   font-family: 'Proxima Nova', Montserrat, sans-serif;
   background-color: #000;
+  color: #ffffff;
+  background-color: #000;
 }
 
 a {
@@ -1205,7 +1204,7 @@ Main Components
   top: 0;
   left: 0;
   width: 100%;
-  height: 33.333333333%;
+  height: 100%;
   overflow: hidden;
   cursor: pointer;
   -webkit-transition: -webkit-transform 0.4s;
@@ -1224,9 +1223,12 @@ Main Components
   position: absolute;
   top: 0;
   left: 0;
-  height: 33.33333333vh;
+  height: 100vh;
   width: 100%;
-  background-image: url("../img/img-1-small.jpg");
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1240,25 +1242,42 @@ Main Components
   display: none;
 }
 .projects-container .cd-single-project:nth-of-type(2) {
-  top: 33.333333vh;
+  top: 100vh;
 }
 .projects-container .cd-single-project:nth-of-type(2)::after {
-  background-image: url("../img/img-2-small.jpg");
+  height: 100vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Alive-2.jpg)  center center no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 .projects-container .cd-single-project:nth-of-type(2)::before {
   content: 'img/img-2-small.jpg';
 }
 .projects-container .cd-single-project:nth-of-type(3) {
-  top: 66.6666666vh;
+  top: 200vh;
 }
 .projects-container .cd-single-project:nth-of-type(3)::after {
-  background-image: url("../img/img-3-small.jpg");
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ), url(http://cdn2.hubspot.net/hub/329751/file-2578492273-jpg/Grafton_Design/Other_Images/IMG_5975.jpg)  center center no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 .projects-container .cd-single-project:nth-of-type(3)::before {
   content: 'img/img-3-small.jpg';
 }
 .projects-container .cd-single-project:nth-of-type(4) {
-  top: 75vh;
+  top: 300vh;
 }
 .projects-container .cd-single-project:nth-of-type(4)::after {
   background-image: url("../img/img-4-small.jpg");
@@ -1287,111 +1306,14 @@ Main Components
 .projects-container .cd-single-project.is-full-width::after {
   height: 100vh;
 }
-@media only screen and (min-width: 1024px) {
-  .projects-container::before {
-    /* never visible - this is used in jQuery to check the current MQ */
-    content: 'desktop';
-  }
-  .projects-container .cd-single-project {
-    width: 33.33333333vw;
-    height: 100%;
-    opacity: 1;
-    -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
-    -ms-transform: translateX(0);
-    -o-transform: translateX(0);
-    transform: translateX(0);
-    -webkit-transition: width 0s;
-    -moz-transition: width 0s;
-    transition: width 0s;
-  }
-  .projects-container .cd-single-project:first-of-type::before {
-    content: 'img/img-1-large.jpg';
-  }
-  .projects-container .cd-single-project:first-of-type::after {
-    background-image: url("../img/img-1-large.jpg");
-  }
-  .projects-container .cd-single-project:nth-of-type(2) {
-    top: 0;
-    left: 33.3333333vw;
-  }
-  .projects-container .cd-single-project:nth-of-type(2)::before {
-    content: 'img/img-2-large.jpg';
-  }
-  .projects-container .cd-single-project:nth-of-type(2)::after {
-    background-image: url("../img/img-2-large.jpg");
-  }
-  .projects-container .cd-single-project:nth-of-type(3) {
-    top: 0;
-    left: 66.66666vw;
-  }
-  .projects-container .cd-single-project:nth-of-type(3)::before {
-    content: 'img/img-3-large.jpg';
-  }
-  .projects-container .cd-single-project:nth-of-type(3)::after {
-    background-image: url("../img/img-3-large.jpg");
-  }
-  .projects-container .cd-single-project:nth-of-type(4) {
-    top: 0;
-    left: 75vw;
-  }
-  .projects-container .cd-single-project:nth-of-type(4)::before {
-    content: 'img/img-4-large.jpg';
-  }
-  .projects-container .cd-single-project:nth-of-type(4)::after {
-    background-image: url("../img/img-4-large.jpg");
-  }
-  .projects-container .cd-single-project::after {
-    height: 100vh;
-    width: 100%;
-    opacity: 0;
-  }
-  .projects-container .cd-single-project.is-loaded {
-    /* show items when background images have been loaded */
-    opacity: 1;
-  }
-  .projects-container .cd-single-project.is-loaded::after {
-    opacity: 1;
-  }
-  .projects-container .cd-single-project.is-full-width {
-    /* selected item */
-    left: 0vw;
-    width: 100vw;
-    -webkit-transition: width 0.4s 0s, z-index 0s 0s, left 0.4s 0s;
-    -moz-transition: width 0.4s 0s, z-index 0s 0s, left 0.4s 0s;
-    transition: width 0.4s 0s, z-index 0s 0s, left 0.4s 0s;
-  }
-}
-@media only screen and (min-width: 1170px) {
-  .projects-container .cd-single-project::after {
-    background-attachment: fixed;
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
-    -webkit-transition: -webkit-transform 0.8s, opacity 0.5s;
-    -moz-transition: -moz-transform 0.8s, opacity 0.5s;
-    transition: transform 0.8s, opacity 0.5s;
-  }
-  .projects-container .cd-single-project.is-loaded::after {
-    opacity: 0;
-  }
-  .no-touch .projects-container .cd-single-project:hover::after, .projects-container .cd-single-project.is-full-width.is-loaded::after {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1);
-  }
-}
+
+
 
 .cd-title {
   position: absolute;
   z-index: 1;
   left: 0;
-  top: 12.5vh;
+  top: 45vh;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -1406,65 +1328,34 @@ Main Components
   -moz-transition: opacity 0s, top 0.4s;
   transition: opacity 0s, top 0.4s;
 }
+.is-full-width .cd-title .cd-btn .cd-sub-title {
+  display: none;
+  -webkit-transition: opacity 0s, top 0.4s;
+  -moz-transition: opacity 0s, top 0.4s;
+  transition: opacity 0s, top 0.4s;
+}
 .cd-title > * {
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 .cd-title h2 {
-  font-size: 2.5rem;
-  line-height: 1.5;
-  font-weight: 700;
+  font-size: 14rem;
+  color: #fff;
   text-transform: uppercase;
-  color: white;
+  letter-spacing: .15em;
+  line-height: 1.5em;
+  margin-bottom: 0px;
 }
 .cd-title p {
-  font-size: 1.4rem;
-  font-style: italic;
+  font-size: 2.8rem;
   line-height: 1.2;
-  padding: .4em 2em;
-  display: none;
-  opacity: .6;
+  padding: 25px 0;
+  letter-spacing: 5px;
+  text-transform: uppercase;
 }
-@media only screen and (min-width: 1024px) {
-  .cd-title {
-    top: 50vh;
-    width: 33.33333vw;
-    opacity: 0;
-    -webkit-transform: translateY(-50%) translateX(-20px);
-    -moz-transform: translateY(-50%) translateX(-20px);
-    -ms-transform: translateY(-50%) translateX(-20px);
-    -o-transform: translateY(-50%) translateX(-20px);
-    transform: translateY(-50%) translateX(-20px);
-  }
-  .is-loaded .cd-title {
-    opacity: 1;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    -webkit-transition: -webkit-transform 0.6s, opacity 0.6s, left 0.4s;
-    -moz-transition: -moz-transform 0.6s, opacity 0.6s, left 0.4s;
-    transition: transform 0.6s, opacity 0.6s, left 0.4s;
-  }
-  .is-loaded.is-full-width .cd-title {
-    left: 33.333333vw;
-    -webkit-transition: -webkit-transform 0.6s, opacity 0s, left 0.4s;
-    -moz-transition: -moz-transform 0.6s, opacity 0s, left 0.4s;
-    transition: transform 0.6s, opacity 0s, left 0.4s;
-  }
-  .cd-title p {
-    display: block;
-  }
-}
-@media only screen and (min-width: 1170px) {
-  .cd-title h2 {
-    font-size: 4.1em;
-    letter-spacing: 1.15rem;
 
-  }
-}
+
 
 .cd-project-info {
   clear: both;
@@ -1474,7 +1365,7 @@ Main Components
   padding: 4em 0;
   cursor: auto;
   background-color: #ffffff;
-  color: #3f538e;
+  color: #424f5c;
   -webkit-transition: opacity 0.4s 0s, visibility 0s 0.4s;
   -moz-transition: opacity 0.4s 0s, visibility 0s 0.4s;
   transition: opacity 0.4s 0s, visibility 0s 0.4s;
@@ -1487,14 +1378,20 @@ Main Components
   width: 90%;
   max-width: 800px;
   margin: 0 auto;
+  line-height: 2.4;
+  font-size: 2.2rem;
+}
+.cd-project-info h4 {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
   line-height: 2;
+  font-size: 2.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
-@media only screen and (min-width: 1024px) {
-  .cd-project-info {
-    position: relative;
-    z-index: 1;
-  }
-}
+.cd-project-info .header{}
+
 
 .projects-container .cd-close,
 .projects-container .cd-scroll {
@@ -1523,9 +1420,10 @@ Main Components
   -o-transform: scale(0);
   transform: scale(0);
 }
+
 @media only screen and (min-width: 1170px) {
-  .projects-container .cd-close {
-    background-image: url("../img/cd-icon-close-desktop.svg");
+  .projects-container .cd-scroll {
+    background-image: url("../img/cd-icon-arrow-desktop.svg");
   }
 }
 
@@ -1540,9 +1438,10 @@ Main Components
   transform: translateX(-50%) scale(0);
   background: url("../img/cd-icon-arrow-mobile.svg") no-repeat center center;
 }
+
 @media only screen and (min-width: 1170px) {
-  .projects-container .cd-scroll {
-    background-image: url("../img/cd-icon-arrow-desktop.svg");
+  .projects-container .cd-close {
+    background-image: url("../img/cd-icon-close-desktop.svg");
   }
 }
 
@@ -1634,10 +1533,6 @@ Main Components
     transform: translateX(-50%) scale(1);
   }
 }
-
-
-
-
 
 
 /*------------------------------------------
