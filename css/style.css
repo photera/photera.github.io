@@ -13,7 +13,7 @@ html, body {
 Primary style
 
 -------------------------------- */
-html, body {height:100%;}
+
 
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
@@ -1003,7 +1003,7 @@ p.category  {
 .bg-container {
   position: relative;
   height: 100%;
-  overflow: scroll;
+
 }
 
 .cd-panel-content-bg {
