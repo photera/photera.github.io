@@ -1194,7 +1194,6 @@ Main Components
   width: 100vw;
   position: relative;
   overflow-x: hidden;
-  overflow: hidden;
 
   -webkit-overflow-scrolling: touch;
 }
