@@ -319,6 +319,7 @@ html, body {
   height: 100vh;
   text-align: center;
   width: 100%;
+  overflow: hidden;
 }
 
 
