@@ -319,7 +319,6 @@ html, body {
   height: 100vh;
   text-align: center;
   width: 100%;
-  overflow: hidden;
 }
 
 
@@ -1195,6 +1194,7 @@ Main Components
   width: 100vw;
   position: relative;
   overflow-x: hidden;
+  overflow: hidden;
   -webkit-overflow-scrolling: touch;
 }
 .projects-container::before {
