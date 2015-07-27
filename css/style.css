@@ -1195,11 +1195,11 @@ Main Components
   position: relative;
   overflow-x: hidden;
   overflow: hidden;
-  -webkit-overflow-scrolling: touch;
+
 }
 .projects-container::before {
   /* never visible - this is used in jQuery to check the current MQ */
-  content: 'desktop';
+  content: 'mobile';
   display: none;
 }
 .projects-container .cd-single-project {
