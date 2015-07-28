@@ -1194,8 +1194,9 @@ Main Components
   width: 100vw;
   position: relative;
   overflow-x: hidden;
-
+  overflow: hidden;
   -webkit-overflow-scrolling: touch;
+  min-height: 100vh;
 }
 .projects-container::before {
   /* never visible - this is used in jQuery to check the current MQ */
@@ -1570,7 +1571,8 @@ Mobile - for Restive.JS
 	font-family: font-family: 'Proxima Nova', Montserrat, sans-serif;
 }
 
-.mobi .tablet .cd-title {
+.mobi .tablet .cd-title  h2{
+  font-size: 3.2rem;
 
 }
 
