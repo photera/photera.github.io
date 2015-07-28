@@ -1617,7 +1617,7 @@ font-size: 2rem;
 
 .mobi #featured-pane-design {
   height: 33.333333vh;
-  font-size: 3rem;
+  font-size: 1.8rem;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: .25em;
@@ -1659,6 +1659,14 @@ font-size: 2rem;
    align-items: center;
    -webkit-justify-content: center;
    justify-content: center;
+   height: 33.333333vh;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: 50% 20%;
+  color: #fff;
 }
 
 .mobi #featured-pane-photography h3 {
@@ -1667,6 +1675,8 @@ font-size: 2rem;
   line-height: 1.5em;
   font-size: 1.8em;
    color: #fff;
+   text-transform: uppercase;
+
 } 
 
 .mobi #featured-pane-branding {
@@ -1686,10 +1696,11 @@ font-size: 2rem;
 .mobi #featured-pane-branding h3 {
 
   visibility: visible;
-  font-size: 2.4em;
+  font-size: 1.8em;
   color: #fff;
   letter-spacing: .25em;
   line-height: 1.5em;
+  text-transform: uppercase;
 
 } 
 
