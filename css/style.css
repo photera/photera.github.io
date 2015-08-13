@@ -1400,6 +1400,16 @@ Main Components
   font-weight: bold;
   text-transform: uppercase;
 }
+.cd-project-info img {
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
 .cd-project-info .header{}
 
 
