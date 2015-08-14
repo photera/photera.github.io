@@ -661,12 +661,12 @@ text-align: center;
   align-items: center;
 }
 
-#top-work {
-  top: 38%;
-}
 
 #more-work h1 {
-  top: 38% !important;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
