@@ -781,7 +781,7 @@ Main Components
     ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   -webkit-transition: opacity 0.5s, height 0.4s;
   -moz-transition: opacity 0.5s, height 0.4s;
   transition: opacity 0.5s, height 0.4s;
@@ -1497,23 +1497,6 @@ font-size: 2rem;
    justify-content: center;
 }
 
-.mobi #top-work h1 {
-	font-size: 2.3rem;
-	color: #fff;
-}
 
-.mobi .cd-panel-content-bg {
-    display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-justify-content: center;
-   justify-content: center;
-}
 
-.mobi .cd-panel-content-bg h2 {
-	font-size: 2rem;
-	max-width: 375px;
-}
+
