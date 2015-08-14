@@ -399,22 +399,10 @@ html, body {
   text-transform: uppercase;
   letter-spacing: .25em;
   line-height: 1.5em;
-   text-align: center;
-  height: 50vh;
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
     ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Alive-2.jpg)  center center no-repeat;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
 }
 
 #featured-pane-photography h3 {
