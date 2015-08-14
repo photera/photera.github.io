@@ -770,7 +770,7 @@ Main Components
   position: absolute;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 33vh;
   width: 100%;
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
@@ -795,7 +795,7 @@ Main Components
   top: 33.333333vh;
 }
 .projects-container .cd-single-project:nth-of-type(2)::after {
-  height: 100vh;
+  height: 33vh;
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
