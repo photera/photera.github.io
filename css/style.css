@@ -795,17 +795,26 @@ Main Components
   top: 33.333333vh;
 }
 .projects-container .cd-single-project:nth-of-type(2)::after {
+    content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 33vh;
+  width: 100%;
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Alive-2.jpg)  center center no-repeat;
+    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Alive-2.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
   -ms-background-size: contain;
   -o-background-size: contain;
   -moz-background-size: contain;
   -webkit-background-size: contain;
   background-size: contain;
-  background-position: 50% 0%;
+  -webkit-transition: opacity 0.5s, height 0.4s;
+  -moz-transition: opacity 0.5s, height 0.4s;
+  transition: opacity 0.5s, height 0.4s;
 }
 .projects-container .cd-single-project:nth-of-type(2)::before {
   content: 'img/img-2-small.jpg';
