@@ -742,9 +742,7 @@ Main Components
   width: 100vw;
   position: relative;
   overflow-x: hidden;
-
   -webkit-overflow-scrolling: touch;
-  min-height: 100vh;
 }
 .projects-container::before {
   /* never visible - this is used in jQuery to check the current MQ */
@@ -756,7 +754,7 @@ Main Components
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 33.33333333%;
   overflow: hidden;
   cursor: pointer;
   -webkit-transition: -webkit-transform 0.4s;
@@ -794,7 +792,7 @@ Main Components
   display: none;
 }
 .projects-container .cd-single-project:nth-of-type(2) {
-  top: 100vh;
+  top: 33.333333vh;
 }
 .projects-container .cd-single-project:nth-of-type(2)::after {
   height: 100vh;
@@ -812,24 +810,16 @@ Main Components
   content: 'img/img-2-small.jpg';
 }
 .projects-container .cd-single-project:nth-of-type(3) {
-  top: 200vh;
+  top: 66.6666vh;
 }
 .projects-container .cd-single-project:nth-of-type(3)::after {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.6), 
-      rgba(0, 0, 0, 0.6)
-    ), url(http://cdn2.hubspot.net/hub/329751/file-2578492273-jpg/Grafton_Design/Other_Images/IMG_5975.jpg)  center center no-repeat;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
+  background-image: url("../img/img-3-small.jpg");
 }
 .projects-container .cd-single-project:nth-of-type(3)::before {
   content: 'img/img-3-small.jpg';
 }
 .projects-container .cd-single-project:nth-of-type(4) {
-  top: 300vh;
+  top: 75vh;
 }
 .projects-container .cd-single-project:nth-of-type(4)::after {
   background-image: url("../img/img-4-small.jpg");
@@ -858,14 +848,134 @@ Main Components
 .projects-container .cd-single-project.is-full-width::after {
   height: 100vh;
 }
+@media only screen and (min-width: 1024px) {
+  .projects-container::before {
+    /* never visible - this is used in jQuery to check the current MQ */
+    content: 'desktop';
+  }
+  .projects-container .cd-single-project {
+    width: 33.333333vw;
+    height: 100%;
+    opacity: 0;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: width 0s;
+    -moz-transition: width 0s;
+    transition: width 0s;
+  }
+  .projects-container .cd-single-project:first-of-type::before {
+    content: 'img/img-1-large.jpg';
+  }
+ .projects-container .cd-single-project::after {
+  /* background image */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-transition: opacity 0.5s, height 0.4s;
+  -moz-transition: opacity 0.5s, height 0.4s;
+  transition: opacity 0.5s, height 0.4s;
+}
+  .projects-container .cd-single-project:nth-of-type(2) {
+    top: 0;
+    left: 33.333333vw;
+  }
+  .projects-container .cd-single-project:nth-of-type(2)::after {
+  height: 100vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Alive-2.jpg)  center center no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+  .projects-container .cd-single-project:nth-of-type(2)::after {
+    background-image: url("../img/img-2-large.jpg");
+  }
+  .projects-container .cd-single-project:nth-of-type(3) {
+    top: 0;
+    left: 66.66666vw;
+  }
+  .projects-container .cd-single-project:nth-of-type(3)::before {
+    content: 'img/img-3-large.jpg';
+  }
+  .projects-container .cd-single-project:nth-of-type(3)::after {
+    background-image: url("../img/img-3-large.jpg");
+  }
+  .projects-container .cd-single-project:nth-of-type(4) {
+    top: 0;
+    left: 75vw;
+  }
+  .projects-container .cd-single-project:nth-of-type(4)::before {
+    content: 'img/img-4-large.jpg';
+  }
+  .projects-container .cd-single-project:nth-of-type(4)::after {
+    background-image: url("../img/img-4-large.jpg");
+  }
+  .projects-container .cd-single-project::after {
+    height: 100vh;
+    width: 100%;
+    opacity: 0;
+  }
+  .projects-container .cd-single-project.is-loaded {
+    /* show items when background images have been loaded */
+    opacity: 1;
+  }
+  .projects-container .cd-single-project.is-loaded::after {
+    opacity: 1;
+  }
+  .projects-container .cd-single-project.is-full-width {
+    /* selected item */
+    left: 0vw;
+    width: 100vw;
+    -webkit-transition: width 0.4s 0s, z-index 0s 0s, left 0.4s 0s;
+    -moz-transition: width 0.4s 0s, z-index 0s 0s, left 0.4s 0s;
+    transition: width 0.4s 0s, z-index 0s 0s, left 0.4s 0s;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .projects-container .cd-single-project::after {
 
-
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: -webkit-transform 0.8s, opacity 0.5s;
+    -moz-transition: -moz-transform 0.8s, opacity 0.5s;
+    transition: transform 0.8s, opacity 0.5s;
+  }
+ 
+  .no-touch .projects-container .cd-single-project:hover::after, .projects-container .cd-single-project.is-full-width.is-loaded::after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
 
 .cd-title {
   position: absolute;
   z-index: 1;
   left: 0;
-  top: 45vh;
+  top: 15.5vh;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -880,19 +990,13 @@ Main Components
   -moz-transition: opacity 0s, top 0.4s;
   transition: opacity 0s, top 0.4s;
 }
-.is-full-width .cd-title .cd-btn .cd-sub-title {
-  display: none;
-  -webkit-transition: opacity 0s, top 0.4s;
-  -moz-transition: opacity 0s, top 0.4s;
-  transition: opacity 0s, top 0.4s;
-}
 .cd-title > * {
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 .cd-title h2 {
-  font-size: 14rem;
+  font-size: 4.5rem;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: .15em;
@@ -900,14 +1004,57 @@ Main Components
   margin-bottom: 0px;
 }
 .cd-title p {
-  font-size: 2.8rem;
+  font-size: 1.7rem;
   line-height: 1.2;
   padding: 25px 0;
   letter-spacing: 5px;
   text-transform: uppercase;
 }
 
+@media only screen and (min-width: 1024px) {
+  .cd-title {
+    top: 50vh;
 
+    opacity: 0;
+    -webkit-transform: translateY(-50%) translateX(-20px);
+    -moz-transform: translateY(-50%) translateX(-20px);
+    -ms-transform: translateY(-50%) translateX(-20px);
+    -o-transform: translateY(-50%) translateX(-20px);
+    transform: translateY(-50%) translateX(-20px);
+  }
+  .is-loaded .cd-title {
+    opacity: 1;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: -webkit-transform 0.6s, opacity 0.6s, left 0.4s;
+    -moz-transition: -moz-transform 0.6s, opacity 0.6s, left 0.4s;
+    transition: transform 0.6s, opacity 0.6s, left 0.4s;
+  }
+  .is-loaded.is-full-width .cd-title {
+
+    -webkit-transition: -webkit-transform 0.6s, opacity 0s, left 0.4s;
+    -moz-transition: -moz-transform 0.6s, opacity 0s, left 0.4s;
+    transition: transform 0.6s, opacity 0s, left 0.4s;
+  }
+  .cd-title p {
+    display: block;
+    font-size: 2.8rem;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .cd-title h2 {
+    font-size: 8rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    line-height: 1.5em;
+    margin-bottom: 0px;
+  }
+
+}
 
 .cd-project-info {
   clear: both;
@@ -918,6 +1065,7 @@ Main Components
   cursor: auto;
   background-color: #ffffff;
   color: #424f5c;
+  font-size: 2rem;
   -webkit-transition: opacity 0.4s 0s, visibility 0s 0.4s;
   -moz-transition: opacity 0.4s 0s, visibility 0s 0.4s;
   transition: opacity 0.4s 0s, visibility 0s 0.4s;
@@ -926,13 +1074,7 @@ Main Components
   visibility: visible;
   opacity: 1;
 }
-.cd-project-info p {
-  width: 90%;
-  max-width: 800px;
-  margin: 0 auto;
-  line-height: 2.4;
-  font-size: 2.2rem;
-}
+
 .cd-project-info h4 {
   width: 90%;
   max-width: 800px;
@@ -942,18 +1084,28 @@ Main Components
   font-weight: bold;
   text-transform: uppercase;
 }
-.cd-project-info img {
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 
+.cd-project-info h5 {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 2;
+  font-weight: bold;
+  text-transform: uppercase;
 }
-.cd-project-info .header{}
 
+.cd-project-info p {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 2;
+}
+@media only screen and (min-width: 1024px) {
+  .cd-project-info {
+    position: relative;
+    z-index: 1;
+  }
+}
 
 .projects-container .cd-close,
 .projects-container .cd-scroll {
@@ -966,9 +1118,9 @@ Main Components
   text-indent: 100%;
   white-space: nowrap;
   visibility: hidden;
-  -webkit-transition: -webkit-transform .4s 0s, visibility 0s .4s;
-  -moz-transition: -moz-transform .4s 0s, visibility 0s .4s;
-  transition: transform .4s 0s, visibility 0s .4s;
+  -webkit-transition: -webkit-transform 1s 0s, visibility 0s 1s;
+  -moz-transition: -moz-transform 1s 0s, visibility 0s 1s;
+  transition: transform 1s 0s, visibility 0s 1s;
 }
 
 .projects-container .cd-close {
@@ -982,10 +1134,9 @@ Main Components
   -o-transform: scale(0);
   transform: scale(0);
 }
-
 @media only screen and (min-width: 1170px) {
-  .projects-container .cd-scroll {
-    background-image: url("../img/cd-icon-arrow-desktop.svg");
+  .projects-container .cd-close {
+    background-image: url("../img/cd-icon-close-desktop.svg");
   }
 }
 
@@ -1000,10 +1151,9 @@ Main Components
   transform: translateX(-50%) scale(0);
   background: url("../img/cd-icon-arrow-mobile.svg") no-repeat center center;
 }
-
 @media only screen and (min-width: 1170px) {
-  .projects-container .cd-close {
-    background-image: url("../img/cd-icon-close-desktop.svg");
+  .projects-container .cd-scroll {
+    background-image: url("../img/cd-icon-arrow-desktop.svg");
   }
 }
 
@@ -1094,31 +1244,6 @@ Main Components
     -o-transform: translateX(-50%) scale(1);
     transform: translateX(-50%) scale(1);
   }
-}
-
-/*****CUSTOM ISH******/
-.cd-btn {
-  font-size: 1.6rem;
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  padding: 1.5em 2em;
-  color: #ffffff;
-  border: solid 2px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: .5em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.cd-btn:hover {
-    background:#fff;
-  border:2px solid #fff;
-  color: #000000;
 }
 
 
