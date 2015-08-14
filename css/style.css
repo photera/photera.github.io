@@ -781,7 +781,7 @@ Main Components
     ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
   -webkit-transition: opacity 0.5s, height 0.4s;
   -moz-transition: opacity 0.5s, height 0.4s;
   transition: opacity 0.5s, height 0.4s;
@@ -793,8 +793,6 @@ Main Components
 }
 .projects-container .cd-single-project:nth-of-type(2) {
   top: 33.333333vh;
-  background-size: contain;
-  background-position: 34% 0%;
 }
 .projects-container .cd-single-project:nth-of-type(2)::after {
   height: 100vh;
@@ -816,8 +814,6 @@ Main Components
 }
 .projects-container .cd-single-project:nth-of-type(3)::after {
   background-image: url("../img/img-3-small.jpg");
-  background-size: contain;
-  background-position: 34% 0%;
 }
 .projects-container .cd-single-project:nth-of-type(3)::before {
   content: 'img/img-3-small.jpg';
