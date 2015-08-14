@@ -355,7 +355,7 @@ html, body {
 }
 
 #featured-pane-design:hover {
-  font-size: 6rem;
+  font-size: 10rem;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: .25em;
@@ -1245,6 +1245,36 @@ Main Components
     transform: translateX(-50%) scale(1);
   }
 }
+
+
+
+/*****CUSTOM ISH******/
+.cd-btn {
+  font-size: 1.6rem;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  padding: 1.5em 2em;
+  color: #ffffff;
+  border: solid 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.cd-btn:hover {
+    background:#fff;
+  border:2px solid #fff;
+  color: #000000;
+}
+
+
+
 
 
 /*------------------------------------------
