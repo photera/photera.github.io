@@ -28,7 +28,7 @@ jQuery(document).ready(function($){
 	});
 
 	//close project
-	$('.projects-container .projects-nav .cd-close').on('click', function(){
+	$('.projects-container .cd-close').on('click', function(){
 		toggleProject($('.is-full-width'), $('.projects-container'), false);
 	});
 
