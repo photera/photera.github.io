@@ -737,7 +737,7 @@ Main Components
   left: 30px;
   top: 30px;
   z-index: 1;
-  width: 100%;
+  width: 30px;
 }
 .projects-nav a {
   display: inline-block;
