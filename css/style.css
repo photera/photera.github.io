@@ -659,6 +659,7 @@ text-align: center;
 
 
 /* MORE WORK */
+#top-work 
 
 #more-work {
  background: linear-gradient(
@@ -1543,8 +1544,6 @@ font-size: 2rem;
 .mobi #more-work {
 	display: -webkit-flex;
    display: flex;
-   -webkit-flex-direction: row;
-   flex-direction: row;
    -webkit-align-items: center;
    align-items: center;
    -webkit-justify-content: center;
