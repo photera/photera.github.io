@@ -734,6 +734,47 @@ MORE WORK
 Main Components 
 
 -------------------------------- */
+.projects-nav {
+
+}
+.projects-nav {
+  position: fixed;
+  text-align: center;
+  top: 10px;
+  z-index: 1;
+  width: 100%;
+}
+.projects-nav a {
+  display: inline-block;
+  padding: 1em;
+  background-color: #000;
+  font-size: 14px;
+  color: #ffffff;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  z-index: 200;
+  border-radius: 50em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0 0 10px rgba(16, 21, 36, 0.2);
+}
+.no-touch .projects-nav a:hover {
+  opacity: .8;
+}
+.projects-nav span {
+  vertical-align: middle;
+  display: inline-block;
+}
+.projects-nav span svg {
+  display: block;
+}
+.projects-nav .project-nav-arrow {
+  fill: #ffffff;
+}
+
+
+
 .projects-container {
   height: 100vh;
   width: 100vw;
