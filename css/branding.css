@@ -37,7 +37,7 @@ Main Components
   left: 30px;
   top: 30px;
   z-index: 1;
-  width: 100%;
+  width: 5%;
 }
 .projects-nav a {
   display: inline-block;
@@ -65,7 +65,7 @@ Main Components
   display: block;
 
 }
-.projects-nav .project-nav-arrow {
+.projects-nav .projects-nav-arrow {
   fill: #ffffff;
 }
 
