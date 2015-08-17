@@ -252,7 +252,7 @@ html, body {
     padding-left: 15px;
 }
 .burger-nav li:first-child {
-    margin-top: 240px;
+    margin-top: 15%;
 }
 .burger-nav li:not(.open) {
     -webkit-animation-duration: 3s;
