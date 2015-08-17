@@ -25,12 +25,6 @@ jQuery(document).ready(function($){
 		var selectedProject = $(this),
 			toggle = !selectedProject.hasClass('is-full-width');
 		if(toggle) toggleProject($(this), $('.projects-container'), toggle);
-		if($('.projects-nav span svg').css('display') == 'inline-block'){
-        $('.projects-nav span svg').hide();
-    	}else{
-        $('.projects-nav span svg').show();
-    }
-	});
 	});
 
 	//close project
