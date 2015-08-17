@@ -13,30 +13,6 @@ jQuery(document).ready(function($){
 			event.preventDefault();
 		}
 	});
-});
-
-
-jQuery(document).ready(function($){
-	//open the lateral panel
-	$('.cd-btn-3').on('click', function(event){
-		event.preventDefault();
-		$('.cd-panel-3').addClass('is-visible');
-		$("body").css("overflow", "hidden");
-	});
-	//close the lateral panel
-	$('.cd-panel-3').on('click', function(event){
-		if( $(event.target).is('.cd-panel-3') || $(event.target).is('.cd-panel-close') ) { 
-			$('.cd-panel-3').removeClass('is-visible');
-			$("body").css("overflow", "initial");
-			event.preventDefault();
-		}
-	});
-});
-
-// VIEW WORK PAGE
-
-
-jQuery(document).ready(function($){
 	//check if background-images have been loaded and show list items
 	$('.cd-single-project').bgLoaded({
 	  	afterLoaded : function(){
