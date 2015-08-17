@@ -710,6 +710,8 @@ width: 100%;
 .footer-wrap {
   background-color: #2d3337;
   color: #fff;
+  font-size: 4rem;
+  max-width: 800px;
 }
 
 
