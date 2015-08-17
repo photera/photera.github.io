@@ -768,6 +768,7 @@ Main Components
 }
 .projects-nav span svg {
   display: block;
+
 }
 .projects-nav .project-nav-arrow {
   fill: #ffffff;
@@ -1371,6 +1372,10 @@ font-size: 6vw !important;
     padding: 10px;
     text-align: left;
     margin: 35px 0;
+}
+
+.mobi .burger-nav li:first-child {
+    margin-top: 15%;
 }
 
 .mobi .burger-nav li .burger-link {
