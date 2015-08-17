@@ -732,9 +732,8 @@ MORE WORK
 Main Components 
 
 -------------------------------- */
-.projects-nav {
+/*---Project Nav---*/
 
-}
 .projects-nav {
   position: fixed;
   left: 30px;
@@ -772,6 +771,7 @@ Main Components
   fill: #ffffff;
 }
 
+/*---Project Nav---*/
 
 
 .projects-container {
