@@ -212,9 +212,9 @@ html, body {
     border: 2px solid #000  ;
 }
 .burger-nav {
-    background: #E8E8E8;
+    background: #F2622E;
     display: none;
-    font-family: Helvetica Neue, Helvetica, Sans-Serif;
+    font-family: 'Montserrat', Helvetica Neue, Sans-Serif;
     height: 100%;
     left: 0;
     position: absolute;
@@ -233,7 +233,7 @@ html, body {
 .burger-nav li .burger-link {
     border-left: black solid 0;
     color: white;
-    font-family: Helvetica Neue, Helvetica, Sans-Serif;
+    font-family: 'Montserrat', Helvetica Neue, Sans-Serif;
     font-size: 40px;
     font-weight: 300;
     margin-left: 30px;
