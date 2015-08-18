@@ -292,7 +292,7 @@ html, body {
 
   font-size: 9vw;
   color: #F2622E;
-  background-size: cover;
+  background-size: cover; 
   -webkit-background-clip: text;
   background-attachment: fixed;
   letter-spacing: .15em;
@@ -316,7 +316,7 @@ html, body {
 
 
 .recent-work {
-  background: white:
+  background: white;
   background-size: cover;
     height: 10vh;
     display: -webkit-box;
