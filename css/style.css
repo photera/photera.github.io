@@ -910,10 +910,7 @@ Main Components
     content: 'img/img-1-large.jpg';
   }
   .projects-container .cd-single-project:first-of-type::after {
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.6), 
-      rgba(0, 0, 0, 0.6)
-    ),  url("http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg");
+    background-image: url("http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg");
   }
   .projects-container .cd-single-project:nth-of-type(2) {
     top: 0;
