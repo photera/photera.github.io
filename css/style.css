@@ -1395,11 +1395,7 @@ font-size: 2rem;
 }
 
 
-
-
-.
-
-  .mobi #featured-pane-design {
+.mobi #featured-pane-design {
     text-transform: uppercase;
   letter-spacing: .25em;
   line-height: 1.5em;
@@ -1413,18 +1409,17 @@ font-size: 2rem;
   	align-items: center;
   	text-align: center;
   	width: 100%;
-  	padding-left: 15%;
-  }
+}
 
   .mobi #featured-pane-design h1 {
   	font-size: 5rem;
   	color: #fff;
-  }
+}
 
   .mobi #featured-pane-design p {
   	font-size: 1.6rem;
   	color: #fff;
-  }
+}
 
   .mobi #featured-pane-photography {
     text-transform: uppercase;
@@ -1440,17 +1435,17 @@ font-size: 2rem;
       align-items: center;
       text-align: center;
       width: 100%;
-      padding-left: 15%;
-  }
+
+}
 
   .mobi  #featured-pane-photography h1 {
   	font-size: 5rem;
-  }
+}
 
   .mobi #featured-pane-photography p {
   	font-size: 1.6em;
   	color: #fff;
-  }
+}
 
   .mobi #featured-pane-branding {
     text-transform: uppercase;
@@ -1466,18 +1461,18 @@ font-size: 2rem;
       align-items: center;
       text-align: center;
 
-  }
+}
 
   .mobi  #featured-pane-branding{
   	font-size: 5rem;
   	color: #fff;
-  }
+}
 
   .mobi .branding p {
   	font-size: 1.6rem;
   	color: #fff;
   	letter-spacing: .1em;
-  }
+}
 
 .mobi #more-work {
 	display: -webkit-flex;
@@ -1486,7 +1481,7 @@ font-size: 2rem;
    align-items: center;
    -webkit-justify-content: center;
    justify-content: center;
-}
+ }
 
 
 
