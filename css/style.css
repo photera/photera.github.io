@@ -231,7 +231,7 @@ html, body {
     margin: 40px 0;
 }
 .burger-nav li .burger-link {
-    border-left: black solid 0;
+    border-left: white solid 0;
     color: white;
     font-family: 'Montserrat', Helvetica Neue, Sans-Serif;
     font-size: 40px;
