@@ -1394,6 +1394,9 @@ font-size: 6vw !important;
 font-size: 2rem;
 }
 
+.mobi .recent-work {
+  height: 10vh;
+}
 
 .mobi #featured-pane-design {
     text-transform: uppercase;
@@ -1425,8 +1428,8 @@ font-size: 2rem;
     text-transform: uppercase;
   letter-spacing: .25em;
   line-height: 1.5em;
-    height: 33.333333vh;
-  	display: -webkit-box;
+      height: 33.333333vh;
+  	   display: -webkit-box;
       display: -webkit-flex;
       display: flex;
       justify-content: center;
