@@ -276,7 +276,7 @@ html, body {
 .intro-wrapper {
   background: linear-gradient(135deg, #2C3E50, #244C59);
   background-size: cover;
-    height: 95vh;
+    height: 90vh;
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -292,12 +292,7 @@ html, body {
 
   font-size: 9vw;
   color: #F2622E;
-  
-  /*-webkit-text-fill-color: transparent;
-  background: -webkit-linear-gradient(transparent, transparent);
-  background: -o-linear-gradient(transparent, transparent);*/
   background-size: cover;
-  
   -webkit-background-clip: text;
   background-attachment: fixed;
   letter-spacing: .15em;
@@ -305,8 +300,6 @@ html, body {
   font-family: "Montserrat", Arial, sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-   /* set the animation */
-  -webkit-animation:moving 35s  infinite;
 }
 
 
@@ -322,7 +315,29 @@ html, body {
 }
 
 
+.recent-work {
+  background: white:
+  background-size: cover;
+    height: 10vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
 
+.recent-work h3 {
+  font-size: 4rem;
+  color: #F2622E;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+
+
+}
 
 
 
