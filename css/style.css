@@ -170,7 +170,7 @@ html, body {
 }
 .burger-contain .burger-brand {
     color: #000000;
-    font-family: Helvetica Neue, Helvetica, Sans-Serif;
+    font-family: 'Montserrat', Helvetica Neue, Sans-Serif;
     font-size: 24px;
     font-weight: 300;
     left: 0;
@@ -232,7 +232,7 @@ html, body {
 }
 .burger-nav li .burger-link {
     border-left: black solid 0;
-    color: black;
+    color: white;
     font-family: Helvetica Neue, Helvetica, Sans-Serif;
     font-size: 40px;
     font-weight: 300;
