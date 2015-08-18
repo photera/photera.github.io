@@ -965,7 +965,7 @@ Main Components
 }
 @media only screen and (min-width: 1170px) {
   .projects-container .cd-single-project::after {
-
+    background-attachment: fixed;
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -976,7 +976,7 @@ Main Components
     transition: transform 0.8s, opacity 0.5s;
   }
   .projects-container .cd-single-project.is-loaded::after {
-    opacity: 0;
+    opacity: 1;
   }
   .no-touch .projects-container .cd-single-project:hover::after, .projects-container .cd-single-project.is-full-width.is-loaded::after {
     opacity: 1;
