@@ -1369,9 +1369,11 @@ font-size: 2rem;
 }
 
   .mobi #featured-pane-design h3 {
-  	font-size: 2rem;
-  	color: #fff;
-    visibility: visible;
+  font-size: 3rem;
+  color: #fff;
+  visibility: visible;
+  margin: 0 auto;
+
 }
 
   .mobi #featured-pane-design p {
@@ -1397,7 +1399,10 @@ font-size: 2rem;
 }
 
   .mobi  #featured-pane-photography h3 {
-  	font-size: 2rem;
+  	font-size: 3rem;
+    color: #fff;
+    visibility: visible;
+    margin: 0 auto;
 }
 
   .mobi #featured-pane-photography p {
@@ -1422,8 +1427,11 @@ font-size: 2rem;
 }
 
   .mobi  #featured-pane-branding h3{
-  	font-size: 2rem;
+  	font-size: 3rem;
   	color: #fff;
+    color: #fff;
+    visibility: visible;
+    margin: 0 auto;
 }
 
   .mobi .branding p {
