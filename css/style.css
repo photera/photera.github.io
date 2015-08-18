@@ -914,7 +914,7 @@ Main Components
   }
   .projects-container .cd-single-project:nth-of-type(2) {
     top: 0;
-    left: 66.666vw;
+    left: 33.33333vw;
   }
   .projects-container .cd-single-project:nth-of-type(2)::before {
     content: 'img/img-2-large.jpg';
@@ -924,7 +924,7 @@ Main Components
   }
   .projects-container .cd-single-project:nth-of-type(3) {
     top: 0;
-    left: 50vw;
+    left: 66.66666vw;
   }
   .projects-container .cd-single-project:nth-of-type(3)::before {
     content: 'img/img-3-large.jpg';
