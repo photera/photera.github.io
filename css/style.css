@@ -1382,96 +1382,13 @@ font-size: 2rem;
 
 
 
-.mobi #featured-pane-design {
-  height: 33.333333vh;
-  color: #fff;
-  text-transform: uppercase;
+.
+
+  .mobi #featured-pane-design {
+    text-transform: uppercase;
   letter-spacing: .25em;
   line-height: 1.5em;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: 50% 20%;
-  color: #fff;
-
-  display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-justify-content: center;
-   justify-content: center;
-  
-}
-.mobi #featured-pane-design h3 {
-  visibility: visible;
-
-  /*transform: translate(-50%, -50%);
-  justify-content: center;
-  align-items: center;*/
-}
-
-.mobi #featured-pane-photography {
-  
-   height: 33.333333vh;
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-justify-content: center;
-   justify-content: center;
-   height: 33.333333vh;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: 50% 20%;
-  color: #fff;
-}
-
-.mobi #featured-pane-photography h3 {
-  visibility: visible;
-  letter-spacing: .25em;
-  line-height: 1.5em;
-  font-size: 1.8em;
-   color: #fff;
-   text-transform: uppercase;
-
-} 
-
-.mobi #featured-pane-branding {
-  height: 33.333333vh;
-  background-position: 50% 50%;
-  display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-justify-content: center;
-   justify-content: center;
-
-}
-
-.mobi #featured-pane-branding h3 {
-
-  visibility: visible;
-  font-size: 1.8em;
-  color: #fff;
-  letter-spacing: .25em;
-  line-height: 1.5em;
-  text-transform: uppercase;
-
-} 
-
-
-  .mobi .design {
+    height: 33.333333vh;
   	display: -webkit-box;
   	display: -webkit-flex;
   	display: flex;
@@ -1484,17 +1401,21 @@ font-size: 2rem;
   	padding-left: 15%;
   }
 
-  .mobi .design h1 {
-  	font-size: rem;
+  .mobi #featured-pane-design h1 {
+  	font-size: 5rem;
   	color: #fff;
   }
 
-  .mobi .design p {
+  .mobi #featured-pane-design p {
   	font-size: 1.6rem;
   	color: #fff;
   }
 
-  .mobi .photography {
+  .mobi #featured-pane-photography {
+    text-transform: uppercase;
+  letter-spacing: .25em;
+  line-height: 1.5em;
+    height: 33.333333vh;
   	display: -webkit-box;
       display: -webkit-flex;
       display: flex;
@@ -1507,16 +1428,20 @@ font-size: 2rem;
       padding-left: 15%;
   }
 
-  .mobi .photography h1 {
+  .mobi  #featured-pane-photography h1 {
   	font-size: 5rem;
   }
 
-  .mobi .photography p {
+  .mobi #featured-pane-photography p {
   	font-size: 1.6em;
   	color: #fff;
   }
 
-  .mobi .branding {
+  .mobi #featured-pane-branding {
+    text-transform: uppercase;
+  letter-spacing: .25em;
+  line-height: 1.5em;
+    height: 33.333333vh;
   	display: -webkit-box;
       display: -webkit-flex;
       display: flex;
@@ -1528,7 +1453,7 @@ font-size: 2rem;
 
   }
 
-  .mobi .branding h1 {
+  .mobi  #featured-pane-branding{
   	font-size: 5rem;
   	color: #fff;
   }
