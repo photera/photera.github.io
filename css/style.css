@@ -1368,9 +1368,10 @@ font-size: 2rem;
   	width: 100%;
 }
 
-  .mobi #featured-pane-design h1 {
+  .mobi #featured-pane-design h3 {
   	font-size: 2rem;
   	color: #fff;
+    visibility: visible;
 }
 
   .mobi #featured-pane-design p {
@@ -1395,7 +1396,7 @@ font-size: 2rem;
 
 }
 
-  .mobi  #featured-pane-photography h1 {
+  .mobi  #featured-pane-photography h3 {
   	font-size: 2rem;
 }
 
@@ -1420,7 +1421,7 @@ font-size: 2rem;
 
 }
 
-  .mobi  #featured-pane-branding{
+  .mobi  #featured-pane-branding h3{
   	font-size: 2rem;
   	color: #fff;
 }
