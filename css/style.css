@@ -725,7 +725,7 @@ width: 100%;
   background-color: #2d3337;
   color: #fff;
   font-size: 4rem;
-  max-width: 800px;
+
 }
 
 
@@ -1316,7 +1316,7 @@ font-size: 6vw !important;
 }
 
 .mobi .tablet .intro-wrapper h2 {
-	font-size: 1rem;
+	font-size: 3rem;
 	letter-spacing: .28em;
 }
 
@@ -1348,7 +1348,7 @@ font-size: 2rem;
 }
 
 .mobi .recent-work {
-  height: 10vh;
+  height: 15vh;
   font-size: 2rem;
 }
 
