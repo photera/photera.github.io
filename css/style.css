@@ -896,7 +896,7 @@ Main Components
   .projects-container .cd-single-project {
     width: 33.33333vw;
     height: 100%;
-    opacity: 0;
+    opacity: 1;
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
