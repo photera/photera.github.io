@@ -192,7 +192,7 @@ Main Components
     content: 'img/img-1-large.jpg';
   }
   .projects-container .cd-single-project:first-of-type::after {
-    background-image: url("../img/img-1-large.jpg");
+    background-image: url("../img/C_Donoyan.png");
   }
   .projects-container .cd-single-project:nth-of-type(2) {
     top: 0;
