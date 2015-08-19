@@ -123,7 +123,7 @@ Main Components
   display: none;
 }
 .projects-container .cd-single-project:nth-of-type(2) {
-  top: 25vh;
+  top: 33.33333vh;
 }
 .projects-container .cd-single-project:nth-of-type(2)::after {
   background-image: url("../img/img-2-small.jpg");
@@ -132,10 +132,10 @@ Main Components
   content: 'img/img-2-small.jpg';
 }
 .projects-container .cd-single-project:nth-of-type(3) {
-  top: 50vh;
+  top: 66.6666vh;
 }
 .projects-container .cd-single-project:nth-of-type(3)::after {
-  background-image: url("../img/img-3-small.jpg");
+  background-image: url("https://img1.etsystatic.com/066/1/9525125/il_570xN.781006619_hprh.jpg");
 }
 .projects-container .cd-single-project:nth-of-type(3)::before {
   content: 'img/img-3-small.jpg';
@@ -176,7 +176,7 @@ Main Components
     content: 'desktop';
   }
   .projects-container .cd-single-project {
-    width: 25vw;
+    width: 33.33333vw;
     height: 100%;
     opacity: 0;
     -webkit-transform: translateX(0);
@@ -196,7 +196,7 @@ Main Components
   }
   .projects-container .cd-single-project:nth-of-type(2) {
     top: 0;
-    left: 25vw;
+    left: 33.33333vw;
   }
   .projects-container .cd-single-project:nth-of-type(2)::before {
     content: 'img/img-2-large.jpg';
@@ -206,7 +206,7 @@ Main Components
   }
   .projects-container .cd-single-project:nth-of-type(3) {
     top: 0;
-    left: 50vw;
+    left: 66.66666vw;
   }
   .projects-container .cd-single-project:nth-of-type(3)::before {
     content: 'img/img-3-large.jpg';
