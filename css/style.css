@@ -1098,7 +1098,7 @@ Main Components
   max-width: 800px;
   margin: 0 auto;
   line-height: 2;
-  font-size: 2.6rem;
+  font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -1117,6 +1117,7 @@ Main Components
   max-width: 800px;
   margin: 0 auto;
   line-height: 2;
+  font-size: 1.5rem;
 }
 @media only screen and (min-width: 1024px) {
   .cd-project-info {
