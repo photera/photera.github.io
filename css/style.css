@@ -1306,7 +1306,9 @@ Mobile - for Restive.JS
   font-size: 3em;
 }
 
-
+.mobi .tablet .cd-project-info p{
+  font-size: 2rem;
+}
 
 .mobi .tablet .intro-wrapper  {
 
@@ -1423,8 +1425,9 @@ font-size: 2rem;
       -webkit-align-items: center;
       align-items: center;
       text-align: center;
-
 }
+
+
 
   .mobi  #featured-pane-branding h3{
   	font-size: 3rem;
