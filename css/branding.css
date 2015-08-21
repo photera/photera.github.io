@@ -126,7 +126,7 @@ Main Components
   top: 33.33333vh;
 }
 .projects-container .cd-single-project:nth-of-type(2)::after {
-  background-image: url("../img/EyeCover.jpg");
+  background-image: url("../img/EyeCover-8.jpg");
 }
 .projects-container .cd-single-project:nth-of-type(2)::before {
   content: 'img/img-2-small.jpg';
@@ -199,10 +199,10 @@ Main Components
     left: 33.33333vw;
   }
   .projects-container .cd-single-project:nth-of-type(2)::before {
-    content: 'img/img-2-large.jpg';
+    content: '../img/EyeCover-8.jpg';
   }
   .projects-container .cd-single-project:nth-of-type(2)::after {
-    background-image: url("../img/eyecover.jpg");
+    background-image: url("../img/EyeCover-8.jpg");
   }
   .projects-container .cd-single-project:nth-of-type(3) {
     top: 0;
