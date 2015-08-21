@@ -910,7 +910,7 @@ Main Components
     content: 'img/img-1-large.jpg';
   }
   .projects-container .cd-single-project:first-of-type::after {
-    background-image: url("https://s3-us-west-1.amazonaws.com/realisticshots/109.jpg.");
+    background-image: url("https://s3-us-west-1.amazonaws.com/realisticshots/109.jpg");
   }
   .projects-container .cd-single-project:nth-of-type(2) {
     top: 0;
@@ -1101,7 +1101,7 @@ Main Components
   font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
-} 
+}
 
 .cd-project-info h5 {
   width: 90%;
