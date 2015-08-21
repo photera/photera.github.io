@@ -369,7 +369,7 @@ Main Components
   transition: opacity 0.4s 0s, visibility 0s 0.4s;
 }
 
-.cd-project-info img {
+.cd-project-info li img {
   margin: 0 auto;
   padding: 2% 2%;
   width: 80%;
