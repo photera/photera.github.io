@@ -1117,7 +1117,7 @@ Main Components
   max-width: 800px;
   margin: 0 auto;
   line-height: 2;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 @media only screen and (min-width: 1024px) {
   .cd-project-info {
