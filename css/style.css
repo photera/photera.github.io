@@ -1103,6 +1103,10 @@ div.cd-project-info img{
   padding: 40px 0 40px 0;
 }
 
+.project-background-container {
+  max-width: 960px;
+}
+
 .cd-project-info h4 {
   width: 90%;
   max-width: 960px;
