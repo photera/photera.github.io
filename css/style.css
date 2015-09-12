@@ -1096,6 +1096,7 @@ Main Components
 .project-background {
   background-color: #34495E;
   color: #fff;
+  padding: 40px 0 40px 0;
 }
 
 .cd-project-info h4 {
