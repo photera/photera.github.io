@@ -1093,6 +1093,10 @@ Main Components
   opacity: 1;
 }
 
+.project-background {
+  background-color: #34495E;
+}
+
 .cd-project-info h4 {
   width: 90%;
   max-width: 800px;
