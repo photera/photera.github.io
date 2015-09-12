@@ -1101,7 +1101,7 @@ Main Components
 
 .cd-project-info h4 {
   width: 90%;
-  max-width: 800px;
+  max-width: 960px;
   margin: 0 auto;
   line-height: 2;
   font-size: 2rem;
@@ -1111,7 +1111,7 @@ Main Components
 
 .cd-project-info h5 {
   width: 90%;
-  max-width: 800px;
+  max-width: 960px;
   margin: 0 auto;
   line-height: 2;
   font-weight: bold;
@@ -1120,7 +1120,7 @@ Main Components
 
 .cd-project-info p {
   width: 90%;
-  max-width: 800px;
+  max-width: 960px;
   margin: 0 auto;
   line-height: 2;
   font-size: 2rem;
