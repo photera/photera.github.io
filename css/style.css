@@ -1167,7 +1167,7 @@ div.cd-project-info img{
 
 .projects-container .cd-close {
   position: fixed;
-  top: 30px;
+  top: 32px;
   right: 5%;
   background: url("../img/cd-icon-close-mobile.svg") no-repeat center center;
   -webkit-transform: scale(0);
