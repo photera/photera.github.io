@@ -1108,6 +1108,7 @@ div.cd-project-info img{
 }
 .role {
   max-width: 1035px;
+  margin: 0 auto;
 }
 
 .project-background-container {
