@@ -730,17 +730,6 @@ width: 100%;
 
 
 
-
-
-
-
-/* -------------------------------- 
-
-MORE WORK
-
--------------------------------- */
-
-
 /* -------------------------------- 
 
 Main Components 
@@ -1111,6 +1100,13 @@ div.cd-project-info img{
 .role {
   max-width: 1035px;
   margin: 0 auto;
+}
+
+#ubani-mockup {
+  width: 60%;
+}
+#ubani-watch {
+  width: 120%;
 }
 
 .project-background-container {
