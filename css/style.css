@@ -1120,7 +1120,8 @@ div.cd-project-info img{
 }
 
 #ubani-mockup {
-  width: 60%;
+  width: 100%;
+  bottom: 80px;
 }
 
 #ubani-watch {
