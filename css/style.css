@@ -1100,7 +1100,18 @@ div.cd-project-info img{
 .project-background {
   background-color: #34495E;
   color: #fff;
-  padding: 40px 0 40px 0;
+  padding: 40px 0 ;
+}
+
+#project-background-2 {
+  background-color: #F5CBA7;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.project-background-container {
+  max-width: 1035px;
+  margin: 0 auto;
 }
 .role {
   max-width: 1035px;
@@ -1114,10 +1125,7 @@ div.cd-project-info img{
   width: 120%;
 }
 
-.project-background-container {
-  max-width: 1035px;
-  margin: 0 auto;
-}
+
 
 .cd-project-info h4 {
   width: 90%;
