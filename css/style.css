@@ -1131,6 +1131,12 @@ div.cd-project-info img{
   right: 52px;
 }
 
+#wireframe-comp {
+  width: 75%;
+  position: relative;
+}
+
+
   
 .cd-project-info h4 {
   width: 90%;
