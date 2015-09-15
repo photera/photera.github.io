@@ -1127,6 +1127,8 @@ div.cd-project-info img{
 #ubani-watch {
   width: 120%;
   margin: 0 auto;
+  position: relative;
+  right: 52px;
 }
 
   
