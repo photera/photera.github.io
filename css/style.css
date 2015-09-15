@@ -776,8 +776,7 @@ Main Components
 
 /*---Project Nav---*/
 
-
-
+/*---Mobile Stuff---*/
 .projects-container {
   height: 100vh;
   width: 100vw;
@@ -795,7 +794,7 @@ Main Components
   top: 0;
   left: 0;
   width: 100%;
-  height: 33.33333%;
+  height: 50vh;
   overflow: hidden;
   cursor: pointer;
   -webkit-transition: -webkit-transform 0.4s;
@@ -814,7 +813,7 @@ Main Components
   position: absolute;
   top: 0;
   left: 0;
-  height: 33.3333vh;
+  height: 50vh;
   width: 100%;
   background: url("http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));  
@@ -831,7 +830,7 @@ Main Components
   display: none;
 }
 .projects-container .cd-single-project:nth-of-type(2) {
-  top: 33.33333vh;
+  top: 50vh;
 }
 .projects-container .cd-single-project:nth-of-type(2)::after {
 
@@ -882,6 +881,8 @@ Main Components
 .projects-container .cd-single-project.is-full-width::after {
   height: 100vh;
 }
+
+/*---Desktop STuff---*/
 @media only screen and (min-width: 1024px) {
   .projects-container::before {
     /* never visible - this is used in jQuery to check the current MQ */
@@ -956,6 +957,44 @@ Main Components
     -moz-transition: width 0.4s 0s, z-index 0s 0s, left 0.4s 0s;
     transition: width 0.4s 0s, z-index 0s 0s, left 0.4s 0s;
   }
+  .project-background {
+  background-color: #34495E;
+  color: #fff;
+  padding: 40px 0 ;
+}
+
+.project-background-2 {
+  background-color: #F5CBA7;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.project-background-container {
+  max-width: 1035px;
+  margin: 0 auto;
+}
+
+.role {
+  max-width: 1035px;
+  margin: 0 auto;
+}
+
+#ubani-mockup {
+  width: 80%;
+  bottom: 80px;
+}
+
+#ubani-watch {
+  width: 120%;
+  margin: 0 auto;
+  position: relative;
+  right: 52px;
+}
+
+#wireframe-comp {
+  width: 130%;
+  position: relative;
+}
 }
 @media only screen and (min-width: 1170px) {
   .projects-container .cd-single-project::after {
@@ -1095,47 +1134,6 @@ div.cd-project-info img{
   visibility: visible;
   opacity: 1;
 }
-
-.project-background {
-  background-color: #34495E;
-  color: #fff;
-  padding: 40px 0 ;
-}
-
-.project-background-2 {
-  background-color: #F5CBA7;
-  color: #fff;
-  padding: 40px 0;
-}
-
-.project-background-container {
-  max-width: 1035px;
-  margin: 0 auto;
-}
-
-.role {
-  max-width: 1035px;
-  margin: 0 auto;
-}
-
-#ubani-mockup {
-  width: 80%;
-  bottom: 80px;
-}
-
-#ubani-watch {
-  width: 120%;
-  margin: 0 auto;
-  position: relative;
-  right: 52px;
-}
-
-#wireframe-comp {
-  width: 130%;
-  position: relative;
-}
-
-
   
 .cd-project-info h4 {
   width: 90%;
