@@ -979,6 +979,12 @@ Main Components
   margin: 0 auto;
 }
 
+.picolo-wireframe {
+  width: 100% ; 
+  margin: 0 auto; 
+  display: block; 
+}
+
 #ubani-mockup {
   width: 80%;
   bottom: 80px;
@@ -996,6 +1002,7 @@ Main Components
   position: relative;
 }
 }
+
 @media only screen and (min-width: 1170px) {
   .projects-container .cd-single-project::after {
     /*background-attachment: fixed;*/
