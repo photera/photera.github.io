@@ -994,6 +994,9 @@ Main Components
 #picolo-folio {
   width: 70%;
   margin: 0 auto;
+  display: block;
+  padding: 20px 0;
+
 }
 
 #ubani-mockup {
