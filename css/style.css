@@ -969,6 +969,12 @@ Main Components
   padding: 40px 0;
 }
 
+.project-background-3 {
+  background-color: #EA584F;
+  color: #fff;
+  padding: 40px 0;
+}
+
 .project-background-container {
   max-width: 1035px;
   margin: 0 auto;
