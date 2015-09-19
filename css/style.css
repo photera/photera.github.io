@@ -794,7 +794,7 @@ Main Components
   top: 0;
   left: 0;
   width: 100%;
-  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg) center center no-repeat;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url() center center no-repeat;
     -ms-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
