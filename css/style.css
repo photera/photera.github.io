@@ -905,7 +905,7 @@ Main Components
     content: 'img/img-1-large.jpg';
   }
   .projects-container .cd-single-project:first-of-type::after {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url("http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url("../img/Picolo-Mockup.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
