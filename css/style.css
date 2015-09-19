@@ -1151,6 +1151,8 @@ Main Components
 div.cd-project-info img{
   width: 50%;
   position: relative;
+  display: block;
+  padding: 15px 0;
 }
 
 .is-full-width .cd-project-info {
