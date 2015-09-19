@@ -1010,6 +1010,21 @@ Main Components
 
 }
 
+div.cd-project-info img{
+  width: 60%;
+  position: relative;
+  display: block;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+#ubani-analysis {
+  width: 100%;
+  position: relative;
+  display: block;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
 #ubani-mockup {
   width: 80%;
   top: 80px;
@@ -1022,6 +1037,7 @@ Main Components
   position: relative;
   right: 52px;
 }
+
 
 #wireframe-comp {
   width: 130%;
@@ -1155,12 +1171,7 @@ Main Components
 }
 
 
-div.cd-project-info img{
-  width: 60%;
-  position: relative;
-  display: block;
-  padding: 15px 0;
-}
+
 
 .is-full-width .cd-project-info {
   visibility: visible;
