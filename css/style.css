@@ -980,13 +980,13 @@ Main Components
 }
 
 .picolo-wireframe {
-  width: 50% ; 
+  width: 50%; 
   margin: 0 auto; 
   display: block; 
 }
 
 #picolo-folio {
-  width: 100%
+  width: 70%;
   margin: 0 auto;
 }
 
