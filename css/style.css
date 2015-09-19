@@ -902,7 +902,7 @@ Main Components
     transition: width 0s;
   }
   .projects-container .cd-single-project:first-of-type::before {
-    content: 'img/img-1-large.jpg';
+    content: '';
   }
   .projects-container .cd-single-project:first-of-type::after {
     background-image: url("http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg");
@@ -912,7 +912,7 @@ Main Components
     left: 50vw;
   }
   .projects-container .cd-single-project:nth-of-type(2)::before {
-    content: 'img/img-2-large.jpg';
+    content: '';
   }
   .projects-container .cd-single-project:nth-of-type(2)::after {
     background-image: url("http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg");
@@ -986,6 +986,11 @@ Main Components
 }
 
 .picolo-wireframe {
+  width: 50%; 
+  margin: 0 auto; 
+  display: block; 
+}
+.picolo-sketch {
   width: 50%; 
   margin: 0 auto; 
   display: block; 
