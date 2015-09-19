@@ -915,7 +915,7 @@ Main Components
     content: '';
   }
   .projects-container .cd-single-project:nth-of-type(2)::after {
-    background-image: url("http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg");
+    background-image: url("../img/ubanicover.jpg");
   }
   .projects-container .cd-single-project:nth-of-type(3) {
     top: 0;
