@@ -994,7 +994,9 @@ Main Components
 .picolo-wireframe {
   width: 50%; 
   margin: 0 auto; 
-  display: block; 
+  display: block;
+  background-size: cover;
+
 }
 .picolo-sketch {
   width: 50%; 
