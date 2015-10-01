@@ -1,0 +1,156 @@
+
+html, body {
+    font-family: "Open Sans", sans-serif !important;
+} 
+
+html {
+  font-size: 62.5%;
+}
+
+.red-bg{
+	background-color: rgba(231,88,84,1);
+}
+
+.color-block {
+	background-color: rgba(231,88,84,1);	
+	color: white;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	webkit-flex-direction: column; /* Safari */
+	flex-direction: column;
+	line-height: 1.8;
+	font-weight: 300;
+}
+
+.color-block h1 {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 42px;
+	font-family: 	
+}
+
+.color-block p {
+	color:  rgb(31, 31, 37);
+	font-size: 2rem;
+}
+
+.btn-blue {
+  background: #212F3D;
+  color: #fff;
+  border: none;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; /* !important tags aren't necessarily always bad */
+  border-radius: 0!important;
+  width: 200px;
+}
+.btn-blue:hover, .btn-blue:focus {
+  background: #34495E;
+  color: #fff !important;
+}
+.btn-blue:active {
+  background: rgb(247, 255, 71);
+  color: #fff;
+}
+
+.red-bg img {
+	width: 125% !important;
+	background-size: cover;
+}
+
+.mockup {
+	height: 80vh;	
+}
+
+.mockup img {
+	
+}
+
+.mockup-text {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  webkit-flex-direction: column; /* Safari */
+  flex-direction: column;
+  line-height: 1.8;
+  font-weight: 300;
+  font-size: 18px;
+
+}
+
+.mockup-text h3 {
+	font-weight: 500;
+}
+
+.mockup-text h6{
+	color: #bbb;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+	margin: -10px 0;
+}
+ 
+.white {
+	margin: 97px 0;
+}
+
+.bbu {
+	background-color: #262F36;
+
+}
+
+.bullit {
+	text-align: center;
+	height: 60vh;
+	color: #fff;
+	 isplay: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.bullit  h4 {
+	font-size: 24px;
+	padding: 15px 0;
+}
+.bullit p {
+	font-size: 17px;
+	padding: 10px 0;
+	line-height: 1.8;
+	font-weight: 300;
+}
+
+.signup {
+	background-color: #1F1F24;
+}
+
+.form {
+	color: white;
+	background-color: #1F1F24;
+	height: 45vh;
+}
+
+#form-pic {
+text-align: center;
+  height: 45vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.2), 
+      rgba(0, 0, 0, 0.2)
+    ), url(https://s3.amazonaws.com/media.launchrockstaging.com/assets/sites/site-8s9ycfycg69yfv4bqc4ga6tqp/gzpjtq-bottom-image.jpg)  center center no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  display:-webkit-flex;
+  justify-content: center;
+  align-items: center;
+  background-position: 50% 20%;
+}
+
+.new-footer {
+	height: 40vh;
+	background-color: #262F36;
+}
