@@ -3,6 +3,8 @@ html, body {
     font-family: "Open Sans", sans-serif !important;
 } 
 
+html, body { overflow-x: hidden; }
+
 html {
   font-size: 62.5%;
 }
