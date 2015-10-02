@@ -143,6 +143,7 @@ html {
 	display: flex;
   	justify-content: center;
   	align-items: center;
+  	text-align: center;
 }
 
 .signup {
@@ -151,7 +152,6 @@ html {
 
 .form {
 	color: white;
-	background-color: #1F1F24;
 	height: 45vh;
 }
 
