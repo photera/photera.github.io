@@ -56,9 +56,25 @@ html {
   color: #fff;
 }
 
-.red-bg img {
-	width: 125% !important;
-	background-size: cover;
+.pic-block {
+	  text-align: center;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.2), 
+      rgba(0, 0, 0, 0.2)
+    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg)  center center no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  display:-webkit-flex;
+  justify-content: center;
+  align-items: center;
+  background-position: 50% 20%;
+}
 }
 
 .mockup {
