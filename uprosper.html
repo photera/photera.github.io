@@ -26,7 +26,23 @@
 <script src="owl-carousel/owl.carousel.js">
 		$(document).ready(function() {
  
-  $("#owl-group").owlCarousel();
+  $("#owl-demo").owlCarousel();
+ 
+});
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+ 
+      autoPlay: 3000, //Set AutoPlay to 3 seconds
+ 
+      items : 4,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+ 
+  });
  
 });
 </script>
@@ -167,7 +183,7 @@
 	</div>
 </div>
 <!--Screenshots-->
-<div id="owl-group" class="owl-carousel">
+<div id="owl-demo" class="owl-carousel">
 	<div class="item"><img src="assets/owl1.jpg" alt="Owl Image"></div>
 	<div class="item"><img src="assets/owl2.jpg" alt="Owl Image"></div>
 	<div class="item"><img src="assets/owl3.jpg" alt="Owl Image"></div>
