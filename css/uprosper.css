@@ -116,12 +116,13 @@ html {
 .bbu {
 	background-color: #262F36;
 	margin-top: 88px;
+	color: #fff;
 }
 
 .bullit {
 	text-align: center;
 	height: 60vh;
-	color: #fff;
+	
 	display: flex;
   	justify-content: center;
   	align-items: center;
