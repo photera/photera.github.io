@@ -131,6 +131,7 @@ html {
 .bbu  h4 {
 	font-size: 24px;
 	padding: 15px 0;
+	margin: 20px 0;
 	display: flex;
   	justify-content: center;
   	align-items: center;
