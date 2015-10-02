@@ -57,7 +57,6 @@ html {
 }
 
 .pic-block {
-	  text-align: center;
   height: 80vh;
   background: linear-gradient(
       rgba(0, 0, 0, 0.2), 
@@ -73,7 +72,6 @@ html {
   display:-webkit-flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .mockup {
@@ -111,13 +109,13 @@ html {
 }
  
 .white {
-	margin: 50px 0;
-    padding: 68px 0;
+	margin: 30px 0;
+    padding: 30px 0;
 }
 
 .bbu {
 	background-color: #262F36;
-
+	margin-top: 121px;
 }
 
 .bullit {
