@@ -12,8 +12,8 @@ html {
 /* NAv Bar*/
 
 .navbar, .dropdown-menu {
-background:rgba(255,255,255,0.25);
-border-bottom: #C4E17F 3px solid;
+	background:rgba(255,255,255,0.25);
+    border-bottom: #C4E17F 3px solid;
 }
 
 .nav>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .dropdown-menu>li>a, .dropdown-menu>li{
@@ -56,7 +56,10 @@ border-bottom: #C4E17F 3px solid;
   border-bottom: #62C2E4 3px solid;
 }
 
-
+.custom-nav {
+	border-bottom: #C4E17F 3px solid;
+	background-color: #fff;
+}
 
 
 
