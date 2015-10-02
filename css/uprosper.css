@@ -248,10 +248,8 @@ text-align: center;
   background-position: 50% 20%;
 }
 
-.new-footer {
-	height: 40vh;
-	background-color: #262F36;
-	color: #fff;
+#demo h3 {
+  text-align: center;
 }
 
 #owl-demo .item{
@@ -366,4 +364,13 @@ text-align: center;
 
 .owl-pagination .owl-page { display: table-cell; }
 
+}
+
+.new-footer {
+  height: 40vh;
+  background-color: #262F36;
+  color: #fff;
+}
+.new-footer h3 {
+  text-align: center;
 }
