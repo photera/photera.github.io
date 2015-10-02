@@ -23,7 +23,26 @@
 	</head>
 	<body>
 		<!--Nav Bar-->
-
+			<script type="text/javascript">
+				(function ($) {
+			$(document).ready(function(){
+			
+				// hide .navbar first
+				$(".navbar").hide();
+				
+				// fade in .navbar
+				$(function () {
+					$(window).scroll(function () {
+			// set distance user needs to scroll before we fadeIn navbar
+						if ($(this).scrollTop() > 400) {
+							$('.navbar').fadeIn();
+						} else {
+							$('.navbar').fadeOut();
+						}
+					});
+				});
+			});
+			</script>
 
 		<nav class="navbar navbar navbar-fixed-top">
 			<div class="container-fluid custom-nav">
