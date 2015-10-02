@@ -25,7 +25,7 @@ border: none;
   background: none;
 }
 .navbar a, .dropdown-menu>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
- color: #fff;
+ color: #444;
 }
 .dropdown-menu{
       -webkit-box-shadow: none;
