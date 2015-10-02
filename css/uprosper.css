@@ -11,10 +11,9 @@ html {
 
 /* NAv Bar*/
 
-.navbar, .dropdown-menu{
+.navbar, .dropdown-menu {
 background:rgba(255,255,255,0.25);
-border: none;
-
+border-bottom: #C4E17F 3px solid;
 }
 
 .nav>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .dropdown-menu>li>a, .dropdown-menu>li{
