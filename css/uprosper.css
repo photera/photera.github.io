@@ -16,6 +16,10 @@ html {
     border-bottom: #C4E17F 3px solid;
 }
 
+#bootstrap-overrides .nav>li>a {
+  padding: 10px 35px;
+}
+
 .nav>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .dropdown-menu>li>a, .dropdown-menu>li{
   border-bottom: 3px solid transparent;
 }
@@ -131,6 +135,13 @@ section {
   justify-content: center;
   align-items: center;
 }
+
+
+.intro h2 {
+  font-size: 50px;
+  text-align: center;
+}
+
 
 .mockup {
 	height: 80vh;	
