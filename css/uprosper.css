@@ -141,6 +141,11 @@ section {
   font-size: 50px;
   text-align: center;
 }
+.intro p {
+  line-height: 1.8;
+  font-weight: 300;
+  font-size: 18px;
+}
 
 
 .mockup {
