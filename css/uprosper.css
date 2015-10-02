@@ -66,6 +66,7 @@ section {
 
 }
 
+
 .red-bg{
 	background-color: rgba(231,88,84,1);
 }
@@ -243,7 +244,7 @@ text-align: center;
 }
 
 #owl-demo .item{
-        margin: 3px;
+        margin: 30px;
     }
  #owl-demo .item img{
         display: block;
