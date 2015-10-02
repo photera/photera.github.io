@@ -20,10 +20,16 @@
 
  
 <!--  jQuery 1.7+  -->
-<script src="jquery-1.9.1.min.js"></script>
+
  
 <!-- Include js plugin -->
-<script src="owl-carousel/owl.carousel.js"></script>
+<script src="owl-carousel/owl.carousel.js">
+		$(document).ready(function() {
+ 
+  $("#owl-example").owlCarousel();
+ 
+});
+</script>
 
 
 <!-- Optional theme -->
@@ -35,13 +41,7 @@
 </head>
 <body>
 
-<script type="text/javascript">
-	$(document).ready(function() {
- 
-  $("#owl-example").owlCarousel();
- 
-});
-</script>
+
 
 
 <!--Nav Bar-->
@@ -96,7 +96,7 @@
 </nav>
 
 
-
+<!--Intro-->
 
 
 <div class="red-bg">
