@@ -61,7 +61,10 @@ html {
 	background-color: #fff;
 }
 
-
+section {
+  padding: 120px 0;
+  background-color: #fff;
+}
 
 .red-bg{
 	background-color: rgba(231,88,84,1);
