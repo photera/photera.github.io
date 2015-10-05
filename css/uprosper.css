@@ -371,6 +371,12 @@ text-align: center;
 
 }
 
+
+#mc_embed_signup {
+  background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; 
+}
+
+
 .new-footer {
   height: 40vh;
   background-color: #262F36;
