@@ -16,15 +16,14 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<script src="js/smooth-scroll.js"></script> <!--Smooth Scroll-->
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		    <!-- Owl Carousel Assets -->
 	    <link href="css/owl.carousel.css" rel="stylesheet">
 	    <link href="css/owl.theme.css" rel="stylesheet">
 	    <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-</style>
+
 	</head>
 	<body id="bootstrap-overrides">
 	 <script src="js/wow.js"></script>
@@ -70,10 +69,10 @@
 						
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="#">Features</a></li>
-						<li><a href="#">Screenshots</a></li>
-						<li><a href="#">Team</a></li>
-						<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+						<li class="active"><a data-scroll href="#features">Features</a></li>
+						<li><a data-scroll href="#screenshots">Screenshots</a></li>
+						<li><a data-scroll href="#team">Team</a></li>
+						<li><a data-scroll href="#signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
 					</ul>
 				</div>
 			</div>
@@ -85,8 +84,8 @@
 					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 color-block">
 						<h1>U Prosper</h1>
 						<p>We simplify the college application process</p>
-						<a href="#" class="btn btn-lg btn-blue">Sign Up</a>
-						<a href="#" class="btn btn-lg btn-blue"> Features</a>
+						<a data-scroll href="#signup" class="btn btn-lg btn-blue">Sign Up</a>
+						<a data-scroll href="#features" class="btn btn-lg btn-blue"> Features</a>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pic-block">
 					</div>
@@ -139,7 +138,7 @@
 		</div>
 		<!--Feature Overview-->
 
-		<div class="bbu">
+		<div class="bbu" id="features">
 			<div class="container">
 				<div class="row ">
 					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeInLeft">
@@ -166,7 +165,7 @@
 	});
 	</script>	
 	<section>
-		<div id="demo">
+		<div id="screenshots">
         <div class="container">
           <div class="row">
           	<h3 class=" wow fadeInDown">Screenshots</h3>
@@ -188,7 +187,7 @@
 		<!--Form-->
 
 		<!-- Begin MailChimp Signup Form -->
-
+<div id="">
 <div id="mc_embed_signup">
 <form action="//uprosper.us11.list-manage.com/subscribe/post?u=01da4d4544d31a4d49e6833b1&amp;id=d3f5b8d1a7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
@@ -207,6 +206,7 @@
     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
 </form>
+</div>
 </div>
 
 <!--End mc_embed_signup-->
@@ -275,5 +275,8 @@
 				<!-- Include all compiled plugins (below), or include individual files as needed -->
 				<script src="js/plugins/bootstrap.min.js"></script>
 				<script src="js/plugins/owl.carousel.min.js"></script>
+				<script>
+					    smoothScroll.init();
+				</script>
 				<script src="js/owl-custom.js"></script>
 			</body>
