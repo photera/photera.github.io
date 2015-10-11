@@ -74,7 +74,7 @@
 
 .activities {
 	padding: 40px 0;
-	margin: 20px 0;
+
 	height: 40vh;
 	background: url(https://d1381b08g0rms1.cloudfront.net/assets/parent-review-bg-1920x987-3b9a60c6815d47aa3439304f3681e2525184ab4e8a494171e0d9efd9fc778a41.jpg);
 	background-position: center top;
@@ -87,6 +87,7 @@
 	display: block;
 	margin: 0 auto;
 	text-align: center;
+	padding: 40px 0;
 }
 
 .white-bg img {
