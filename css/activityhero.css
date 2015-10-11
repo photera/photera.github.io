@@ -49,6 +49,7 @@
 }
 
 .features img {
+	display: block;
 	margin: 0 auto;
 }
 
@@ -65,13 +66,16 @@
 .white-bg {
 	border-radius: 6px;
 	background-color: #fff;
+	display: block;
 	margin: 0 auto;
 }
 
 .white-bg h4 {
-	margin: 0 auto
+	display: block;
+	margin: 0 auto;
 }
 
 .white-bg p {
-	margin: 0 auto
+	display: block;
+	margin: 0 auto;
 }
