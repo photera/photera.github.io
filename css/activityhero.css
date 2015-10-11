@@ -53,6 +53,10 @@
 	margin: 0 auto;
 }
 
+.features h4 {
+	text-align: center;
+}
+
 .blue-bg {
 	background-color: #E0F6FB;
 }
@@ -74,9 +78,15 @@
 .white-bg h4 {
 	display: block;
 	margin: 0 auto;
+	padding: 30px 0;
 }
 
 .white-bg p {
 	display: block;
 	margin: 0 auto;
+	padding: 15px 0;
+}
+
+.get-started {
+	background-color: 
 }
