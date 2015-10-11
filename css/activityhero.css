@@ -26,6 +26,14 @@ html, body { overflow-x: hidden; }
     box-shadow: none;
 }
 
+.btn-custom {
+
+}
+
+.btn-custom-2 {
+
+}
+
 .cover {
   height: 80vh;
   background: linear-gradient(
