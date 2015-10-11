@@ -1,0 +1,25 @@
+.cover {
+  height: 80vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.2), 
+      rgba(0, 0, 0, 0.2)
+    ), url(http://content.finda.photo/lifeofpix/harvard.jpg)  center center no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  display:-webkit-flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cover h1 {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 72px;
+
+}
