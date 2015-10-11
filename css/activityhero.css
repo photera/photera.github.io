@@ -69,6 +69,12 @@
 	height: 40vh;
 }
 
+.activities {
+	padding: 40px 0;
+	margin: 20px 0;
+	height: 40vh;
+}
+
 .white-bg {
 	border-radius: 6px;
 	background-color: #fff;
@@ -97,4 +103,9 @@
 .get-started h4 {
 	text-align: center;
 
+}
+
+.footer {
+	height: 30vh;
+	
 }
