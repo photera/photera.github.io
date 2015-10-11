@@ -21,5 +21,11 @@
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 72px;
-
+	display: flex;
+	justify-content: center;
+	webkit-flex-direction: column; /* Safari */
+	flex-direction: column;
+	line-height: 1.8;
+	font-weight: 300;
+	font-size: 18px;
 }
