@@ -48,7 +48,9 @@
     background-size: cover;
 }
 
+#get-started-cta {
 
+}
 
 .features img {
 	display: block;
@@ -61,18 +63,22 @@
 
 .blue-bg {
 	background-color: #E0F6FB;
+	height: 60vh
 }
 
 .testimonials {
 	padding: 40px 0;
 	margin: 20px 0;
-	height: 40vh;
+	height: 50vhvh;
 }
 
 .activities {
 	padding: 40px 0;
 	margin: 20px 0;
 	height: 40vh;
+	background: url(https://d1381b08g0rms1.cloudfront.net/assets/parent-review-bg-1920x987-3b9a60c6815d47aa3439304f3681e2525184ab4e8a494171e0d9efd9fc778a41.jpg);
+	background-position: center top;
+	background-size: cover;
 }
 
 .white-bg {
