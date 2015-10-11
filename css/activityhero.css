@@ -83,6 +83,10 @@
 	text-align: center;
 }
 
+.white-bg img {
+	width: 120px;
+}
+
 .white-bg h4 {
 	display: block;
 	margin: 0 auto;
@@ -107,5 +111,5 @@
 
 .footer {
 	height: 30vh;
-	
+
 }
