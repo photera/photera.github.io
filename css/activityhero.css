@@ -45,10 +45,10 @@
 .features {
 	padding: 20px 0;
 	display: block;
-    background-size: cover
+    background-size: cover;
 }
 
-.feature
+
 
 .features img {
 	display: block;
@@ -91,4 +91,9 @@
 
 .get-started {
 	background-color: 
+
+}
+
+.get-started h4 {
+
 }
