@@ -1,3 +1,5 @@
+html, body { overflow-x: hidden; }
+
 .cover {
   height: 80vh;
   background: linear-gradient(
@@ -75,7 +77,7 @@
 .activities {
 	padding: 40px 0;
 
-	height: 40vh;
+	height: 60vh;
 	background: url(https://d1381b08g0rms1.cloudfront.net/assets/parent-review-bg-1920x987-3b9a60c6815d47aa3439304f3681e2525184ab4e8a494171e0d9efd9fc778a41.jpg);
 	background-position: center top;
 	background-size: cover;
