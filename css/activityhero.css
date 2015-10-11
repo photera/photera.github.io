@@ -53,11 +53,15 @@
 }
 
 .blue-bg {
-	background-color: #E0F6FB
+	background-color: #E0F6FB;
 }
 
 .testimonials {
 	padding: 40px 0;
 	margin: 20px 0;
 	height: 60vh;
+}
+
+.testimonails-container {
+
 }
