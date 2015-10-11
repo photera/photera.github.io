@@ -9,6 +9,7 @@
     <!--Styles-->
     <link rel="stylesheet" href="css/activityhero.css">
 	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/simple-sidebar.css">
 
 
     
@@ -18,8 +19,10 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,30 +46,37 @@
 			</div>
 		</div>
 	</div>
-<!--Form-->
-<script src="js/plugins/jquery.sidebar.min.js"></script>
-
-<a href="#" class="btn btn-primary" data-action="toggle" data-side="right"><span>Get Started </span></a>
-<div class="sidebars">
-	<div class="sidebar left">Hello World</div>
-	<div class="sidebar right">I am on right!</div>
-	<div class="sidebar top">I am on top!</div>
-	<div class="sidebar bottom">I am on bottom!</div>
-</div>
-<script>
-    // Sidebar on left (default)
-    $(".sidebar.left").sidebar().trigger("sidebar:open");
-
-    // Sidebar on right side
-    $(".sidebar.right").sidebar({side: "right"});
-
-    // Sidebar on top side
-    $(".sidebar.top").sidebar({side: "top"});
-
-    // Sidebar on bottom side
-    $(".sidebar.bottom").sidebar({side: "bottom"});
-</script>
-
+<!-- Form -->
+        <div id="sidebar-wrapper">
+            <d class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Start Bootstrap
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Dashboard</a>
+                </li>
+                <li>
+                    <a href="#">Shortcuts</a>
+                </li>
+                <li>
+                    <a href="#">Overview</a>
+                </li>
+                <li>
+                    <a href="#">Events</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
 <!--Features-->	
 	<div class="container features">
 		<div class="row features">
@@ -152,7 +162,15 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- Form Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
   </body>
 </html>
 
