@@ -63,7 +63,15 @@
 }
 
 .white-bg {
-	border-radius: 2px;
+	border-radius: 6px;
 	background-color: #fff;
 	margin: 0 auto;
+}
+
+.white-bg h4 {
+	margin: 0 auto
+}
+
+.white-bg p {
+	margin: 0 auto
 }
