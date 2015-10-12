@@ -41,7 +41,7 @@ html, body {
   margin: 0 auto;
   padding: 13px;
   text-align: center;
-  font-size: 32px; 
+  font-size: 28px; 
 }
 .btn-blue:hover, .btn-blue:focus {
   background: #34495E;
