@@ -74,7 +74,7 @@ html, body {
 	align-items: center;
 	line-height: 1.8;
 	font-weight: 300;
-	font-size: 32px;
+	font-size: 54px;
 }
 
 .hr {
@@ -109,6 +109,7 @@ html, body {
 .features h4 {
 	text-align: center;
 	font-size: 45px;
+	font-weight: 800;
 }
 
 .features h6 {
