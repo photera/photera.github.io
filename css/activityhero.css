@@ -65,6 +65,7 @@ html, body {
   	align-items: center;
 	line-height: 1.8;
 	font-weight: 300;
+	text-align: center;
 }
 
 .cover h2 {
@@ -123,6 +124,7 @@ html, body {
 
 .features p {
 	font-size: 25px;
+	text-align: center;
 }
 
 .blue-bg {
@@ -188,6 +190,7 @@ footer {
     color: #acacac;
     padding-bottom: 30px;
     padding-top: 20px;
-    position: absolute;
+    position: relative;
     bottom: 0;
+    width: 100%;
 }
