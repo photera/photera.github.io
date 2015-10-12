@@ -82,6 +82,11 @@ html, body {
 	font-size: 18px;
 }
 
+.typeform-share.button {
+	background-color: #000;
+	color: #fff;
+}
+
 .features {
 	padding: 20px 0;
 	display: block;
@@ -98,6 +103,7 @@ html, body {
 .features img {
 	display: block;
 	margin: 0 auto;
+	width: 
 }
 
 .features h4 {
