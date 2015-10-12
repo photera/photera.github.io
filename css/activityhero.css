@@ -31,6 +31,8 @@ html, body {
 }
 #cta {
 	color: #F79321 !important;
+	font-size: 28px;
+	text-transform: uppercase;
 }
 
 .cover {
