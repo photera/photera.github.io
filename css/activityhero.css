@@ -189,7 +189,7 @@ html, body {
 
 .blue-bg {
 	background-color: #E0F6FB;
-	height: 70vh;
+
 }
 
 .testimonials {
@@ -222,7 +222,7 @@ html, body {
 	border-radius: 6px;
 	background-color: #fff;
 	display: block;
-	margin: 0 auto;
+	margin: 20px auto;
 	text-align: center;
 	padding: 30px 0;
 }
