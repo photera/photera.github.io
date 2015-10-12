@@ -102,6 +102,7 @@ html, body {
 
 .features h4 {
 	text-align: center;
+	font-size: 45px;
 }
 
 .features h6 {
@@ -110,6 +111,10 @@ html, body {
 	text-transform: uppercase;
 	letter-spacing: .15em;
 	margin: -10px 0;
+}
+
+.features p {
+	font-size: 30px
 }
 
 .blue-bg {
@@ -148,7 +153,7 @@ html, body {
 .white-bg h4 {
 	display: block;
 	margin: 0 auto;
-	padding: 30px 0;
+	padding: 30px 0; 
 }
 
 .white-bg p {
