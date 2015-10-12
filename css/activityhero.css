@@ -168,6 +168,7 @@ html, body {
 }
 
 .features h4 {
+	margin-top: 50px;
 	text-align: center;
 	font-size: 45px;
 	font-weight: 800;
