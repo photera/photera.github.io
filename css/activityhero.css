@@ -188,4 +188,6 @@ footer {
     color: #acacac;
     padding-bottom: 30px;
     padding-top: 20px;
+    position: absolute;
+    bottom: 0;
 }
