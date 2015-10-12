@@ -173,6 +173,13 @@ html, body {
 	color: #fff;
 }
 
+.activities h4 {
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
+	font-weight:300;
+}
+
 #owl-demo .item{
         margin: 15px;
     }
