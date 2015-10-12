@@ -97,7 +97,11 @@ html, body {
 .features img {
 	display: block;
 	margin: 0 auto;
-	width: 
+
+}
+
+#shield {
+	width: 50%;
 }
 
 .features h4 {
@@ -114,7 +118,7 @@ html, body {
 }
 
 .features p {
-	font-size: 30px
+	font-size: 25px;
 }
 
 .blue-bg {
@@ -130,7 +134,6 @@ html, body {
 
 .activities {
 	padding: 40px 0;
-
 	height: 60vh;
 	background: url(https://d1381b08g0rms1.cloudfront.net/assets/parent-review-bg-1920x987-3b9a60c6815d47aa3439304f3681e2525184ab4e8a494171e0d9efd9fc778a41.jpg);
 	background-position: center top;
