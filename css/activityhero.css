@@ -11,6 +11,7 @@ html, body {
 
 #bootstrap-overrides .nav>li>a {
   padding: 15px 35px;
+  margin-right: 12px;
 }
 
 #bootstrap-overrides .nav>li>a:focus, .nav>li>a:hover {
@@ -67,7 +68,7 @@ html, body {
   -webkit-box-shadow: none !important;
   box-shadow: none !important; /* !important tags aren't necessarily always bad */
   border-radius: 10px!important;
-  width: 200px;
+  width: 134px;
   display: block;
   margin: 0 auto;
   padding: 13px;
