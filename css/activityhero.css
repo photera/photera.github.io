@@ -18,6 +18,7 @@ html, body {
   padding: 13px;
   text-align: center;
   
+  font-size: 32px; 
 }
 .btn-blue:hover, .btn-blue:focus {
   background: #34495E;
