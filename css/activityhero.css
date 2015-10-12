@@ -11,7 +11,7 @@ html, body {
   -moz-box-shadow: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important; /* !important tags aren't necessarily always bad */
-  border-radius: 0!important;
+  border-radius: 10px!important;
   width: 200px;
   display: block;
   margin: 0 auto;
