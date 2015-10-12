@@ -138,7 +138,7 @@ html, body {
 	display: block;
 	margin: 0 auto;
 	text-align: center;
-	padding: 40px 0;
+	padding: 30px 0;
 }
 
 .white-bg img {
@@ -154,7 +154,8 @@ html, body {
 .white-bg p {
 	display: block;
 	margin: 0 auto;
-	padding: 15px 0;
+	padding: 15px 15px;
+	font-size: 32px;
 }
 
 .get-started {
