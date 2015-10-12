@@ -86,7 +86,7 @@ html, body {
 }
 
 .features {
-	padding: 20px 0;
+	padding: 50px 0;
 	display: block;
     background-size: cover;
     line-height: 1.8;
@@ -127,7 +127,7 @@ html, body {
 
 .blue-bg {
 	background-color: #E0F6FB;
-	height: 75vh;
+	height: 65vh;
 }
 
 .testimonials {
