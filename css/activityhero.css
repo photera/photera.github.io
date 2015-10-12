@@ -99,7 +99,7 @@ html, body {
 .cover h1 {
 	text-transform: uppercase;
 	color: #fff;
-	font-size: 72px;
+	font-size: 64px;
 	display: flex;
 	justify-content: center;
 	webkit-flex-direction: column; /* Safari */
@@ -120,6 +120,7 @@ html, body {
 	line-height: 1.05;
 	font-weight: 300;
 	font-size: 54px;
+	text-align: center;
 }
 
 .cover p {
