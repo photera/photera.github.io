@@ -4,6 +4,11 @@ html, body {
     font-family: "Open Sans", sans-serif !important;
 } 
 
+.navbar, .dropdown-menu {
+	background:rgba(255,255,255,0.25);
+    border-bottom: #C4E17F 3px solid;
+}
+
 .btn-blue {
   background: #197DC2;
   color: #fff;
