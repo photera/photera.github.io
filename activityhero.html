@@ -46,7 +46,52 @@
 		 		<a class="btn-blue typeform-share link" href="https://antonio58.typeform.com/to/d8sS7P" data-mode="2" target="_blank">Get Started - Free!</a>
 				<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()
 				</script>
+<!--Nav Bar-->
+					<script type="text/javascript">
+			(function ($) {
+		$(document).ready(function(){
+		
+			// hide .navbar first
+			$(".navbar").hide();
+			
+			// fade in .navbar
+			$(function () {
+				$(window).scroll(function () {
+		// set distance user needs to scroll before we fadeIn navbar
+					if ($(this).scrollTop() > 400) {
+						$('.navbar').fadeIn();
+					} else {
+						$('.navbar').fadeOut();
+					}
+				});
+			});
+		});
+		}(jQuery));
+			</script>
 
+		<nav class="navbar navbar navbar-fixed-top">
+			<div class="container-fluid custom-nav">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">U Prosper</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a data-scroll href="#features">Features</a></li>
+						<li><a data-scroll href="#screenshots">Screenshots</a></li>
+						<li><a data-scroll href="#team">Team</a></li>
+						<li><a data-scroll href="#signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 	    		 
 
 
