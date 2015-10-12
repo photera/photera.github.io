@@ -11,7 +11,7 @@ html, body {
 
 #bootstrap-overrides .nav>li>a {
   padding: 15px 35px;
-  margin-right: 12px;
+  margin: 10px 12px 10px 0;
 }
 
 #bootstrap-overrides .nav>li>a:focus, .nav>li>a:hover {
