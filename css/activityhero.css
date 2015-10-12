@@ -163,6 +163,10 @@ html, body {
 	width: 50%;
 }
 
+#pass {
+	width: 65%;
+}
+
 .features h4 {
 	text-align: center;
 	font-size: 45px;
