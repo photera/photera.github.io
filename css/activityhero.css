@@ -43,7 +43,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.2), 
       rgba(0, 0, 0, 0.2)
-    ), url(img/activitygirl.jpg)  center center no-repeat;
+    ), url(../img/activitygirl.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -102,6 +102,14 @@ html, body {
 
 .features h4 {
 	text-align: center;
+}
+
+.features h6 {
+	color: #bbb;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+	margin: -10px 0;
 }
 
 .blue-bg {
