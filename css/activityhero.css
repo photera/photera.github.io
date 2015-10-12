@@ -29,11 +29,7 @@ html, body {
 .btn-blue a {
 	color: #fff;
 }
-#cta {
-	color: #F79321 !important;
-	font-size: 28px;
-	text-transform: uppercase;
-}
+
 
 .cover {
   height: 80vh;
