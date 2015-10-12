@@ -27,6 +27,9 @@ html, body {
   background: rgb(247, 255, 71);
   color: #fff;
 }
+.btn-blue a {
+	color: #fff;
+}
 #cta {
 	color: #fff !important;
 }
