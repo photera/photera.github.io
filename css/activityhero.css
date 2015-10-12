@@ -15,6 +15,7 @@ html, body {
   width: 200px;
   display: block;
   margin: 0 auto;
+  padding: 13px;
   
 }
 .btn-blue:hover, .btn-blue:focus {
@@ -29,7 +30,7 @@ html, body {
 	color: #fff;
 }
 #cta {
-	color: #fff !important;
+	color: #F79321 !important;
 }
 
 .cover {
