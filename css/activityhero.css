@@ -294,6 +294,7 @@ html, body {
 
 .get-started {
 	padding: 20px;
+	height: 40vh;
 
 }
 
@@ -301,7 +302,7 @@ html, body {
 	text-align: center;
 	font-size: 40px;
 	padding: 30px 0;
-	padding-bottom: 50px;
+
 }
 
 footer {
