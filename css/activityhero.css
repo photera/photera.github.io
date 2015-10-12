@@ -13,6 +13,10 @@ html, body {
   padding: 15px 35px;
 }
 
+#bootstrap-overrides .nav>li>a:focus, .nav>li>a:hover {
+	opacity: .9;
+}
+
 .nav>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .dropdown-menu>li>a, .dropdown-menu>li{
   border-bottom: 3px solid transparent;
 }
@@ -53,6 +57,22 @@ html, body {
 }
 .btn-blue a {
 	color: #fff;
+}
+
+.btn-blue-2 {
+	background: #197DC2;
+  color: #fff !important;
+  border: none;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; /* !important tags aren't necessarily always bad */
+  border-radius: 10px!important;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  padding: 13px;
+  text-align: center;
+  font-size: 15px; 
 }
 
 
