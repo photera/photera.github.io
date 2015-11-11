@@ -407,7 +407,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.2), 
       rgba(0, 0, 0, 0.2)
-    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Alive-2.jpg)  center center no-repeat;
+    ), url('http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Alive-2.jpg')  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -787,6 +787,8 @@ Main Components
   content: 'mobile';
   display: none;
 }
+
+
 .projects-container .cd-single-project {
   position: absolute;
   top: 0;
@@ -837,9 +839,14 @@ Main Components
 .projects-container .cd-single-project:nth-of-type(2)::after {
 
 }
-.projects-container .cd-single-project:nth-of-type(2)::before {
-  content: 'img/img-2-small.jpg';
+
+.projects-container .cd-single-project:nth-of-type(2)::after {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url("../img/ubanicover.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 .projects-container .cd-single-project:nth-of-type(3) {
   top: 66.6666vh;
 }
