@@ -455,13 +455,13 @@ html, body {
   visibility:visible;
 }
 
-#featured-pane-branding {
+#featured-pane-vr {
     text-align: center;
   height: 50vh;
   background: linear-gradient(
       rgba(0, 0, 0, 0.2), 
       rgba(0, 0, 0, 0.2)
-    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/C_Donoyan_web.jpg)  center center no-repeat;
+    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/Background_Images/vr-background.png)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -475,7 +475,7 @@ html, body {
   background-position: 20% 1%;
 }
 
-#featured-pane-branding:hover {
+#featured-pane-vr:hover {
   font-size: 6rem;
   color: #fff;
   text-transform: uppercase;
@@ -486,7 +486,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/C_Donoyan_web.jpg)  center center no-repeat;
+    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/Background_Images/vr-background.png)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -501,14 +501,14 @@ html, body {
 
 }
 
-#featured-pane-branding h3 {
+#featured-pane-vr h3 {
   visibility:hidden;
   -webkit-transition: all .3s;
   color: #fff;
   text-transform: uppercase;
 }
 
-#featured-pane-branding:hover h3 {
+#featured-pane-vr:hover h3 {
   visibility:visible;
 }
 
@@ -606,7 +606,7 @@ text-align: center;
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(http://cdn2.hubspot.net/hub/329751/file-2578492273-jpg/Grafton_Design/Other_Images/IMG_5975.jpg)  center center no-repeat;
+    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/Background_Images/vr-background.png)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
