@@ -357,7 +357,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.2), 
       rgba(0, 0, 0, 0.2)
-    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg)  center center no-repeat;
+    ), url(http://cdn2.hubspot.net/hubfs/329751/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -390,7 +390,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg)  center center no-repeat;
+    ), url(http://cdn2.hubspot.net/hubfs/329751/Grafton_Design/optimized_Site_Images/Picolo-Mockup.jpg)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -407,8 +407,8 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.2), 
       rgba(0, 0, 0, 0.2)
-    ), url('http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Alive-2.jpg')  center center no-repeat;
-  -ms-background-size: cover;
+    ), url(http://cdn2.hubspot.net/hubfs/329751/Grafton_Design/Portfolio/Alive-2.jpg)  center center no-repeat;
+    -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -431,7 +431,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/optimized_Site_Images/Alive-2.jpg)  center center no-repeat;
+    ), url(http://cdn2.hubspot.net/hubfs/329751/Grafton_Design/Portfolio/Alive-2.jpg) center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -486,7 +486,7 @@ html, body {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
-    ), url(http://www.graftonandcompany.com/hubfs/Grafton_Design/Background_Images/vr-background.png)  center center no-repeat;
+    ), url(http://cdn2.hubspot.net/hubfs/329751/Grafton_Design/Background_Images/background.png)  center center no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
