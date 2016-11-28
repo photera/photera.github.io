@@ -58,4 +58,10 @@ height: 100vh;
 
 .hero-text {
   padding-left: 40px;
+  position: relative;
+  display: block;
+  left:7em;
+  top: 50%;
 }
+
+
