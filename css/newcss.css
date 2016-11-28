@@ -33,7 +33,6 @@ Heading
 -------------------------------- */
 h2 {
   font-size: 2.5rem;
-
 }
 
 /* -------------------------------- 
@@ -53,5 +52,7 @@ HeroPage
   background-color: #4A5461;
 }
 
-
+#view-work {
+  transform: rotate(-90deg);
+}
 
