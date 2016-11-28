@@ -57,8 +57,9 @@ HeroPage
 
 #view-work {
   transform: rotate(-90deg);
-  left: 5.5vw;
   position: absolute;
+  top: 70%;
+  right: 20%;
 }
 
 .hero-text {
