@@ -40,7 +40,9 @@ h2 {
 HeroPage 
 -------------------------------- */
 #hero-wrapper {
-height: 100vh;
+  height: 100vh;
+  background-image: url(enterurlhere);
+  background-size: cover;
 }
 
 #text-half {
@@ -55,11 +57,12 @@ height: 100vh;
 
 #view-work {
   transform: rotate(-90deg);
-  float: left;
+  bottom: 20%;
+  left: 5.5vw;
 }
 
 .hero-text {
-  padding-left: 40px;
+
   position: relative;
   display: block;
   left:1em;
@@ -71,3 +74,25 @@ height: 100vh;
 }
 
 
+/* -------------------------------- 
+MediaQuery
+-------------------------------- */
+#avanoo-cover {
+  height: 20vh
+}
+
+#photography-cover {
+  height: 20vh
+}
+
+#mane-cover {
+  height: 20vh
+}
+
+#vr-cover {
+  height: 20vh
+}
+
+#gigsurg-cover {
+  height: 20vh
+}
