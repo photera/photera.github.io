@@ -57,8 +57,8 @@ HeroPage
 
 #view-work {
   transform: rotate(-90deg);
-  bottom: 20%;
   left: 5.5vw;
+  position: absolute;
 }
 
 .hero-text {
@@ -67,6 +67,7 @@ HeroPage
   display: block;
   left:1em;
   top: 25%;
+  max-width: 600px
 }
 
 #work-wrapper {
@@ -77,22 +78,24 @@ HeroPage
 /* -------------------------------- 
 MediaQuery
 -------------------------------- */
-#avanoo-cover {
-  height: 20vh
-}
+@media (min-width: 600px) {
+  #avanoo-cover {
+    height: 20vh
+  }
 
-#photography-cover {
-  height: 20vh
-}
+  #photography-cover {
+    height: 20vh
+  }
 
-#mane-cover {
-  height: 20vh
-}
+  #mane-cover {
+    height: 20vh
+  }
 
-#vr-cover {
-  height: 20vh
-}
+  #vr-cover {
+    height: 20vh
+  }
 
-#gigsurg-cover {
-  height: 20vh
+  #gigsurg-cover {
+    height: 20vh
+  }
 }
