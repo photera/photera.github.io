@@ -39,7 +39,7 @@ h2 {
 HeroPage 
 -------------------------------- */
 #hero-wrapper {
-
+height: 100vh;
 }
 
 #text-half {
