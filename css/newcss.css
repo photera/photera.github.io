@@ -55,6 +55,7 @@ height: 100vh;
 
 #view-work {
   transform: rotate(-90deg);
+  float: left;
 }
 
 .hero-text {
