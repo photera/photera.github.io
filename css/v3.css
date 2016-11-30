@@ -118,48 +118,56 @@ Selected Works
   height: 25vh;
   background-image: url("http://lorempixel.com/400/200");
   background-size: cover;
+  background-color: rgba(0,0,0,.3);
 }
 
 #photography-cover {
   height: 25vh;
     background-image: url("http://lorempixel.com/400/200"); 
     background-size: cover;
+    background-color: rgba(0,0,0,.3);
 }
 
 #mane-cover {
   height: 25vh;
     background-image: url("http://lorempixel.com/400/200");
     background-size: cover;
+    background-color: rgba(0,0,0,.3);
 }
 
 #vr-cover {
   height: 25vh;
     background-image: url("http://lorempixel.com/400/200");
     background-size: cover;
+    background-color: rgba(0,0,0,.3);
 }
 
 #gigsurf-cover {
   height: 25vh;
     background-image: url("http://lorempixel.com/400/200");
     background-size: cover;
+    background-color: rgba(0,0,0,.3);
 }
 
 #portraits-cover {
   height: 25vh;
     background-image: url("http://lorempixel.com/400/200");
     background-size: cover;
+    background-color: rgba(0,0,0,.3);
 }
 
 #picolo-cover {
   height: 25vh;
     background-image: url("http://lorempixel.com/400/200");
     background-size: cover;
+    background-color: rgba(0,0,0,.3);
 }
 
 #placeholder-cover {
   height: 25vh;
     background-image: url("http://lorempixel.com/400/200");
     background-size: cover;
+    background-color: rgba(0,0,0,.3);
 }
 
 
@@ -167,23 +175,28 @@ Selected Works
 MediaQuery
 -------------------------------- */
 @media (min-width: 600px) {
-  #avanoo-cover {
-    height: 25vh
-  }
+    #avanoo-cover {
+      height: 25vh
+    }
 
-  #photography-cover {
-    height: 25vh
-  }
+    #photography-cover {
+      height: 25vh
+    }
 
-  #mane-cover {
-    height: 25vh
-  }
+    #mane-cover {
+      height: 25vh
+    }
 
-  #vr-cover {
-    height: 25vh
-  }
+    #vr-cover {
+      height: 25vh
+    }
 
-  #gigsurg-cover {
-    height: 25vh
+    #gigsurg-cover {
+      height: 25vh
+    }
+
+    #photo-half {
+    height: 25vh;
+    background-color: #4A5461;
   }
 }
