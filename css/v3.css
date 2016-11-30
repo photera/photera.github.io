@@ -97,6 +97,51 @@ ScrollSnap
 }
 
 
+
+/* -------------------------------- 
+Selected Works
+-------------------------------- */
+#avanoo-cover {
+  height: 20vh;
+  background-image: url("http://lorempixel.com/400/200");
+}
+
+#photography-cover {
+  height: 20vh;
+    background-image: url("http://lorempixel.com/400/200"); 
+}
+
+#mane-cover {
+  height: 20vh;
+    background-image: url("http://lorempixel.com/400/200");
+}
+
+#vr-cover {
+  height: 20vh;
+    background-image: url("http://lorempixel.com/400/200");
+}
+
+#gigsurg-cover {
+  height: 20vh;
+    background-image: url("http://lorempixel.com/400/200");
+}
+
+#portraits-cover {
+  height: 20vh;
+    background-image: url("http://lorempixel.com/400/200");
+}
+
+#picolo-cover {
+  height: 20vh;
+    background-image: url("http://lorempixel.com/400/200");
+}
+
+#placeholder-cover {
+  height: 20vh;
+    background-image: url("http://lorempixel.com/400/200");
+}
+
+
 /* -------------------------------- 
 MediaQuery
 -------------------------------- */
