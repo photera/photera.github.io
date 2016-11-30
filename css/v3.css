@@ -70,6 +70,9 @@ HeroPage
   height: 100vh;
   background-color: #4A5461;
   background-image: url( http://cdn2.hubspot.net/hub/329751/file-2549855285-jpg/Grafton_Design/Portfolio/Midnite.jpg);
+      background-size: cover;
+    background-position-x: 46%;
+    background-position-y: 46%;
 }
 
 #view-work {

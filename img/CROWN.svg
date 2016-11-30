@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="25px" viewBox="0 0 32 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>CROWN</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M31.9444444,11.8055556 L31.9444444,25 L0,25 L0,11.8055556 L0,0.277777778 L8.26873385,11.3888889 L8.5626615,11.3888889 L16.1111111,0 L23.6595607,11.3888889 L23.6757106,11.3888889 L31.9444444,0.277777778 L31.9444444,11.8055556 Z" id="path-1"></path>
+    </defs>
+    <g id="v4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header-after-scroll" transform="translate(-43.000000, -55.000000)">
+            <g id="Group-2" transform="translate(0.000000, 40.000000)">
+                <g id="Group" transform="translate(43.000000, 15.000000)">
+                    <g id="CROWN">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#FFED55" xlink:href="#path-1"></use>
+                        <rect id="Rectangle-9" fill-opacity="0.379330842" fill="#EBA800" mask="url(#mask-2)" transform="translate(4.500000, 11.000000) rotate(43.000000) translate(-4.500000, -11.000000) " x="-9" y="-7" width="27" height="36"></rect>
+                        <rect id="Rectangle-109" fill="#EEC958" mask="url(#mask-2)" transform="translate(-1.164001, 11.414350) rotate(-56.000000) translate(1.164001, -11.414350) " x="-10.7552459" y="3.60693218" width="19.1824901" height="15.6148363"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
