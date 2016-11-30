@@ -41,6 +41,19 @@ h2 {
   color: #4A5461;
 }
 
+h3 {
+  color: #fff;
+}
+
+
+h6 {
+  color: #fff;
+}
+
+p.project-description {
+  color: #fff
+}
+
 /* -------------------------------- 
 HeroPage 
 -------------------------------- */
