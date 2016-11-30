@@ -119,6 +119,9 @@ Selected Works
   background-image: url("http://lorempixel.com/400/200");
   background-size: cover;
   background-color: rgba(0,0,0,.3);
+  border-width: 8px 16px 8px 8px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
 }
 
 #photography-cover {
@@ -126,6 +129,9 @@ Selected Works
     background-image: url("http://lorempixel.com/400/200"); 
     background-size: cover;
     background-color: rgba(0,0,0,.3);
+    border-width: 8px 16px 8px 8px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
 }
 
 #mane-cover {
@@ -133,6 +139,9 @@ Selected Works
     background-image: url("http://lorempixel.com/400/200");
     background-size: cover;
     background-color: rgba(0,0,0,.3);
+    border-width: 8px 16px 8px 8px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
 }
 
 #vr-cover {
@@ -140,6 +149,9 @@ Selected Works
     background-image: url("http://lorempixel.com/400/200");
     background-size: cover;
     background-color: rgba(0,0,0,.3);
+    border-width: 8px 16px 8px 8px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
 }
 
 #gigsurf-cover {
@@ -147,6 +159,10 @@ Selected Works
     background-image: url("http://lorempixel.com/400/200");
     background-size: cover;
     background-color: rgba(0,0,0,.3);
+  border-width: 8px 16px 8px 8px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+
 }
 
 #portraits-cover {
@@ -154,6 +170,9 @@ Selected Works
     background-image: url("http://lorempixel.com/400/200");
     background-size: cover;
     background-color: rgba(0,0,0,.3);
+    border-width: 8px 16px 8px 8px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
 }
 
 #picolo-cover {
@@ -161,6 +180,9 @@ Selected Works
     background-image: url("http://lorempixel.com/400/200");
     background-size: cover;
     background-color: rgba(0,0,0,.3);
+    border-width: 8px 16px 8px 8px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
 }
 
 #placeholder-cover {
@@ -168,6 +190,9 @@ Selected Works
     background-image: url("http://lorempixel.com/400/200");
     background-size: cover;
     background-color: rgba(0,0,0,.3);
+    border-width: 8px 16px 8px 8px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
 }
 
 
