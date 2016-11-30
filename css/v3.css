@@ -115,43 +115,51 @@ ScrollSnap
 Selected Works
 -------------------------------- */
 #avanoo-cover {
-  height: 20vh;
+  height: 25vh;
   background-image: url("http://lorempixel.com/400/200");
+  background-size: cover;
 }
 
 #photography-cover {
-  height: 20vh;
+  height: 25vh;
     background-image: url("http://lorempixel.com/400/200"); 
+    background-size: cover;
 }
 
 #mane-cover {
-  height: 20vh;
+  height: 25vh;
     background-image: url("http://lorempixel.com/400/200");
+    background-size: cover;
 }
 
 #vr-cover {
-  height: 20vh;
+  height: 25vh;
     background-image: url("http://lorempixel.com/400/200");
+    background-size: cover;
 }
 
 #gigsurg-cover {
-  height: 20vh;
+  height: 25vh;
     background-image: url("http://lorempixel.com/400/200");
+    background-size: cover;
 }
 
 #portraits-cover {
-  height: 20vh;
+  height: 25vh;
     background-image: url("http://lorempixel.com/400/200");
+    background-size: cover;
 }
 
 #picolo-cover {
-  height: 20vh;
+  height: 25vh;
     background-image: url("http://lorempixel.com/400/200");
+    background-size: cover;
 }
 
 #placeholder-cover {
-  height: 20vh;
+  height: 25vh;
     background-image: url("http://lorempixel.com/400/200");
+    background-size: cover;
 }
 
 
