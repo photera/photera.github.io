@@ -168,22 +168,22 @@ MediaQuery
 -------------------------------- */
 @media (min-width: 600px) {
   #avanoo-cover {
-    height: 20vh
+    height: 25vh
   }
 
   #photography-cover {
-    height: 20vh
+    height: 25vh
   }
 
   #mane-cover {
-    height: 20vh
+    height: 25vh
   }
 
   #vr-cover {
-    height: 20vh
+    height: 25vh
   }
 
   #gigsurg-cover {
-    height: 20vh
+    height: 25vh
   }
 }
