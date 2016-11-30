@@ -164,16 +164,6 @@ Selected Works
 
 }
 
-#portraits-cover {
-  height: 50vh;
-    background-image: url("http://lorempixel.com/400/200");
-    background-size: cover;
-    background-color: rgba(0,0,0,.3);
-    border-width:  8px 8px 8px 16px;
-  border-style: solid;
-  border-color: rgb(255, 255, 255);
-}
-
 #picolo-cover {
   height: 50vh;
     background-image: url("http://lorempixel.com/400/200");
@@ -194,6 +184,15 @@ Selected Works
   border-color: rgb(255, 255, 255);
 }
 
+#portraits-cover {
+  height: 50vh;
+  background-image: url("http://lorempixel.com/400/200");
+  background-size: cover;
+  background-color: rgba(0,0,0,.3);
+  border-width:  8px 8px 8px 16px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+}
 
 /* -------------------------------- 
 MediaQuery
