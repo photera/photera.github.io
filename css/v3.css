@@ -126,6 +126,8 @@ Selected Works
   border-width: 32px 16px 32px 32px;
   border-style: solid;
   border-color: rgb(255, 255, 255);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /*#avanoo-cover:hover {
@@ -143,6 +145,8 @@ Selected Works
     border-width: 32px 32px 32px 16px;
     border-style: solid;
     border-color: rgb(255, 255, 255);
+    padding-left: 20px;
+  padding-right: 20px;
 }
   
 #mane-cover {
@@ -153,6 +157,8 @@ Selected Works
     border-width: 16px 16px 16px 32px;
     border-style: solid;
     border-color: rgb(255, 255, 255);
+    padding-left: 20px;
+  padding-right: 20px;
 }
 
 #vr-cover {
@@ -163,6 +169,8 @@ Selected Works
     border-width: 16px 32px 16px 16px;
     border-style: solid;
     border-color: rgb(255, 255, 255);
+    padding-left: 20px;
+  padding-right: 20px;
 }
 
 #gigsurf-cover {
@@ -173,6 +181,8 @@ Selected Works
   border-width: 16px 16px 16px 32px;
   border-style: solid;
   border-color: rgb(255, 255, 255);
+  padding-left: 20px;
+  padding-right: 20px;
 
 }
 
@@ -184,6 +194,8 @@ Selected Works
     border-width: 16px 32px 16px 16px;
   border-style: solid;
   border-color: rgb(255, 255, 255);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #placeholder-cover {
@@ -194,6 +206,8 @@ Selected Works
     border-width: 16px 32px 32px 16px;
   border-style: solid;
   border-color: rgb(255, 255, 255);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #portraits-cover {
@@ -204,6 +218,8 @@ Selected Works
   border-width:  16px 16px 32px 32px;
   border-style: solid;
   border-color: rgb(255, 255, 255);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* -------------------------------- 
