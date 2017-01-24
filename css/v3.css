@@ -118,10 +118,6 @@ Selected Works
 -------------------------------- */
 #avanoo-cover {
   height: 50vh;
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.2), 
-      rgba(0, 0, 0, 0.2)
-    ), url("http://lorempixel.com/400/200");
   background-size: cover;
   border-width: 32px 16px 32px 32px;
   border-style: solid;
@@ -129,6 +125,12 @@ Selected Works
   padding-left: 20px;
   padding-right: 20px;
 }
+ #avanoo-img {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.2), 
+      rgba(0, 0, 0, 0.2)
+    ), url("http://lorempixel.com/400/200");
+ }
 
 /*#avanoo-cover:hover {
   background: linear-gradient(
