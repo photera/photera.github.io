@@ -142,11 +142,7 @@ Selected Works
     background-image: url("http://lorempixel.com/400/200"); 
     background-size: cover;
     background-color: rgba(0,0,0,.3);
-    border-width: 32px 32px 32px 16px;
-    border-style: solid;
-    border-color: rgb(255, 255, 255);
-    padding-left: 20px;
-  padding-right: 20px;
+    
 }
   
 #mane-cover {
@@ -154,11 +150,8 @@ Selected Works
     background-image: url("http://lorempixel.com/400/200");
     background-size: cover;
     background-color: rgba(0,0,0,.3);
-    border-width: 16px 16px 16px 32px;
-    border-style: solid;
-    border-color: rgb(255, 255, 255);
-    padding-left: 20px;
-  padding-right: 20px;
+
+    
 }
 
 #vr-cover {
@@ -166,11 +159,7 @@ Selected Works
     background-image: url("http://lorempixel.com/400/200");
     background-size: cover;
     background-color: rgba(0,0,0,.3);
-    border-width: 16px 32px 16px 16px;
-    border-style: solid;
-    border-color: rgb(255, 255, 255);
-    padding-left: 20px;
-  padding-right: 20px;
+   
 }
 
 #gigsurf-cover {
@@ -178,11 +167,6 @@ Selected Works
     background-image: url("http://lorempixel.com/400/200");
     background-size: cover;
     background-color: rgba(0,0,0,.3);
-  border-width: 16px 16px 16px 32px;
-  border-style: solid;
-  border-color: rgb(255, 255, 255);
-  padding-left: 20px;
-  padding-right: 20px;
 
 }
 
@@ -191,11 +175,7 @@ Selected Works
     background-image: url("http://lorempixel.com/400/200");
     background-size: cover;
     background-color: rgba(0,0,0,.3);
-    border-width: 16px 32px 16px 16px;
-  border-style: solid;
-  border-color: rgb(255, 255, 255);
-  padding-left: 20px;
-  padding-right: 20px;
+  
 }
 
 #placeholder-cover {
@@ -203,11 +183,7 @@ Selected Works
     background-image: url("http://lorempixel.com/400/200");
     background-size: cover;
     background-color: rgba(0,0,0,.3);
-    border-width: 16px 32px 32px 16px;
-  border-style: solid;
-  border-color: rgb(255, 255, 255);
-  padding-left: 20px;
-  padding-right: 20px;
+
 }
 
 #portraits-cover {
@@ -215,11 +191,7 @@ Selected Works
   background-image: url("http://lorempixel.com/400/200");
   background-size: cover;
   background-color: rgba(0,0,0,.3);
-  border-width:  16px 16px 32px 32px;
-  border-style: solid;
-  border-color: rgb(255, 255, 255);
-  padding-left: 20px;
-  padding-right: 20px;
+
 }
 
 /* -------------------------------- 
